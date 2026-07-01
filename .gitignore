@@ -1,0 +1,9 @@
+# Claude Code / Anthropic tooling — keep local, do not push to the repo
+.claude/
+.claude.json
+CLAUDE.md
+CLAUDE.local.md
+.mcp.json
+
+# AgentHub plugin session artifacts
+.agenthub/
