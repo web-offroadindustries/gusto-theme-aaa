@@ -6,6 +6,11 @@
   assign show_atc_button = section.settings.show_atc_button
   assign show_dynamic_checkout_buttons = section.settings.show_dynamic_checkout_buttons
   assign show_quantity = section.settings.show_quantity
+  # Custom: enquiry mode swaps the sticky buy button for an "Enquire Now" popup trigger.
+  assign enquiry_mode = settings.enable_enquiry_mode
+  if enquiry_mode
+    assign show_dynamic_checkout_buttons = false
+  endif
   assign class = ''
   if show_on_desktop and show_on_mobile == false
     assign class = 'sm-down:hidden'
@@ -61,7 +66,7 @@
           -%}
             <select
               name="id"
-              class="sticky-atc-bar__variant-select text-sm form-control{% if product.has_only_default_variant %} f-hidden{% endif %}"
+              class="sticky-atc-bar__variant-select text-sm form-control{% if product.has_only_default_variant or enquiry_mode %} f-hidden{% endif %}"
             >
               {% for variant in product.variants %}
                 {% assign selected = false %}
@@ -78,7 +83,7 @@
                 </option>
               {% endfor %}
             </select>
-            {% if show_quantity %}
+            {% if show_quantity and enquiry_mode == false %}
               {%- assign cart_qty = cart | item_count_for_variant: product.selected_or_first_available_variant.id -%}
               <div class="f-quantity__wrapper hidden md:block" id="QuantitySticky-{{ section.id }}">
                 <quantity-input class="f-quantity" data-product-id="{{ product.id }}" data-section-id="{{ section.id }}">
@@ -123,7 +128,15 @@
               
             {% endif %}
             <div class="f-product-form__buttons flex items-center">
-              {% if show_atc_button %}
+              {%- comment -%} Custom: Enquire Now button — opens the shared enquiry popup instead of adding to cart {%- endcomment -%}
+              {% if enquiry_mode %}
+                <modal-opener class="f-enquiry-opener no-js-hidden w-full" data-modal="[data-enquiry-modal]">
+                  <button type="button" class="f-product-form__submit btn btn--primary w-full f-enquiry-button">
+                    <span>{{ settings.enquiry_button_text | default: 'Enquire Now' }}</span>
+                  </button>
+                </modal-opener>
+              {% endif %}
+              {% if show_atc_button and enquiry_mode == false %}
                 <button
                   type="submit"
                   name="add"

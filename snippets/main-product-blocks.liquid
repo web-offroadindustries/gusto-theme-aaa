@@ -682,8 +682,14 @@
               if block.settings.show_dynamic_checkout and gift_card_recipient_feature_active == false
                 assign show_dynamic_checkout = true
               endif
+
+              # Custom: enquiry mode replaces the buy buttons with an "Enquire Now" popup trigger.
+              assign enquiry_mode = settings.enable_enquiry_mode
+              if enquiry_mode
+                assign show_dynamic_checkout = false
+              endif
             -%}
-            {% if block.settings.show_atc_button or show_dynamic_checkout %}
+            {% if block.settings.show_atc_button or show_dynamic_checkout or enquiry_mode %}
               <product-form class="f-product-form f-main-product-form">
                 {%- form 'product',
                   product,
@@ -697,7 +703,20 @@
                     {%- render 'gift-card-recipient-form', product: product, form: form, section: section -%}
                   {%- endif -%}
                   <div class="f-product-form__buttons{% if show_dynamic_checkout and product.selling_plan_groups == empty %} f-product-form__buttons--show-buynow{% endif %}">
-                    {% if block.settings.show_atc_button %}
+                    {%- comment -%} Custom: Enquire Now button — opens the enquiry popup instead of adding to cart {%- endcomment -%}
+                    {% if enquiry_mode %}
+                      <modal-opener class="f-enquiry-opener no-js-hidden" data-modal="[data-enquiry-modal]">
+                        <button type="button" class="f-product-form__submit btn btn--primary f-enquiry-button" data-enquiry-opener>
+                          <span>{{ settings.enquiry_button_text | default: 'Enquire Now' }}</span>
+                        </button>
+                      </modal-opener>
+                      <noscript>
+                        <a href="{{ pages['contact'].url | default: routes.root_url }}" class="f-product-form__submit btn btn--primary">
+                          {{ settings.enquiry_button_text | default: 'Enquire Now' }}
+                        </a>
+                      </noscript>
+                    {% endif %}
+                    {% if block.settings.show_atc_button and enquiry_mode == false %}
                       {%- liquid
                         assign check_against_inventory = true
                         if product.selected_or_first_available_variant.inventory_management != 'shopify' or product.selected_or_first_available_variant.inventory_policy == 'continue'
@@ -740,6 +759,11 @@
                   </div>
                 {%- endform -%}
               </product-form>
+            {% endif %}
+            {%- comment -%} Custom: enquiry popup (native contact form) + variant-sync script. Rendered only when enquiry mode is on. {%- endcomment -%}
+            {% if enquiry_mode %}
+              {% render 'enquiry-modal', section: section %}
+              <script src="{{ 'enquiry-form.js' | asset_url }}" defer="defer"></script>
             {% endif %}
             <link
               rel="stylesheet"

@@ -1609,5 +1609,39 @@
         "default": "inverse"
       }
     ]
+  },
+  {
+    "name": "Product Enquiry Mode",
+    "settings": [
+      {
+        "type": "paragraph",
+        "content": "Turns the product-page \"Add to Cart\" into an \"Enquire Now\" button that opens a native contact-form popup instead of adding the product to cart. Applies to all product pages. Submissions are emailed to your store contact email (Settings > Notifications) and include the selected product, variant, SKU and quantity."
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_enquiry_mode",
+        "label": "Enable enquiry mode",
+        "default": false,
+        "info": "When on, the Add to Cart button, the Buy Now / Shop Pay button and the sticky bar buy button are replaced by an Enquire Now button on product pages."
+      },
+      {
+        "type": "text",
+        "id": "enquiry_button_text",
+        "label": "Enquire button text",
+        "default": "Enquire Now"
+      },
+      {
+        "type": "text",
+        "id": "enquiry_form_heading",
+        "label": "Enquiry popup heading",
+        "default": "Product Enquiry"
+      },
+      {
+        "type": "textarea",
+        "id": "enquiry_form_intro",
+        "label": "Enquiry popup intro text",
+        "default": "Interested in this product? Send us your details and we'll get back to you."
+      }
+    ]
   }
 ]
