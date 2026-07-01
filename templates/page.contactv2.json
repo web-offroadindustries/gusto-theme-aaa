@@ -1,0 +1,30 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "contact_hero_form": {
+      "type": "contact-hero-form",
+      "settings": {
+        "heading_line_1": "Start your journey to",
+        "heading_line_2": "Rule the road",
+        "show_rule": true,
+        "subtitle": "Find out why we’re the trusted source for modified American trucks. Contact us for a personalised quote.",
+        "overlay_color": "#0E141C",
+        "overlay_opacity": 88,
+        "accent_color": "#5683C2",
+        "text_color": "#ffffff",
+        "submit_label": "Send Message",
+        "padding_top": 88,
+        "padding_bottom": 96
+      }
+    }
+  },
+  "order": ["contact_hero_form"]
+}

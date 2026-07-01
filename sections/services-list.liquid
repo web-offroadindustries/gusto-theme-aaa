@@ -1,0 +1,253 @@
+{%- liquid
+  assign sid = 'sv-' | append: section.id
+  assign s = section.settings
+
+  assign overlay_alpha = s.overlay_opacity | default: 88 | divided_by: 100.0
+  assign overlay_rgba = s.overlay_color | default: '#0E141C' | color_modify: 'alpha', overlay_alpha
+-%}
+
+<style>
+  #{{ sid }} {
+    --sv-accent: {{ s.accent_color | default: '#5683C2' }};
+    --sv-text: {{ s.text_color | default: '#ffffff' }};
+    position: relative;
+    isolation: isolate;
+    color: var(--sv-text);
+    background-color: {{ s.overlay_color | default: '#0E141C' }};
+    {% if s.background_image != blank %}background-image: url({{ s.background_image | image_url: width: 2600 }});{% endif %}
+    background-size: cover;
+    background-position: center;
+    padding-block: {{ s.padding_top | default: 80 }}px {{ s.padding_bottom | default: 96 }}px;
+    padding-inline: 1.5rem;
+  }
+  {% if s.background_image != blank %}
+  #{{ sid }}::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: {{ overlay_rgba }};
+    z-index: -1;
+  }
+  {% endif %}
+
+  #{{ sid }} .sv__inner {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  #{{ sid }} .sv__head {
+    margin-bottom: 1.5rem;
+  }
+  #{{ sid }} .sv__head--rule {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+    padding-bottom: 1.4rem;
+  }
+  #{{ sid }} .sv__title {
+    font-family: var(--font-display, 'Evogra', sans-serif);
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    line-height: 1.04;
+    margin: 0;
+    color: {{ s.heading_color | default: '#ffffff' }};
+    font-size: clamp(2.2rem, 5vw, 3.8rem);
+  }
+  #{{ sid }} .sv__intro {
+    font-family: var(--font-sans, 'Geomanist', sans-serif);
+    font-size: 1.5rem;
+    line-height: 1.65;
+    color: rgba(255, 255, 255, 0.85);
+    max-width: 760px;
+    margin: 0 0 1rem;
+  }
+
+  #{{ sid }} .sv__list {
+    display: grid;
+    gap: clamp(2.75rem, 5vw, 4.5rem);
+    margin-top: clamp(2.5rem, 4vw, 3.75rem);
+  }
+  #{{ sid }} .sv__item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: clamp(1.75rem, 4vw, 3.5rem);
+    align-items: center;
+  }
+  #{{ sid }} .sv__item:nth-child(even) .sv__media {
+    order: 2;
+  }
+  #{{ sid }} .sv__item:nth-child(even) .sv__text {
+    order: 1;
+  }
+
+  #{{ sid }} .sv__media {
+    overflow: hidden;
+    border-radius: 16px;
+    aspect-ratio: 4 / 3;
+    background: rgba(255, 255, 255, 0.05);
+  }
+  #{{ sid }} .sv__media img,
+  #{{ sid }} .sv__media .placeholder-svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  #{{ sid }} .sv__name {
+    font-family: var(--font-display, 'Evogra', sans-serif);
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    line-height: 1.1;
+    margin: 0;
+    color: var(--sv-text);
+    font-size: clamp(1.55rem, 3vw, 2.35rem);
+  }
+  #{{ sid }} .sv__name::after {
+    content: "";
+    display: block;
+    width: 48px;
+    height: 3px;
+    margin-top: 0.85rem;
+    background: var(--sv-accent);
+  }
+  #{{ sid }} .sv__body {
+    font-family: var(--font-sans, 'Geomanist', sans-serif);
+    font-size: 1.5rem;
+    line-height: 1.65;
+    color: rgba(255, 255, 255, 0.85);
+    margin-top: 1.25rem;
+  }
+  #{{ sid }} .sv__body > :first-child { margin-top: 0; }
+  #{{ sid }} .sv__body > :last-child { margin-bottom: 0; }
+  #{{ sid }} .sv__body p { margin: 0 0 1rem; }
+
+  #{{ sid }} .sv__link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1.25rem;
+    font-family: var(--font-sans, 'Geomanist', sans-serif);
+    font-weight: 500;
+    color: var(--sv-accent);
+    text-decoration: none;
+  }
+  #{{ sid }} .sv__link:hover {
+    text-decoration: underline;
+  }
+
+  @media (max-width: 749px) {
+    #{{ sid }} .sv__item {
+      grid-template-columns: 1fr;
+      gap: 1.25rem;
+    }
+    #{{ sid }} .sv__item:nth-child(even) .sv__media,
+    #{{ sid }} .sv__item:nth-child(even) .sv__text {
+      order: initial;
+    }
+    #{{ sid }} .sv__media {
+      aspect-ratio: 16 / 10;
+    }
+  }
+</style>
+
+<section id="{{ sid }}" class="services-list">
+  <div class="sv__inner">
+
+    {%- if s.heading != blank -%}
+      <div class="sv__head{% if s.show_rule %} sv__head--rule{% endif %}">
+        <h1 class="sv__title">{{ s.heading }}</h1>
+      </div>
+    {%- endif -%}
+
+    {%- if s.intro != blank -%}
+      <div class="sv__intro">{{ s.intro }}</div>
+    {%- endif -%}
+
+    {%- if section.blocks.size > 0 -%}
+      <div class="sv__list">
+        {%- for block in section.blocks -%}
+          {%- if block.type != 'service' -%}{%- continue -%}{%- endif -%}
+          {%- liquid
+            assign bs = block.settings
+            assign alt = bs.name | default: 'Service' | escape
+          -%}
+          <div class="sv__item" {{ block.shopify_attributes }}>
+            <div class="sv__media">
+              {%- if bs.image != blank -%}
+                {{ bs.image | image_url: width: 1400 | image_tag: loading: 'lazy', widths: '500, 800, 1100, 1400', sizes: '(min-width: 750px) 45vw, 100vw', alt: alt }}
+              {%- elsif bs.image_url != blank -%}
+                <img src="{{ bs.image_url }}" alt="{{ alt }}" loading="lazy">
+              {%- else -%}
+                {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+              {%- endif -%}
+            </div>
+            <div class="sv__text">
+              {%- if bs.name != blank -%}
+                <h2 class="sv__name">{{ bs.name }}</h2>
+              {%- endif -%}
+              {%- if bs.body != blank -%}
+                <div class="sv__body">{{ bs.body }}</div>
+              {%- endif -%}
+              {%- if bs.link_label != blank -%}
+                <a class="sv__link" href="{{ bs.link_url | default: '#' }}"{% if bs.link_url == blank %} aria-disabled="true"{% endif %}>
+                  {{ bs.link_label }}
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                </a>
+              {%- endif -%}
+            </div>
+          </div>
+        {%- endfor -%}
+      </div>
+    {%- endif -%}
+
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Services list",
+  "tag": "section",
+  "settings": [
+    { "type": "header", "content": "Heading" },
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Services" },
+    { "type": "checkbox", "id": "show_rule", "label": "Show rule under heading", "default": true },
+    { "type": "color", "id": "heading_color", "label": "Heading color", "default": "#ffffff" },
+    { "type": "richtext", "id": "intro", "label": "Intro text", "default": "<p>Autoworks is Victoria's leading American-truck specialist. From 4×4 lift kits and suspension to wraps, de-chroming, electric steps and roller shutters, our trained technicians tailor every job to your truck — using only the brands we trust.</p>" },
+    { "type": "header", "content": "Background & color" },
+    { "type": "image_picker", "id": "background_image", "label": "Background image (optional)" },
+    { "type": "color", "id": "overlay_color", "label": "Background / overlay color", "default": "#0E141C" },
+    { "type": "range", "id": "overlay_opacity", "label": "Overlay opacity (over image)", "min": 0, "max": 100, "step": 1, "unit": "%", "default": 88 },
+    { "type": "color", "id": "accent_color", "label": "Accent color", "default": "#5683C2" },
+    { "type": "color", "id": "text_color", "label": "Text color", "default": "#ffffff" },
+    { "type": "header", "content": "Padding" },
+    { "type": "range", "id": "padding_top", "label": "Top", "min": 0, "max": 160, "step": 4, "unit": "px", "default": 80 },
+    { "type": "range", "id": "padding_bottom", "label": "Bottom", "min": 0, "max": 160, "step": 4, "unit": "px", "default": 96 }
+  ],
+  "blocks": [
+    {
+      "type": "service",
+      "name": "Service",
+      "settings": [
+        { "type": "text", "id": "name", "label": "Service name", "default": "Service" },
+        { "type": "richtext", "id": "body", "label": "Description", "default": "<p>Describe this service.</p>" },
+        { "type": "image_picker", "id": "image", "label": "Image" },
+        { "type": "text", "id": "image_url", "label": "Image URL (fallback)", "info": "Used only if no image is selected above. Useful for re-using an existing image link." },
+        { "type": "text", "id": "link_label", "label": "Link label (optional)" },
+        { "type": "url", "id": "link_url", "label": "Link URL" }
+      ]
+    }
+  ],
+  "max_blocks": 12,
+  "presets": [
+    {
+      "name": "Services list",
+      "blocks": [
+        { "type": "service" },
+        { "type": "service" },
+        { "type": "service" }
+      ]
+    }
+  ]
+}
+{% endschema %}

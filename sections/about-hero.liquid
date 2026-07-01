@@ -1,0 +1,212 @@
+{%- liquid
+  assign sid = 'about-' | append: section.id
+  assign s = section.settings
+
+  assign overlay_alpha = s.overlay_opacity | default: 88 | divided_by: 100.0
+  assign overlay_rgba = s.overlay_color | default: '#0E141C' | color_modify: 'alpha', overlay_alpha
+-%}
+
+<style>
+  #{{ sid }} {
+    --ah-accent: {{ s.accent_color | default: '#5683C2' }};
+    --ah-text: {{ s.text_color | default: '#ffffff' }};
+    position: relative;
+    isolation: isolate;
+    color: var(--ah-text);
+    background-color: {{ s.overlay_color | default: '#0E141C' }};
+    {% if s.background_image != blank %}background-image: url({{ s.background_image | image_url: width: 2600 }});{% endif %}
+    background-size: cover;
+    background-position: center;
+    padding-block: {{ s.padding_top | default: 80 }}px {{ s.padding_bottom | default: 96 }}px;
+    padding-inline: 1.5rem;
+  }
+  {% if s.background_image != blank %}
+  #{{ sid }}::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: {{ overlay_rgba }};
+    z-index: -1;
+  }
+  {% endif %}
+
+  #{{ sid }} .ah__inner {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  #{{ sid }} .ah__head {
+    margin-bottom: 3rem;
+  }
+  #{{ sid }} .ah__head--rule {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+    padding-bottom: 1.4rem;
+  }
+  #{{ sid }} .ah__title {
+    font-family: var(--font-display, 'Evogra', sans-serif);
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    line-height: 1.04;
+    margin: 0;
+    color: {{ s.heading_color | default: '#ffffff' }};
+    font-size: clamp(2.2rem, 5vw, 3.8rem);
+  }
+
+  #{{ sid }} .ah__body {
+    display: grid;
+    grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+    gap: clamp(2rem, 4vw, 3.5rem);
+    align-items: start;
+  }
+  #{{ sid }} .ah__text {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+  #{{ sid }} .ah__col {
+    font-family: var(--font-sans, 'Geomanist', sans-serif);
+    font-size: 1.5rem;
+    line-height: 1.4;
+    color: rgba(255, 255, 255, 0.85);
+  }
+  #{{ sid }} .ah__col > :first-child { margin-top: 0; }
+  #{{ sid }} .ah__col > :last-child { margin-bottom: 0; }
+  #{{ sid }} .ah__col p { margin: 0 0 1rem; }
+  #{{ sid }} .ah__col--2 {
+    margin-top: 3rem;
+  }
+
+  #{{ sid }} .ah__cta {
+    margin-top: 2.25rem;
+  }
+  #{{ sid }} .ah__btn {
+    display: inline-flex;
+    align-items: center;
+    font-family: var(--font-display, 'Evogra', sans-serif);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #ffffff;
+    background: var(--ah-accent);
+    border: 1px solid var(--ah-accent);
+    border-radius: 8px;
+    padding: 0.9rem 2.25rem;
+    text-decoration: none;
+    transition: filter 0.2s ease, transform 0.15s ease;
+  }
+  #{{ sid }} .ah__btn:hover {
+    filter: brightness(0.92);
+    transform: translateY(-1px);
+  }
+
+  #{{ sid }} .ah__media {
+    position: relative;
+    overflow: hidden;
+    aspect-ratio: 4 / 3;
+    border-radius: clamp(60px, 11vw, 150px) 16px 16px 16px;
+    background: rgba(255, 255, 255, 0.05);
+  }
+  #{{ sid }} .ah__media img,
+  #{{ sid }} .ah__media .placeholder-svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  #{{ sid }} .ah__media--bw img {
+    filter: grayscale(1);
+  }
+
+  @media (max-width: 990px) {
+    #{{ sid }} .ah__body {
+      grid-template-columns: 1fr;
+    }
+    #{{ sid }} .ah__media {
+      aspect-ratio: 16 / 9;
+      border-radius: clamp(48px, 14vw, 110px) 14px 14px 14px;
+    }
+  }
+  @media (max-width: 749px) {
+    #{{ sid }} .ah__text {
+      grid-template-columns: 1fr;
+      gap: 1.25rem;
+    }
+    #{{ sid }} .ah__col--2 {
+      margin-top: 0;
+    }
+  }
+</style>
+
+<section id="{{ sid }}" class="about-hero">
+  <div class="ah__inner">
+
+    {%- if s.heading != blank -%}
+      <div class="ah__head{% if s.show_rule %} ah__head--rule{% endif %}">
+        <h1 class="ah__title">{{ s.heading }}</h1>
+      </div>
+    {%- endif -%}
+
+    <div class="ah__body">
+      <div class="ah__content">
+        <div class="ah__text">
+          {%- if s.body_column_1 != blank -%}
+            <div class="ah__col ah__col--1">{{ s.body_column_1 }}</div>
+          {%- endif -%}
+          {%- if s.body_column_2 != blank -%}
+            <div class="ah__col ah__col--2">{{ s.body_column_2 }}</div>
+          {%- endif -%}
+        </div>
+        {%- if s.cta_label != blank -%}
+          <div class="ah__cta">
+            <a class="ah__btn" href="{{ s.cta_url | default: '#' }}"{% if s.cta_url == blank %} aria-disabled="true"{% endif %}>{{ s.cta_label }}</a>
+          </div>
+        {%- endif -%}
+      </div>
+
+      <div class="ah__media{% if s.image_grayscale %} ah__media--bw{% endif %}">
+        {%- if s.image != blank -%}
+          {{ s.image | image_url: width: 1400 | image_tag: loading: 'lazy', widths: '600, 900, 1200, 1400', sizes: '(min-width: 990px) 45vw, 100vw', alt: s.image.alt | default: s.heading | escape }}
+        {%- else -%}
+          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+        {%- endif -%}
+      </div>
+    </div>
+
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "About hero",
+  "tag": "section",
+  "settings": [
+    { "type": "header", "content": "Heading" },
+    { "type": "text", "id": "heading", "label": "Heading", "default": "About Autoworks Car Care" },
+    { "type": "checkbox", "id": "show_rule", "label": "Show rule under heading", "default": true },
+    { "type": "color", "id": "heading_color", "label": "Heading color", "default": "#ffffff" },
+    { "type": "header", "content": "Content", "info": "Two staggered columns of body text, like the reference layout." },
+    { "type": "richtext", "id": "body_column_1", "label": "Body — column 1", "default": "<p>Autoworks are the leading specialist in American trucks in Victoria. We have a fully equipped workshop to cater from the Chevy Silverado up to the RAM 3500, and all our staff are trained professionals with industry experience working on American trucks. Our team at Autoworks is dedicated to providing top-notch service for your American truck needs, from Chevy Silverado to the RAM 3500.</p><p>When it comes to enhancing your vehicle, we are dedicated to meeting your unique needs, offering services from accessory installations to engine upgrades. Our expertise in auto electrical systems and partnerships with top suppliers guarantee you get the best.</p>" },
+    { "type": "richtext", "id": "body_column_2", "label": "Body — column 2", "default": "<p>We don't just work on these trucks — we own and drive them on a daily basis. We have relationships with dealerships in Victoria and are able to complete pre-delivery vehicle fit-outs. Our dedication to these trucks goes beyond just working on them; we own and drive them every day, building a strong bond with each vehicle.</p><p>Trust the team at Autoworks to take your American truck to the next level. Contact us today to learn more about our services and how we can help you get the most out of your vehicle. At Autoworks, we are passionate about enhancing your American truck's performance and style — reach out to us now to discover the possibilities for your vehicle.</p>" },
+    { "type": "header", "content": "Call to action" },
+    { "type": "text", "id": "cta_label", "label": "Button label", "default": "Contact Us" },
+    { "type": "url", "id": "cta_url", "label": "Button link" },
+    { "type": "header", "content": "Image" },
+    { "type": "image_picker", "id": "image", "label": "Image" },
+    { "type": "checkbox", "id": "image_grayscale", "label": "Black & white image", "default": false },
+    { "type": "header", "content": "Background & color" },
+    { "type": "image_picker", "id": "background_image", "label": "Background image (optional)" },
+    { "type": "color", "id": "overlay_color", "label": "Background / overlay color", "default": "#0E141C" },
+    { "type": "range", "id": "overlay_opacity", "label": "Overlay opacity (over image)", "min": 0, "max": 100, "step": 1, "unit": "%", "default": 88 },
+    { "type": "color", "id": "accent_color", "label": "Accent color", "default": "#5683C2" },
+    { "type": "color", "id": "text_color", "label": "Text color", "default": "#ffffff" },
+    { "type": "header", "content": "Padding" },
+    { "type": "range", "id": "padding_top", "label": "Top", "min": 0, "max": 160, "step": 4, "unit": "px", "default": 80 },
+    { "type": "range", "id": "padding_bottom", "label": "Bottom", "min": 0, "max": 160, "step": 4, "unit": "px", "default": 96 }
+  ],
+  "presets": [
+    { "name": "About hero" }
+  ]
+}
+{% endschema %}

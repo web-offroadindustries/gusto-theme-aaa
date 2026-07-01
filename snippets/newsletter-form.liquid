@@ -1,0 +1,86 @@
+{% liquid
+  assign default_placeholder = 'newsletter.placeholder' | t
+  assign default_button_label = 'newsletter.button_label' | t
+  assign button_label = button_label | default: default_button_label
+  assign design = design | default: 'design-1'
+  assign custom_id = custom_id | default: section.id
+  assign form_id = 'ContactSubscribe-' | append: custom_id
+%}
+<div
+  class="newsletter-form newsletter-form__{{ design }}"
+  {% if form_width %}
+    style="--form-width: {{ form_width }}px;"
+  {% endif %}
+>
+  {% form 'customer', id: form_id, is: 'newsletter-form' %}
+    <input type="hidden" name="contact[tags]" value="newsletter">
+    <label class="block{% if hide_label %} visually-hidden{% endif %}" for="{{ form_id }}-email">
+      {{- 'newsletter.label' | t -}}
+    </label>
+    <div class="flex items-center justify-center newsletter-form__wrapper">
+      <input
+        type="email"
+        name="contact[email]"
+        id="{{ form_id }}-email"
+        value="{% if customer.email != blank %}{{ customer.email }}{% endif %}"
+        placeholder="{{ placeholder | default: default_placeholder }}"
+        autocorrect="off"
+        autocapitalize="off"
+        autocomplete="off"
+        spellcheck="false"
+        class="form-control"
+        required
+      >
+      {%- if design == 'design-2' %}
+        <button type="submit" name="commit" aria-label="Submit" class="newsletter-form__submit btn btn--primary">
+          {{ button_label }}
+        </button>
+      {%- else %}
+        <button type="submit" name="commit" aria-label="Submit" class="newsletter-form__submit">
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M3.75 9H14.25" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M9 3.75L14.25 9L9 14.25" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+      {%- endif %}
+    </div>
+
+    <modal-dialog id="NewsletterAlertModal-{{ custom_id }}" class="f-modal hidden" style="--modal-width: 600px">
+      <div class="f-modal__content" role="dialog" aria-label="Newsletter form" aria-modal="true" tabindex="-1">
+        <div class="scroll-container">
+          <button
+            id="ModalClose-{{ custom_id }}"
+            type="button"
+            class="f-modal__close"
+            aria-label="{{ 'accessibility.close' | t }}"
+          >
+            {% comment %} theme-check-disable {% endcomment %}
+            {{ 'icon-close.svg' | inline_asset_content }}
+            {% comment %} theme-check-enable {% endcomment %}
+          </button>
+          <div class="f-modal__inner">
+            <div class="form-status f-hidden" id="Newsletter-error-subscribed--{{ custom_id }}">
+              <p class="form-message--success">
+                {{- 'newsletter.already_subscribed' | t -}}
+              </p>
+            </div>
+            {%- if form.errors -%}
+              <div class="form-status form-status--main" id="Newsletter-error--{{ custom_id }}">
+                <p class="form-status__error form-message--error">
+                  {{ form.errors.translated_fields.email | capitalize }}
+                  {{ form.errors.messages.email }}
+                </p>
+              </div>
+            {%- endif -%}
+            {%- if form.posted_successfully? -%}
+              <div class="form-status form-status--main" id="Newsletter-success--{{ custom_id }}">
+                <p class="form-message--success" data-form-status tabindex="-1" autofocus>
+                  {{ 'newsletter.success' | t }}
+                </p>
+              </div>
+            {%- endif -%}
+          </div>
+        </div>
+      </div>
+    </modal-dialog>
+  {% endform %}
+</div>

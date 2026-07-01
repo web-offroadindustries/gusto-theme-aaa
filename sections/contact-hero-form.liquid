@@ -1,0 +1,429 @@
+{%- liquid
+  assign sid = 'chf-' | append: section.id
+  assign s = section.settings
+
+  assign overlay_alpha = s.overlay_opacity | default: 90 | divided_by: 100.0
+  assign overlay_rgba = s.overlay_color | default: '#0E141C' | color_modify: 'alpha', overlay_alpha
+
+  assign heard_opts = s.heard_options | newline_to_br | strip_newlines | split: '<br />'
+  assign ready_opts = s.ready_options | newline_to_br | strip_newlines | split: '<br />'
+  assign vtype_opts = s.vehicle_type_options | newline_to_br | strip_newlines | split: '<br />'
+  assign vmodel_opts = s.vehicle_model_options | newline_to_br | strip_newlines | split: '<br />'
+
+  assign form_id = 'contact-' | append: section.id
+-%}
+
+<style>
+  #{{ sid }} {
+    --chf-accent: {{ s.accent_color | default: '#5683C2' }};
+    --chf-text: {{ s.text_color | default: '#ffffff' }};
+    --chf-field-bg: rgba(255, 255, 255, 0.05);
+    --chf-field-border: rgba(255, 255, 255, 0.18);
+    position: relative;
+    isolation: isolate;
+    color: var(--chf-text);
+    background-color: {{ s.overlay_color | default: '#0E141C' }};
+    {% if s.background_image != blank %}background-image: url({{ s.background_image | image_url: width: 2400 }});{% endif %}
+    background-size: cover;
+    background-position: center;
+    padding-block: {{ s.padding_top | default: 80 }}px {{ s.padding_bottom | default: 90 }}px;
+    padding-inline: 1.5rem;
+  }
+  {% if s.background_image != blank %}
+  #{{ sid }}::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: {{ overlay_rgba }};
+    z-index: -1;
+  }
+  {% endif %}
+
+  #{{ sid }} .chf__inner {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  #{{ sid }} .chf__head {
+    text-align: center;
+    margin-bottom: 2.75rem;
+  }
+  #{{ sid }} .chf__title {
+    font-family: var(--font-display, 'Evogra', sans-serif);
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.02;
+    letter-spacing: 0.01em;
+    margin: 0;
+    color: var(--chf-text);
+    font-size: clamp(2.1rem, 5.5vw, 3.6rem);
+  }
+  #{{ sid }} .chf__rule {
+    display: block;
+    width: 200px;
+    max-width: 60%;
+    height: 2px;
+    margin: 0.5rem auto;
+    background: var(--chf-accent);
+  }
+  #{{ sid }} .chf__subtitle {
+    font-family: var(--font-sans, 'Geomanist', sans-serif);
+    max-width: 680px;
+    margin: 1.25rem auto 0;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.82);
+  }
+
+  #{{ sid }} .chf__grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.6rem 1.9rem;
+  }
+  #{{ sid }} .chf__field--full {
+    grid-column: 1 / -1;
+  }
+  #{{ sid }} .chf__field {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  #{{ sid }} .chf__label {
+    font-family: var(--font-sans, 'Geomanist', sans-serif);
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: rgba(255, 255, 255, 0.9);
+  }
+  #{{ sid }} .chf__label .chf__req {
+    color: var(--chf-accent);
+  }
+  #{{ sid }} .chf__control {
+    width: 100%;
+    font-family: var(--font-sans, 'Geomanist', sans-serif);
+    font-size: 1.5rem;
+    color: var(--chf-text);
+    background: var(--chf-field-bg);
+    border: 1px solid var(--chf-field-border);
+    border-radius: 10px;
+    padding: 1.1rem 1.2rem;
+    transition: border-color 0.18s ease, box-shadow 0.18s ease;
+    appearance: none;
+    -webkit-appearance: none;
+  }
+  #{{ sid }} textarea.chf__control {
+    min-height: 190px;
+    resize: vertical;
+  }
+  #{{ sid }} .chf__control::placeholder {
+    color: rgba(255, 255, 255, 0.42);
+  }
+  #{{ sid }} .chf__control:focus {
+    outline: none;
+    border-color: var(--chf-accent);
+    box-shadow: 0 0 0 3px rgba(86, 131, 194, 0.25);
+  }
+  #{{ sid }} select.chf__control {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%23ffffff' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    padding-right: 2.5rem;
+    cursor: pointer;
+  }
+  #{{ sid }} select.chf__control option {
+    color: #111316;
+  }
+
+  #{{ sid }} .chf__terms {
+    grid-column: 1 / -1;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.6rem;
+    font-family: var(--font-sans, 'Geomanist', sans-serif);
+    font-size: 0.9375rem;
+    color: rgba(255, 255, 255, 0.82);
+  }
+  #{{ sid }} .chf__terms input {
+    margin-top: 0.2rem;
+    width: 18px;
+    height: 18px;
+    accent-color: var(--chf-accent);
+    flex: 0 0 auto;
+  }
+  #{{ sid }} .chf__terms a {
+    color: var(--chf-accent);
+  }
+
+  #{{ sid }} .chf__actions {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+  }
+  #{{ sid }} .chf__submit {
+    font-family: var(--font-display, 'Evogra', sans-serif);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: #0E141C;
+    background: var(--chf-accent);
+    border: 2px solid var(--chf-accent);
+    border-radius: 10px;
+    padding: 1.15rem 3.5rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.15s ease;
+  }
+  #{{ sid }} .chf__submit:hover {
+    background: var(--chf-accent);
+    filter: brightness(0.92);
+    transform: translateY(-1px);
+  }
+
+  #{{ sid }} .chf__banner {
+    grid-column: 1 / -1;
+    border-radius: 8px;
+    padding: 1rem 1.25rem;
+    font-family: var(--font-sans, 'Geomanist', sans-serif);
+    margin-bottom: 0.5rem;
+  }
+  #{{ sid }} .chf__banner--success {
+    background: rgba(86, 131, 194, 0.14);
+    border: 1px solid var(--chf-accent);
+    color: var(--chf-text);
+  }
+  #{{ sid }} .chf__banner--error {
+    background: rgba(220, 60, 60, 0.14);
+    border: 1px solid rgba(220, 60, 60, 0.8);
+    color: #ffd9d9;
+  }
+  #{{ sid }} .chf__banner ul {
+    margin: 0.5rem 0 0;
+    padding-left: 1.1rem;
+  }
+
+  #{{ sid }} .chf__success {
+    text-align: center;
+    max-width: 620px;
+    margin: 0 auto;
+    font-family: var(--font-sans, 'Geomanist', sans-serif);
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  #{{ sid }} .chf__contacts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem 2rem;
+    margin-top: 3rem;
+    padding-top: 2.25rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+  }
+  #{{ sid }} .chf__contact {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    color: var(--chf-text);
+    text-decoration: none;
+    font-family: var(--font-sans, 'Geomanist', sans-serif);
+    font-size: 1.5rem;
+  }
+  #{{ sid }} .chf__contact svg {
+    width: 20px;
+    height: 20px;
+    color: var(--chf-accent);
+    flex: 0 0 auto;
+  }
+  #{{ sid }} .chf__contact:hover {
+    color: var(--chf-accent);
+  }
+
+  @media (max-width: 749px) {
+    #{{ sid }} .chf__grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
+<section id="{{ sid }}" class="contact-hero-form">
+  <div class="chf__inner">
+
+    <div class="chf__head">
+      {%- if s.heading_line_1 != blank or s.heading_line_2 != blank -%}
+        <h1 class="chf__title">
+          {%- if s.heading_line_1 != blank -%}{{ s.heading_line_1 }}{%- endif -%}
+          {%- if s.show_rule and s.heading_line_1 != blank and s.heading_line_2 != blank -%}
+            <span class="chf__rule" aria-hidden="true"></span>
+          {%- endif -%}
+          {%- if s.heading_line_2 != blank -%}{{ s.heading_line_2 }}{%- endif -%}
+        </h1>
+      {%- endif -%}
+      {%- if s.subtitle != blank -%}
+        <p class="chf__subtitle">{{ s.subtitle }}</p>
+      {%- endif -%}
+    </div>
+
+    {%- form 'contact', id: form_id -%}
+      {%- if form.posted_successfully? -%}
+        <div class="chf__success">
+          {{ s.success_message | default: 'Thanks for reaching out — we’ve received your message and will be in touch shortly.' }}
+        </div>
+      {%- else -%}
+        <div class="chf__grid">
+          {%- if form.errors -%}
+            <div class="chf__banner chf__banner--error" role="alert">
+              {{ form.errors | default_errors }}
+            </div>
+          {%- endif -%}
+
+          <div class="chf__field">
+            <label class="chf__label" for="{{ sid }}-first">First Name <span class="chf__req">*</span></label>
+            <input class="chf__control" type="text" id="{{ sid }}-first" name="contact[First Name]" placeholder="Please enter your first name" required>
+          </div>
+
+          <div class="chf__field">
+            <label class="chf__label" for="{{ sid }}-last">Last Name <span class="chf__req">*</span></label>
+            <input class="chf__control" type="text" id="{{ sid }}-last" name="contact[Last Name]" placeholder="Please enter your last name" required>
+          </div>
+
+          <div class="chf__field">
+            <label class="chf__label" for="{{ sid }}-phone">Phone Number</label>
+            <input class="chf__control" type="tel" id="{{ sid }}-phone" name="contact[phone]" placeholder="Please enter a valid phone number">
+          </div>
+
+          <div class="chf__field">
+            <label class="chf__label" for="{{ sid }}-email">Email <span class="chf__req">*</span></label>
+            <input class="chf__control" type="email" id="{{ sid }}-email" name="contact[email]" value="{% if form.email %}{{ form.email }}{% endif %}" placeholder="Please enter your email address" required>
+          </div>
+
+          <div class="chf__field">
+            <label class="chf__label" for="{{ sid }}-location">Location</label>
+            <input class="chf__control" type="text" id="{{ sid }}-location" name="contact[Location]" placeholder="Please enter your location">
+          </div>
+
+          <div class="chf__field">
+            <label class="chf__label" for="{{ sid }}-heard">Where did you hear about us?</label>
+            <select class="chf__control" id="{{ sid }}-heard" name="contact[Where did you hear about us]">
+              <option value="" selected disabled>Please choose an option</option>
+              {%- for opt in heard_opts -%}
+                <option value="{{ opt | strip | escape }}">{{ opt | strip }}</option>
+              {%- endfor -%}
+            </select>
+          </div>
+
+          <div class="chf__field">
+            <label class="chf__label" for="{{ sid }}-ready">Ready to Build?</label>
+            <select class="chf__control" id="{{ sid }}-ready" name="contact[Ready to Build]">
+              <option value="" selected disabled>Please choose an option</option>
+              {%- for opt in ready_opts -%}
+                <option value="{{ opt | strip | escape }}">{{ opt | strip }}</option>
+              {%- endfor -%}
+            </select>
+          </div>
+
+          <div class="chf__field">
+            <label class="chf__label" for="{{ sid }}-vtype">Vehicle Type?</label>
+            <select class="chf__control" id="{{ sid }}-vtype" name="contact[Vehicle Type]">
+              <option value="" selected disabled>Please choose an option</option>
+              {%- for opt in vtype_opts -%}
+                <option value="{{ opt | strip | escape }}">{{ opt | strip }}</option>
+              {%- endfor -%}
+            </select>
+          </div>
+
+          <div class="chf__field">
+            <label class="chf__label" for="{{ sid }}-vmodel">Vehicle Model?</label>
+            <select class="chf__control" id="{{ sid }}-vmodel" name="contact[Vehicle Model]">
+              <option value="" selected disabled>Please choose an option</option>
+              {%- for opt in vmodel_opts -%}
+                <option value="{{ opt | strip | escape }}">{{ opt | strip }}</option>
+              {%- endfor -%}
+            </select>
+          </div>
+
+          <div class="chf__field chf__field--full">
+            <label class="chf__label" for="{{ sid }}-body">Message</label>
+            <textarea class="chf__control" id="{{ sid }}-body" name="contact[body]" placeholder="Type your message here">{% if form.body %}{{ form.body }}{% endif %}</textarea>
+          </div>
+
+          {%- if s.terms_url != blank -%}
+            <label class="chf__terms">
+              <input type="checkbox" name="contact[Accepts Terms]" value="Yes" required>
+              <span>I accept the <a href="{{ s.terms_url }}" target="_blank" rel="noopener">Terms and Conditions</a>.</span>
+            </label>
+          {%- endif -%}
+
+          <div class="chf__actions">
+            <button type="submit" class="chf__submit">{{ s.submit_label | default: 'Send Message' }}</button>
+          </div>
+        </div>
+      {%- endif -%}
+    {%- endform -%}
+
+    {%- if s.contact_email != blank or s.contact_phone != blank or s.contact_address != blank -%}
+      <div class="chf__contacts">
+        {%- if s.contact_email != blank -%}
+          <a class="chf__contact" href="mailto:{{ s.contact_email }}">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+            <span>{{ s.contact_email }}</span>
+          </a>
+        {%- endif -%}
+        {%- if s.contact_phone != blank -%}
+          <a class="chf__contact" href="tel:{{ s.contact_phone | remove: ' ' }}">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <span>{{ s.contact_phone }}</span>
+          </a>
+        {%- endif -%}
+        {%- if s.contact_address != blank -%}
+          <span class="chf__contact">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>{{ s.contact_address }}</span>
+          </span>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Contact hero + form",
+  "tag": "section",
+  "settings": [
+    { "type": "header", "content": "Heading" },
+    { "type": "text", "id": "heading_line_1", "label": "Heading line 1", "default": "Start your journey to" },
+    { "type": "text", "id": "heading_line_2", "label": "Heading line 2", "default": "Rule the road" },
+    { "type": "checkbox", "id": "show_rule", "label": "Show accent rule between lines", "default": true },
+    { "type": "textarea", "id": "subtitle", "label": "Subtitle", "default": "Find out why we’re the trusted source for modified American trucks. Contact us for a personalised quote." },
+    { "type": "header", "content": "Background & color" },
+    { "type": "image_picker", "id": "background_image", "label": "Background image (optional)" },
+    { "type": "color", "id": "overlay_color", "label": "Background / overlay color", "default": "#0E141C" },
+    { "type": "range", "id": "overlay_opacity", "label": "Overlay opacity (over image)", "min": 0, "max": 100, "step": 1, "unit": "%", "default": 88 },
+    { "type": "color", "id": "accent_color", "label": "Accent color", "default": "#5683C2" },
+    { "type": "color", "id": "text_color", "label": "Text color", "default": "#ffffff" },
+    { "type": "header", "content": "Form" },
+    { "type": "text", "id": "submit_label", "label": "Submit button label", "default": "Send Message" },
+    { "type": "textarea", "id": "success_message", "label": "Success message", "default": "Thanks for reaching out — we’ve received your message and will be in touch shortly." },
+    { "type": "url", "id": "terms_url", "label": "Terms & Conditions link", "info": "Leave blank to hide the acceptance checkbox." },
+    { "type": "header", "content": "Dropdown options", "info": "One option per line." },
+    { "type": "textarea", "id": "heard_options", "label": "Where did you hear about us?", "default": "Youtube\nFacebook\nInstagram\nWord of Mouth\nGoogle" },
+    { "type": "textarea", "id": "ready_options", "label": "Ready to Build?", "default": "Undecided on Vehicle\nHave Build Questions\nReady to Build" },
+    { "type": "textarea", "id": "vehicle_type_options", "label": "Vehicle Type?", "default": "Ford\nRAM\nChevy\nOther\nN/A" },
+    { "type": "textarea", "id": "vehicle_model_options", "label": "Vehicle Model?", "default": "1500 / F150\n2500 / F250\n3500 / F350\n4500 / F450\nOther\nN/A" },
+    { "type": "header", "content": "Contact details" },
+    { "type": "text", "id": "contact_email", "label": "Email", "default": "info@autoworkscarcare.com.au" },
+    { "type": "text", "id": "contact_phone", "label": "Phone" },
+    { "type": "text", "id": "contact_address", "label": "Address" },
+    { "type": "header", "content": "Padding" },
+    { "type": "range", "id": "padding_top", "label": "Top", "min": 0, "max": 160, "step": 4, "unit": "px", "default": 80 },
+    { "type": "range", "id": "padding_bottom", "label": "Bottom", "min": 0, "max": 160, "step": 4, "unit": "px", "default": 88 }
+  ],
+  "presets": [
+    { "name": "Contact hero + form" }
+  ]
+}
+{% endschema %}
