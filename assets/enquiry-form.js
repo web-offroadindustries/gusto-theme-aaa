@@ -60,9 +60,31 @@ if (!customElements.get("enquiry-form")) {
 
         this.modal = this.closest("modal-dialog");
         if (this.modal) {
+          // Remove any stale duplicate enquiry popups. modal-dialog relocates
+          // itself to <body>, so when the product section is re-rendered (theme
+          // editor block edits, or the product-info variant-change re-render) the
+          // previous copy is orphaned in <body> instead of being replaced. Drop
+          // every other [data-enquiry-modal] so only this (current) one remains.
+          var mine = this.modal;
+          var removedOpen = false;
+          document.querySelectorAll("[data-enquiry-modal]").forEach(function (m) {
+            if (m === mine) return;
+            if (m.hasAttribute("open")) removedOpen = true;
+            m.remove();
+          });
+          // If the copy we removed was open (the theme editor keeps the popup
+          // open across a re-render), re-open the fresh modal so it stays visible
+          // with the latest fields. Using the theme's own show() keeps body
+          // scroll-lock managed by show()/hide() instead of us toggling body
+          // classes by hand (other overlays share that lock).
+          if (removedOpen && typeof mine.show === "function" && !mine.hasAttribute("open")) {
+            mine.show(document.querySelector("[data-enquiry-opener]") || mine);
+          }
           // Re-sync each time the popup opens (covers quantity changes, which
-          // do not fire variant:changed).
-          this.modal.addEventListener("open", () => this.syncAll());
+          // do not fire variant:changed). Kept as a stored ref so it can be
+          // detached in disconnectedCallback.
+          this._onModalOpen = () => this.syncAll();
+          this.modal.addEventListener("open", this._onModalOpen);
         }
 
         this.syncAll();
@@ -72,6 +94,9 @@ if (!customElements.get("enquiry-form")) {
       disconnectedCallback() {
         document.removeEventListener("variant:changed", this._onVariantChange);
         document.removeEventListener("submit", this._submitGuard, true);
+        if (this.modal && this._onModalOpen) {
+          this.modal.removeEventListener("open", this._onModalOpen);
+        }
       }
 
       // Cancel any attempt to submit the (buttonless) main/sticky product form
