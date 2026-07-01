@@ -1,0 +1,121 @@
+{% comment %}
+  Enquiry modal — custom "Enquire Now" flow.
+
+  Renders a NATIVE Shopify `{% form 'contact' %}` inside the theme's existing
+  modal-dialog component (same pattern as the "Ask a question" popup). It carries
+  the currently selected product/variant as hidden fields, kept in sync by
+  assets/enquiry-form.js.
+
+  - Only rendered when settings.enable_enquiry_mode is true (fully reversible).
+  - Opened by any element wrapped in <modal-opener data-modal="[data-enquiry-modal]">.
+  - Submissions are emailed to the store contact email (Settings > Notifications),
+    exactly like the built-in "Ask a question" form. No app / app-embed required.
+
+  Accepts:
+    section {Object} - the section rendering this modal (used for unique ids)
+{% endcomment %}
+{%- liquid
+  assign current_variant = product.selected_or_first_available_variant
+  assign enquiry_heading = settings.enquiry_form_heading | default: 'Product Enquiry'
+  assign enquiry_intro = settings.enquiry_form_intro
+  assign modal_id = 'EnquiryForm-' | append: section.id
+  assign product_abs_url = shop.url | append: product.url
+  assign show_variant_suffix = false
+  if product.has_only_default_variant == false
+    assign show_variant_suffix = true
+  endif
+-%}
+<modal-dialog
+  id="PopupModal-{{ modal_id }}"
+  class="f-modal hidden f-enquiry-modal"
+  data-enquiry-modal
+  style="--modal-width:600px"
+>
+  <div
+    class="f-modal__content"
+    role="dialog"
+    aria-label="{{ enquiry_heading | escape }}"
+    aria-modal="true"
+    tabindex="-1"
+  >
+    <div class="scroll-container">
+      <button
+        id="ModalClose-{{ modal_id }}"
+        type="button"
+        class="f-modal__close"
+        aria-label="{{ 'accessibility.close' | t }}"
+      >
+        {% comment %} theme-check-disable {% endcomment %}
+        {{ 'icon-close.svg' | inline_asset_content }}
+        {% comment %} theme-check-enable {% endcomment %}
+      </button>
+      <div class="f-modal__inner">
+        <enquiry-form data-section-id="{{ section.id }}" class="f-enquiry-form">
+          {%- form 'contact', id: 'ProductEnquiryForm-' | append: section.id -%}
+            {%- comment -%} --- Product context (hidden). Prefilled from the initial selection; kept live by enquiry-form.js --- {%- endcomment -%}
+            <input type="hidden" name="contact[Enquiry from]" value="{{ enquiry_heading | escape }}">
+            <input type="hidden" name="contact[Product]" value="{{ product.title | escape }}">
+            <input type="hidden" name="contact[Product handle]" value="{{ product.handle }}">
+            <input
+              type="hidden"
+              name="contact[Product URL]"
+              value="{{ product_abs_url }}{% if current_variant %}?variant={{ current_variant.id }}{% endif %}"
+              data-enquiry-url
+              data-enquiry-base-url="{{ product_abs_url }}"
+            >
+            <input type="hidden" name="contact[Variant]" value="{{ current_variant.title | escape }}" data-enquiry-variant-title>
+            <input type="hidden" name="contact[Variant ID]" value="{{ current_variant.id }}" data-enquiry-variant-id>
+            <input type="hidden" name="contact[SKU]" value="{{ current_variant.sku | escape }}" data-enquiry-sku>
+            <input type="hidden" name="contact[Quantity]" value="1" data-enquiry-qty>
+
+            <div class="f-question-form">
+              <div class="text-center">
+                <h3 class="h4 font-bold">{{ enquiry_heading }}</h3>
+                {%- if enquiry_intro != blank -%}
+                  <p class="text-subtext">{{ enquiry_intro }}</p>
+                {%- endif -%}
+              </div>
+
+              {%- if form.posted_successfully? -%}
+                <p class="form-status form-status--success" data-enquiry-status tabindex="-1">
+                  {{ 'products.product.question_form.success_message' | t }}
+                </p>
+              {%- else -%}
+                {%- if form.errors -%}
+                  <div class="form-status form-status-list" data-enquiry-status role="alert">
+                    {{ form.errors | default_errors }}
+                  </div>
+                {%- endif -%}
+
+                <p class="f-enquiry-form__product text-subtext text-center">
+                  <strong>{{ product.title }}</strong><span data-enquiry-variant-label>{% if show_variant_suffix and current_variant %} — {{ current_variant.title }}{% endif %}</span>
+                </p>
+
+                <div class="form-field">
+                  <label for="EnquiryName-{{ section.id }}" class="visually-hidden">{{ 'products.product.question_form.field_name' | t }}</label>
+                  <input id="EnquiryName-{{ section.id }}" type="text" class="form-control" name="contact[name]" required placeholder="{{ 'products.product.question_form.field_name' | t }}*" value="{% if customer %}{{ customer.name }}{% endif %}">
+                </div>
+                <div class="form-field">
+                  <label for="EnquiryEmail-{{ section.id }}" class="visually-hidden">{{ 'products.product.question_form.field_email' | t }}</label>
+                  <input id="EnquiryEmail-{{ section.id }}" type="email" class="form-control" name="contact[email]" required placeholder="{{ 'products.product.question_form.field_email' | t }}*" value="{% if customer %}{{ customer.email }}{% endif %}" autocomplete="email">
+                </div>
+                <div class="form-field">
+                  <label for="EnquiryPhone-{{ section.id }}" class="visually-hidden">{{ 'products.product.question_form.field_phone' | t }}</label>
+                  <input id="EnquiryPhone-{{ section.id }}" type="tel" class="form-control" name="contact[phone]" placeholder="{{ 'products.product.question_form.field_phone' | t }}" autocomplete="tel">
+                </div>
+                <div class="form-field">
+                  <label for="EnquiryMessage-{{ section.id }}" class="visually-hidden">{{ 'products.product.question_form.field_message' | t }}</label>
+                  <textarea id="EnquiryMessage-{{ section.id }}" class="form-control form-control--textarea" name="contact[body]" rows="4" required placeholder="{{ 'products.product.question_form.field_message' | t }}*"></textarea>
+                </div>
+                <p class="text-subtext"><em>{{ 'products.product.question_form.note' | t }}</em></p>
+                <div class="text-center">
+                  <button type="submit" class="btn btn--primary btn-submit">{{ 'products.product.question_form.submit_button' | t }}</button>
+                </div>
+              {%- endif -%}
+            </div>
+          {%- endform -%}
+        </enquiry-form>
+      </div>
+    </div>
+  </div>
+</modal-dialog>
