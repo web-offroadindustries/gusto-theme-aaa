@@ -102,7 +102,7 @@
       </shopify-account>
     </header-account>
   {%- endif -%}
-  <div class="site-header__element {{ cart_class }}">
+  <div style="display: none;" class="site-header__element {{ cart_class }}">
     {% render 'cart-link', block: block, link_class: 'site-header__link', color_schema: color_schema %}
   </div>
 </div>
