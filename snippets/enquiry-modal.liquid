@@ -20,6 +20,7 @@
   assign enquiry_intro = settings.enquiry_form_intro
   assign modal_id = 'EnquiryForm-' | append: section.id
   assign product_abs_url = shop.url | append: product.url
+  assign enquiry_form_id = 'ProductEnquiryForm-' | append: section.id
   assign show_variant_suffix = false
   if product.has_only_default_variant == false
     assign show_variant_suffix = true
@@ -51,7 +52,7 @@
       </button>
       <div class="f-modal__inner">
         <enquiry-form data-section-id="{{ section.id }}" class="f-enquiry-form">
-          {%- form 'contact', id: 'ProductEnquiryForm-' | append: section.id -%}
+          {%- form 'contact', id: enquiry_form_id -%}
             {%- comment -%} --- Product context (hidden). Prefilled from the initial selection; kept live by enquiry-form.js --- {%- endcomment -%}
             <input type="hidden" name="contact[Enquiry from]" value="{{ enquiry_heading | escape }}">
             <input type="hidden" name="contact[Product]" value="{{ product.title | escape }}">
