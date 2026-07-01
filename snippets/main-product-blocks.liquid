@@ -8,6 +8,10 @@
   {%- assign product_form_id = 'product-form-' | append: section.id -%}
 
   {%- for block in section.blocks -%}
+    {%- comment -%} Enquiry-field blocks render inside the enquiry popup (see enquiry-modal), not in the product info column {%- endcomment -%}
+    {%- if block.type == 'enquiry_field' -%}
+      {%- continue -%}
+    {%- endif -%}
     <div class="f-product-single__block f-product-single__block--{{ block.type }}" {{ block.shopify_attributes }}>
       {%- case block.type -%}
         {%- when '@app' -%}
