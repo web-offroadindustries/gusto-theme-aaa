@@ -78,6 +78,7 @@
     "social_vimeo_link": "",
     "social_linkedin_link": "",
     "currency_code_enabled": false,
+    "enable_enquiry_mode": true,
     "body_additional_weights": "700",
     "pcard_title_font_size": "text-base",
     "color_primary": "#222222",
