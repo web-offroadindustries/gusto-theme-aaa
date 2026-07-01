@@ -76,6 +76,16 @@
             "show_gift_card_recipient": true
           }
         },
+        "enquiry_field_cCjzeR": {
+          "type": "enquiry_field",
+          "settings": {
+            "field_label": "checkbox",
+            "field_type": "checkbox",
+            "field_placeholder": "checbox",
+            "field_options": "mobile\niphone",
+            "field_required": false
+          }
+        },
         "0085194a-475c-4e97-9fc9-d18c06632620": {
           "type": "shipping",
           "disabled": true,
@@ -162,6 +172,7 @@
         "variant_picker",
         "quantity_selector_k8h8i8",
         "buy_buttons",
+        "enquiry_field_cCjzeR",
         "0085194a-475c-4e97-9fc9-d18c06632620",
         "text_FrMTyY",
         "1e823623-82a2-440e-bff8-166d8a431e06",
