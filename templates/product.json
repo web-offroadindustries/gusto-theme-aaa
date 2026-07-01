@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -33,7 +42,9 @@
         },
         "e4d2f300-9ef9-4492-931b-cc2860fa9352": {
           "type": "richtext",
-          "settings": {}
+          "settings": {
+            "text": ""
+          }
         },
         "a4fbde0c-c1ab-4001-a39d-e20d650d3e5d": {
           "type": "inventory_status",
@@ -67,6 +78,7 @@
         },
         "0085194a-475c-4e97-9fc9-d18c06632620": {
           "type": "shipping",
+          "disabled": true,
           "settings": {
             "deliver_text": "",
             "deliver_days": "",
@@ -76,6 +88,7 @@
         },
         "text_FrMTyY": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "icon": "currency-dollar",
             "text": "Money back within 30 days for an exchange.",
@@ -175,49 +188,67 @@
         "testimonial_wLDmLm": {
           "type": "testimonial",
           "settings": {
+            "icon": "none",
             "text": "<p>Lightweight, durable, and super stylish. My new favorite! I can carry it all day without discomfort, and it fits so much! ❤️🙌</p>",
             "author": "Jared S.",
-            "bio": ""
+            "bio": "",
+            "show_image": true,
+            "product": ""
           }
         },
         "testimonial_hKeC3K": {
           "type": "testimonial",
           "settings": {
+            "icon": "none",
             "text": "<p>Fits all my essentials without feeling bulky. So convenient! 🎒✨ The straps are super comfortable, and I love the sleek design!</p>",
             "author": "Jared S.",
-            "bio": ""
+            "bio": "",
+            "show_image": true,
+            "product": ""
           }
         },
         "testimonial_A6ic6J": {
           "type": "testimonial",
           "settings": {
+            "icon": "none",
             "text": "<p>The quality is amazing, and the design is just perfect. 😍👏 It’s lightweight yet sturdy, making it my go-to bag for every trip!</p>",
             "author": "Jared S.",
-            "bio": ""
+            "bio": "",
+            "show_image": true,
+            "product": ""
           }
         },
         "testimonial_YgniWJ": {
           "type": "testimonial",
           "settings": {
+            "icon": "none",
             "text": "<p>Lightweight, durable, and super stylish. My new favorite! I can carry it all day without discomfort, and it fits so much! ❤️🙌</p>",
             "author": "Jared S.",
-            "bio": ""
+            "bio": "",
+            "show_image": true,
+            "product": ""
           }
         },
         "testimonial_wCBziQ": {
           "type": "testimonial",
           "settings": {
+            "icon": "none",
             "text": "<p>Fits all my essentials without feeling bulky. So convenient! 🎒✨ The straps are super comfortable, and I love the sleek design!</p>",
             "author": "Jared S.",
-            "bio": ""
+            "bio": "",
+            "show_image": true,
+            "product": ""
           }
         },
         "testimonial_3fiTKr": {
           "type": "testimonial",
           "settings": {
+            "icon": "none",
             "text": "<p>The quality is amazing, and the design is just perfect. 😍👏 It’s lightweight yet sturdy, making it my go-to bag for every trip!</p>",
             "author": "Jared S.",
-            "bio": ""
+            "bio": "",
+            "show_image": true,
+            "product": ""
           }
         }
       },
@@ -241,8 +272,8 @@
         "heading_color": "",
         "description": "",
         "design": "unbalanced",
-        "card_color_schema": "",
         "stars_color": "#222222",
+        "card_color_schema": "",
         "columns": 2,
         "column_gap": "medium",
         "enable_slider": true,
@@ -406,6 +437,7 @@
           "type": "image",
           "settings": {
             "image_height": 80,
+            "image_link": "",
             "use_custom_spacing": true,
             "margin_left": 0,
             "margin_right": 20,
@@ -419,6 +451,7 @@
             "text": "Shop Duffles",
             "font_family": "heading",
             "text_size": 34,
+            "text_link": "",
             "use_custom_spacing": true,
             "margin_left": 0,
             "margin_right": 30,
@@ -441,6 +474,7 @@
           "type": "image",
           "settings": {
             "image_height": 80,
+            "image_link": "",
             "use_custom_spacing": true,
             "margin_left": 0,
             "margin_right": 20,
@@ -454,6 +488,7 @@
             "text": "Shop Backpacks",
             "font_family": "heading",
             "text_size": 34,
+            "text_link": "",
             "use_custom_spacing": true,
             "margin_left": 0,
             "margin_right": 30,
@@ -476,6 +511,7 @@
           "type": "image",
           "settings": {
             "image_height": 80,
+            "image_link": "",
             "use_custom_spacing": true,
             "margin_left": 0,
             "margin_right": 20,
@@ -489,6 +525,7 @@
             "text": "Shop Punch",
             "font_family": "heading",
             "text_size": 34,
+            "text_link": "",
             "use_custom_spacing": true,
             "margin_left": 0,
             "margin_right": 30,
@@ -577,6 +614,7 @@
           "type": "button",
           "settings": {
             "button_label": "Shop Now",
+            "button_link": "",
             "button_style": "btn--white",
             "button_size": ""
           }
