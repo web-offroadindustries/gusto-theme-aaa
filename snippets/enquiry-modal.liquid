@@ -108,6 +108,45 @@
                   <label for="EnquiryMessage-{{ section.id }}" class="visually-hidden">{{ 'products.product.question_form.field_message' | t }}</label>
                   <textarea id="EnquiryMessage-{{ section.id }}" class="form-control form-control--textarea" name="contact[body]" rows="4" required placeholder="{{ 'products.product.question_form.field_message' | t }}*"></textarea>
                 </div>
+                {%- comment -%} Merchant-defined extra fields, added as "Enquiry field" blocks on the product section in the theme editor {%- endcomment -%}
+                {%- for block in section.blocks -%}
+                  {%- if block.type == 'enquiry_field' -%}
+                    {%- liquid
+                      assign f_label = block.settings.field_label | default: 'Field'
+                      assign f_name = 'contact[' | append: f_label | append: ']'
+                      assign f_id = 'EnquiryField-' | append: block.id
+                      assign f_ph = block.settings.field_placeholder | default: f_label
+                      assign f_req = block.settings.field_required
+                    -%}
+                    <div class="form-field" {{ block.shopify_attributes }}>
+                      {%- case block.settings.field_type -%}
+                        {%- when 'textarea' -%}
+                          <label for="{{ f_id }}" class="visually-hidden">{{ f_label | escape }}</label>
+                          <textarea id="{{ f_id }}" class="form-control form-control--textarea" name="{{ f_name | escape }}" rows="3"{% if f_req %} required{% endif %} placeholder="{{ f_ph | escape }}{% if f_req %}*{% endif %}"></textarea>
+                        {%- when 'select' -%}
+                          <label for="{{ f_id }}" class="visually-hidden">{{ f_label | escape }}</label>
+                          <select id="{{ f_id }}" class="form-control" name="{{ f_name | escape }}"{% if f_req %} required{% endif %}>
+                            <option value="">{{ f_ph | escape }}{% if f_req %}*{% endif %}</option>
+                            {%- assign f_opts = block.settings.field_options | newline_to_br | split: '<br />' -%}
+                            {%- for opt in f_opts -%}
+                              {%- assign opt_clean = opt | strip_newlines | strip -%}
+                              {%- if opt_clean != blank -%}
+                                <option value="{{ opt_clean | escape }}">{{ opt_clean | escape }}</option>
+                              {%- endif -%}
+                            {%- endfor -%}
+                          </select>
+                        {%- when 'checkbox' -%}
+                          <label class="f-enquiry-form__checkbox flex items-center" style="gap:.6rem">
+                            <input type="checkbox" name="{{ f_name | escape }}" value="Yes"{% if f_req %} required{% endif %}>
+                            <span>{{ f_label | escape }}{% if f_req %}*{% endif %}</span>
+                          </label>
+                        {%- else -%}
+                          <label for="{{ f_id }}" class="visually-hidden">{{ f_label | escape }}</label>
+                          <input id="{{ f_id }}" type="{{ block.settings.field_type | default: 'text' }}" class="form-control" name="{{ f_name | escape }}"{% if f_req %} required{% endif %} placeholder="{{ f_ph | escape }}{% if f_req %}*{% endif %}">
+                      {%- endcase -%}
+                    </div>
+                  {%- endif -%}
+                {%- endfor -%}
                 <p class="text-subtext"><em>{{ 'products.product.question_form.note' | t }}</em></p>
                 <div class="text-center">
                   <button type="submit" class="btn btn--primary btn-submit">{{ 'products.product.question_form.submit_button' | t }}</button>

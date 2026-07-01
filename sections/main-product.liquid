@@ -403,6 +403,56 @@
       ]
     },
     {
+      "type": "enquiry_field",
+      "name": "Enquiry field",
+      "settings": [
+        {
+          "type": "paragraph",
+          "content": "Adds an extra field to the Enquire Now popup (on top of the built-in Name, Email, Phone and Message). Only shown when Enquiry mode is enabled in Theme settings > Product Enquiry Mode. Add one block per field."
+        },
+        {
+          "type": "text",
+          "id": "field_label",
+          "label": "Field label",
+          "default": "New field",
+          "info": "Used as the placeholder text and as the label shown in the enquiry email."
+        },
+        {
+          "type": "select",
+          "id": "field_type",
+          "label": "Field type",
+          "default": "text",
+          "options": [
+            { "value": "text", "label": "Text" },
+            { "value": "textarea", "label": "Text area" },
+            { "value": "tel", "label": "Phone" },
+            { "value": "email", "label": "Email" },
+            { "value": "number", "label": "Number" },
+            { "value": "date", "label": "Date" },
+            { "value": "select", "label": "Dropdown" },
+            { "value": "checkbox", "label": "Checkbox" }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "field_placeholder",
+          "label": "Placeholder (optional)"
+        },
+        {
+          "type": "textarea",
+          "id": "field_options",
+          "label": "Dropdown options",
+          "info": "One option per line. Only used when Field type is Dropdown."
+        },
+        {
+          "type": "checkbox",
+          "id": "field_required",
+          "label": "Required",
+          "default": false
+        }
+      ]
+    },
+    {
       "type": "meta",
       "name": "t:sections.main-product.blocks.meta.name",
       "limit": 1,
