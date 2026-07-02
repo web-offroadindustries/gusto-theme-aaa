@@ -232,6 +232,7 @@
         "text_wkgDeN",
         "text_9Mzcdj"
       ],
+      "disabled": true,
       "settings": {
         "container": "container-full",
         "color_schema": "inverse",
@@ -287,6 +288,7 @@
     },
     "video_mRp448": {
       "type": "video",
+      "disabled": true,
       "name": "t:sections.video.presets.name",
       "settings": {
         "container": "container-full",
@@ -524,6 +526,7 @@
         "announcement_mfRbjQ",
         "divider_RzLaie"
       ],
+      "disabled": true,
       "name": "t:sections.scrolling-promotion.presets.name",
       "settings": {
         "container": "container-full",
@@ -672,6 +675,7 @@
         "car_nnmFJj",
         "message_GGVHbf"
       ],
+      "disabled": true,
       "name": "Contact Form v3",
       "settings": {
         "title": "Get in touch with us!",
