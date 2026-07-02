@@ -67,6 +67,107 @@
         "enable_bg_zoom_effect": false
       }
     },
+    "multicolumn_7FKmLC": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_tdVQ9w": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "image": "shopify://shop_images/Chevy-Silverado-1500--tile-ad---20260505-4_753e16ce-f09c-454c-8683-7edc168f4eae.png",
+            "image_link": "/pages/about-us?view=template-gvm-package-chevy1500",
+            "title": "Chevy Silverado 1500",
+            "heading_size": "h3",
+            "text": "",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_jEFpUR": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "image": "shopify://shop_images/Chevy-2500--tile-ad---20260505-4_7ce36d9a-1565-4823-b14a-b3e36018df11.png",
+            "image_link": "/pages/about-us?view=template-gvm-package-chevy2500",
+            "title": "Chevy Silverado 2500HD",
+            "heading_size": "h3",
+            "text": "",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_jAq9XQ": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "image": "shopify://shop_images/FORD-F150---tile-ad---20260505-4-3.png",
+            "image_link": "/pages/about-us?view=template-gvm-package-ford150",
+            "title": "Ford 150",
+            "heading_size": "h3",
+            "text": "",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_Qtp8LL": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "image": "shopify://shop_images/Toyota-Tundra--tile-ad---20260505-4-1.png",
+            "image_link": "/pages/about-us?view=template-gvm-package-toyota-tundra",
+            "title": "Toyota Tundra",
+            "heading_size": "h3",
+            "text": "",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        }
+      },
+      "block_order": [
+        "column_tdVQ9w",
+        "column_jEFpUR",
+        "column_jAq9XQ",
+        "column_Qtp8LL"
+      ],
+      "name": "t:sections.multicolumn.name",
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "section_header_content_spacing": "medium",
+        "heading": "",
+        "highlight_style": "none",
+        "enable_highlight_text_color": false,
+        "heading_size": "h2",
+        "heading_color": "",
+        "subheading": "",
+        "description": "",
+        "layout": "vertical",
+        "text_alignment": "center",
+        "image_width": "fullwidth",
+        "custom_image_width": 80,
+        "columns": 4,
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "enable_swipe_mobile": false,
+        "column_mobile": "1",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
     "vehicle_cards_CtwwXg": {
       "type": "vehicle-cards",
       "blocks": {
@@ -128,6 +229,7 @@
         "vehicle_rrjckn",
         "vehicle_ERMxXT"
       ],
+      "disabled": true,
       "name": "Vehicle Cards",
       "settings": {
         "eyebrow": "",
@@ -1415,6 +1517,7 @@
   "order": [
     "main",
     "slideshow_ByTqfK",
+    "multicolumn_7FKmLC",
     "vehicle_cards_CtwwXg",
     "dealer_locator_EMPfrF",
     "why_choose_TxqbNE",
