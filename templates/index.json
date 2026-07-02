@@ -232,7 +232,6 @@
         "text_wkgDeN",
         "text_9Mzcdj"
       ],
-      "disabled": true,
       "settings": {
         "container": "container-full",
         "color_schema": "inverse",
@@ -288,13 +287,12 @@
     },
     "video_mRp448": {
       "type": "video",
-      "disabled": true,
       "name": "t:sections.video.presets.name",
       "settings": {
         "container": "container-full",
         "section_header_padding_bottom": "medium",
         "section_header_content_spacing": "medium",
-        "heading": "ORI Fox 150 Packages",
+        "heading": "Fox 150 Packages",
         "highlight_style": "none",
         "enable_highlight_text_color": false,
         "heading_size": "h2",
@@ -526,7 +524,6 @@
         "announcement_mfRbjQ",
         "divider_RzLaie"
       ],
-      "disabled": true,
       "name": "t:sections.scrolling-promotion.presets.name",
       "settings": {
         "container": "container-full",
@@ -675,7 +672,6 @@
         "car_nnmFJj",
         "message_GGVHbf"
       ],
-      "disabled": true,
       "name": "Contact Form v3",
       "settings": {
         "title": "Get in touch with us!",
