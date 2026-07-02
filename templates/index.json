@@ -1,1 +1,709 @@
-{"sections":{"1653903038c126b831":{"type":"slideshow","blocks":{"slide_t8yxCY":{"type":"slide","settings":{"background":"shopify:\/\/shop_images\/image_-_2026-06-26T195250.134.png","image_overlay_opacity":0,"content_position":"center","text_alignment":"center","text_color":"#EFEEEE","title":"Home of the American Truck's","heading_size":"h2","heading_color":"","subheading":"","description":"","desc_size":"text-desc-base","button_text_1":"Want to know more?","button_link_1":"","button_style_1":"btn--white","button_size_1":"","button_text_2":"","button_link_2":"","button_style_2":"btn--primary","button_size_2":""}},"41d2f781-470b-477f-896a-873df5080966":{"type":"slide","settings":{"background":"shopify:\/\/shop_images\/2000x560_-_CHEVY_1500.png","image_overlay_opacity":0,"content_position":"center-bottom","text_alignment":"center","text_color":"#ffffff","title":"","heading_size":"h-xl","heading_color":"#e1ea7a","subheading":"","description":"","desc_size":"text-desc-base","button_text_1":"","button_link_1":"","button_style_1":"btn--white","button_size_1":"","button_text_2":"","button_link_2":"","button_style_2":"btn--primary","button_size_2":""}},"slide_qdRzhQ":{"type":"slide","settings":{"background":"shopify:\/\/shop_images\/2000x560_-_FORD_F150.png","image_overlay_opacity":0,"content_position":"center-bottom","text_alignment":"center","text_color":"#ffffff","title":"","heading_size":"h-xl","heading_color":"#e1ea7a","subheading":"","description":"","desc_size":"text-desc-base","button_text_1":"","button_link_1":"","button_style_1":"btn--white","button_size_1":"","button_text_2":"","button_link_2":"","button_style_2":"btn--primary","button_size_2":""}},"slide_wWaezX":{"type":"slide","settings":{"background":"shopify:\/\/shop_images\/2000x560_-_RAM_2500.png","image_overlay_opacity":0,"content_position":"center-bottom","text_alignment":"center","text_color":"#ffffff","title":"","heading_size":"h-xl","heading_color":"#e1ea7a","subheading":"","description":"","desc_size":"text-desc-base","button_text_1":"","button_link_1":"","button_style_1":"btn--white","button_size_1":"","button_text_2":"","button_link_2":"","button_style_2":"btn--primary","button_size_2":""}},"slide_XwjzRj":{"type":"slide","settings":{"background":"shopify:\/\/shop_images\/2000x560_-_Chevy_2500.png","image_overlay_opacity":0,"content_position":"center-bottom","text_alignment":"center","text_color":"#ffffff","title":"","heading_size":"h-xl","heading_color":"#e1ea7a","subheading":"","description":"","desc_size":"text-desc-base","button_text_1":"","button_link_1":"","button_style_1":"btn--white","button_size_1":"","button_text_2":"","button_link_2":"","button_style_2":"btn--primary","button_size_2":""}},"slide_ApybJV":{"type":"slide","settings":{"background":"shopify:\/\/shop_images\/2000x560_-_TOYOTA_TUNDRA.png","image_overlay_opacity":0,"content_position":"center-bottom","text_alignment":"center","text_color":"#ffffff","title":"","heading_size":"h-xl","heading_color":"#e1ea7a","subheading":"","description":"","desc_size":"text-desc-base","button_text_1":"","button_link_1":"","button_style_1":"btn--white","button_size_1":"","button_text_2":"","button_link_2":"","button_style_2":"btn--primary","button_size_2":""}}},"block_order":["slide_t8yxCY","41d2f781-470b-477f-896a-873df5080966","slide_qdRzhQ","slide_wWaezX","slide_XwjzRj","slide_ApybJV"],"custom_css":["@media (min-width: 768px) {.f-slideshow__content {max-width: 42rem; }}"],"settings":{"container":"container-full","slideshow_height":"adapt","show_dots":true,"show_nav":true,"autoplay":false,"autorotate_speed":5,"pagination_background":"none","controls_position":"center","pagination_style":"dots","show_text_below":false,"text_alignment_mobile":"center","accessibility_info":"Slideshow about our brand","custom_id":"","custom_class":"","enable_bg_zoom_effect":true}},"promotion_banner_QiTDwF":{"type":"promotion-banner","blocks":{"text_wkgDeN":{"type":"text","settings":{"title":"<p>Sale 30% OFF<\/p>","highlight_style":"none","enable_highlight_text_color":false,"heading_size":"h-xl","heading_color":"#e1ea7a","subheading":"Special Offer","text":"<p>*Ends April 120 2025, 12:00 PST. T&C's Apply<\/p>","align_text":"center","content_width":500,"button_label":"","button_link":"","button_style":"btn--primary","block_custom_class":"","animations":"inherit"}},"text_9Mzcdj":{"type":"text","settings":{"title":"<p>Seasonal Savings Event<\/p>","highlight_style":"none","enable_highlight_text_color":false,"heading_size":"h2","heading_color":"","subheading":"","text":"<p>Up to 30% Off on Must-Have Styles !<\/p>","align_text":"center","content_width":500,"button_label":"Shop the sale","button_link":"","button_style":"btn--primary","block_custom_class":"","animations":"inherit"}}},"block_order":["text_wkgDeN","text_9Mzcdj"],"settings":{"container":"container-full","color_schema":"inverse","padding_top":60,"padding_bottom":60,"show_section_divider":false,"divider_width":"container","custom_id":"","custom_class":"","animations":"fade-in"}},"featured_collection_VDfURm":{"type":"featured-collection","disabled":true,"name":"t:sections.featured-collection.name","settings":{"container":"container","color_schema":"","section_header_padding_bottom":"medium","section_header_content_spacing":"medium","header_layout":"vertical","heading":"AMP Steps by Real Truck","highlight_style":"none","enable_highlight_text_color":false,"heading_size":"h2","heading_color":"","subheading":"","description":"","collection":"","limit":8,"columns":4,"column_gap":"medium","row_gap":"medium","pcard_image_ratio":"","show_vendor":false,"enable_slider":false,"show_nav":false,"show_dots":false,"show_all_button_on_top":false,"button_label":"","button_style":"btn--primary","enable_swipe_mobile":false,"column_mobile":"1","padding_top":40,"padding_bottom":40,"show_section_divider":false,"divider_width":"container","custom_id":"","custom_class":"","animations":"inherit"}},"video_mRp448":{"type":"video","name":"t:sections.video.presets.name","settings":{"container":"container-full","section_header_padding_bottom":"medium","section_header_content_spacing":"medium","heading":"ORI Fox 150 Packages","highlight_style":"none","enable_highlight_text_color":false,"heading_size":"h2","heading_color":"","subheading":"","description":"","video_type":"external","video_url":"https:\/\/www.youtube.com\/watch?v=aGHaFPaDuv4","cover_image":"shopify:\/\/shop_images\/OFFROAD_INDUSTRIES_-_FOX_F150_-_12.03.2024_-_Matt_Williams_-_WEB_RES-1037_7fbfcd95-895e-4aca-a8cd-8c7dacf0637b.jpg","video_ratio":"adapt","autoplay_video":true,"padding_top":40,"padding_bottom":40,"show_section_divider":false,"divider_width":"container","custom_id":"","custom_class":"","animations":"fade-in"}},"scrolling_promotion_EChz8a":{"type":"scrolling-promotion","blocks":{"image_hrVkmw":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/420_x_420px_MEGA_MENU_ICON__BDS.jpg","image_height":120,"image_link":"","use_custom_spacing":false,"margin_left":10,"margin_right":10,"margin_left_mobile":10,"margin_right_mobile":10}},"announcement_yLtkCR":{"type":"announcement","settings":{"text":"BDS Suspension","font_family":"heading","text_size":30,"text_link":"","use_custom_spacing":true,"margin_left":0,"margin_right":30,"margin_left_mobile":0,"margin_right_mobile":15}},"divider_4jUkxe":{"type":"divider","settings":{"width":64,"use_custom_spacing":false,"margin_left":10,"margin_right":10,"margin_left_mobile":10,"margin_right_mobile":10}},"image_y8wYUX":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/420_x_420px_MEGA_MENU_ICON__FOX.jpg","image_height":120,"image_link":"","use_custom_spacing":false,"margin_left":10,"margin_right":10,"margin_left_mobile":10,"margin_right_mobile":10}},"announcement_iGrVLP":{"type":"announcement","settings":{"text":"Fox Suspension","font_family":"heading","text_size":30,"text_link":"","use_custom_spacing":true,"margin_left":0,"margin_right":30,"margin_left_mobile":0,"margin_right_mobile":15}},"divider_bihCTQ":{"type":"divider","settings":{"width":64,"use_custom_spacing":false,"margin_left":10,"margin_right":10,"margin_left_mobile":10,"margin_right_mobile":10}},"image_QkCW9E":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/420_x_420px_MEGA_MENU_ICON__BAJA_DESIGNS.jpg","image_height":120,"image_link":"","use_custom_spacing":false,"margin_left":10,"margin_right":10,"margin_left_mobile":10,"margin_right_mobile":10}},"announcement_BVYhRP":{"type":"announcement","settings":{"text":"Baja Designs","font_family":"heading","text_size":30,"text_link":"","use_custom_spacing":true,"margin_left":0,"margin_right":30,"margin_left_mobile":0,"margin_right_mobile":15}},"divider_LWMNad":{"type":"divider","settings":{"width":64,"use_custom_spacing":false,"margin_left":10,"margin_right":10,"margin_left_mobile":10,"margin_right_mobile":10}},"image_pjib8g":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/ADD-OFFROAD-21-FORD-RAPTOR-Phantom-Rear-Bumper-Installation-Guide-1.png","image_height":120,"image_link":"","use_custom_spacing":false,"margin_left":10,"margin_right":10,"margin_left_mobile":10,"margin_right_mobile":10}},"announcement_JkAB4D":{"type":"announcement","settings":{"text":"Addictive Desert Designs","font_family":"heading","text_size":30,"text_link":"","use_custom_spacing":true,"margin_left":0,"margin_right":30,"margin_left_mobile":0,"margin_right_mobile":15}},"divider_JQFQHq":{"type":"divider","settings":{"width":64,"use_custom_spacing":false,"margin_left":10,"margin_right":10,"margin_left_mobile":10,"margin_right_mobile":10}},"image_8Q6fzR":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/huskyliners-logo-fullcolor-24206_4x_68ee4016-c4a6-4e86-b15e-f8f048d6e1d0.png","image_height":120,"image_link":"","use_custom_spacing":false,"margin_left":10,"margin_right":10,"margin_left_mobile":10,"margin_right_mobile":10}},"announcement_mfRbjQ":{"type":"announcement","settings":{"text":"Husky Liners","font_family":"heading","text_size":30,"text_link":"","use_custom_spacing":true,"margin_left":0,"margin_right":30,"margin_left_mobile":0,"margin_right_mobile":15}},"divider_RzLaie":{"type":"divider","settings":{"width":64,"use_custom_spacing":false,"margin_left":10,"margin_right":10,"margin_left_mobile":10,"margin_right_mobile":10}}},"block_order":["image_hrVkmw","announcement_yLtkCR","divider_4jUkxe","image_y8wYUX","announcement_iGrVLP","divider_bihCTQ","image_QkCW9E","announcement_BVYhRP","divider_LWMNad","image_pjib8g","announcement_JkAB4D","divider_JQFQHq","image_8Q6fzR","announcement_mfRbjQ","divider_RzLaie"],"name":"t:sections.scrolling-promotion.presets.name","settings":{"container":"container-full","color_schema":"","section_header_padding_bottom":"medium","section_header_content_spacing":"medium","heading":"","highlight_style":"none","enable_highlight_text_color":false,"heading_size":"h2","heading_color":"","subheading":"","description":"","alignment":"center","direction":"left","pause_on_hover":false,"speed":0.2,"item_gap":0,"item_gap_mobile":0,"padding_top":40,"padding_bottom":40,"use_custom_mobile_padding":false,"padding_top_mobile":60,"padding_bottom_mobile":60,"show_section_divider":false,"divider_width":"container","custom_id":"","custom_class":""}},"products_bundle_dktj9L":{"type":"products-bundle","blocks":{"product_xrmAfr":{"type":"product","settings":{"product":"","hotspot_color":"light","horizontal":30,"vertical":40}},"product_4RCkwU":{"type":"product","settings":{"product":"","hotspot_color":"light","horizontal":70,"vertical":45}},"product_zcJ9YF":{"type":"product","settings":{"product":"","hotspot_color":"light","horizontal":45,"vertical":65}}},"block_order":["product_xrmAfr","product_4RCkwU","product_zcJ9YF"],"disabled":true,"name":"Products bundle","settings":{"container":"container","color_schema":"","image_position":"left","desktop_content_position":"start","subheading":"","heading":"<p>Ford F150 Accessories 2021+<\/p>","highlight_style":"none","enable_highlight_text_color":false,"heading_size":"h2","desktop_content_alignment":"left","mobile_content_alignment":"left","padding_left":100,"padding_right":0,"align_content_container":"none","mobile_padding_left":0,"mobile_padding_right":0,"padding_top":40,"padding_bottom":40,"padding_top_mobile":60,"padding_bottom_mobile":60,"show_section_divider":false,"divider_width":"container","custom_id":"","custom_class":"","animations":"inherit"}},"contact_form_v3_6YhhLH":{"type":"contact-form-v3","blocks":{"first_name_447iXj":{"type":"first_name","settings":{"placeholder":"First Name","required":false,"width":"half"}},"last_name_HPPh4j":{"type":"last_name","settings":{"placeholder":"Last Name","required":false,"width":"half"}},"email_3pXdpF":{"type":"email","settings":{"placeholder":"Email Address","required":false,"width":"full"}},"car_nnmFJj":{"type":"car","settings":{"placeholder":"Car Make, Year & Model","required":false,"width":"full"}},"message_GGVHbf":{"type":"message","settings":{"placeholder":"Your Inquiry...","rows":8,"required":false,"width":"full"}}},"block_order":["first_name_447iXj","last_name_HPPh4j","email_3pXdpF","car_nnmFJj","message_GGVHbf"],"name":"Contact Form v3","settings":{"title":"Get in touch with us!","subtitle":"<p>Add a short subtitle here.<\/p>","phone":"","email":"","button_label":"Submit Enquiry","success_message":"Thanks! We received your enquiry and will get back to you soon.","columns_desktop":"2","max_width":900,"section_bg_color":"#ffffff","overlay_opacity":0,"form_bg_color":"#ffffff","text_color":"#000000","button_bg":"#000000","button_text":"#ffffff","padding_top":60,"padding_bottom":60}}},"order":["1653903038c126b831","promotion_banner_QiTDwF","featured_collection_VDfURm","video_mRp448","scrolling_promotion_EChz8a","products_bundle_dktj9L","contact_form_v3_6YhhLH"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1653903038c126b831": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_t8yxCY": {
+          "type": "slide",
+          "settings": {
+            "background": "shopify://shop_images/image_-_2026-06-26T195250.134.png",
+            "image_overlay_opacity": 0,
+            "content_position": "center",
+            "text_alignment": "center",
+            "text_color": "#efeeee",
+            "title": "Home of the American Truck's",
+            "heading_size": "h2",
+            "heading_color": "",
+            "subheading": "",
+            "description": "",
+            "desc_size": "text-desc-base",
+            "button_text_1": "Want to know more?",
+            "button_link_1": "",
+            "button_style_1": "btn--white",
+            "button_size_1": "",
+            "button_text_2": "",
+            "button_link_2": "",
+            "button_style_2": "btn--primary",
+            "button_size_2": ""
+          }
+        },
+        "41d2f781-470b-477f-896a-873df5080966": {
+          "type": "slide",
+          "settings": {
+            "background": "shopify://shop_images/2000x560_-_CHEVY_1500.png",
+            "image_overlay_opacity": 0,
+            "content_position": "center-bottom",
+            "text_alignment": "center",
+            "text_color": "#ffffff",
+            "title": "",
+            "heading_size": "h-xl",
+            "heading_color": "#e1ea7a",
+            "subheading": "",
+            "description": "",
+            "desc_size": "text-desc-base",
+            "button_text_1": "",
+            "button_link_1": "",
+            "button_style_1": "btn--white",
+            "button_size_1": "",
+            "button_text_2": "",
+            "button_link_2": "",
+            "button_style_2": "btn--primary",
+            "button_size_2": ""
+          }
+        },
+        "slide_qdRzhQ": {
+          "type": "slide",
+          "settings": {
+            "background": "shopify://shop_images/2000x560_-_FORD_F150.png",
+            "image_overlay_opacity": 0,
+            "content_position": "center-bottom",
+            "text_alignment": "center",
+            "text_color": "#ffffff",
+            "title": "",
+            "heading_size": "h-xl",
+            "heading_color": "#e1ea7a",
+            "subheading": "",
+            "description": "",
+            "desc_size": "text-desc-base",
+            "button_text_1": "",
+            "button_link_1": "",
+            "button_style_1": "btn--white",
+            "button_size_1": "",
+            "button_text_2": "",
+            "button_link_2": "",
+            "button_style_2": "btn--primary",
+            "button_size_2": ""
+          }
+        },
+        "slide_wWaezX": {
+          "type": "slide",
+          "settings": {
+            "background": "shopify://shop_images/2000x560_-_RAM_2500.png",
+            "image_overlay_opacity": 0,
+            "content_position": "center-bottom",
+            "text_alignment": "center",
+            "text_color": "#ffffff",
+            "title": "",
+            "heading_size": "h-xl",
+            "heading_color": "#e1ea7a",
+            "subheading": "",
+            "description": "",
+            "desc_size": "text-desc-base",
+            "button_text_1": "",
+            "button_link_1": "",
+            "button_style_1": "btn--white",
+            "button_size_1": "",
+            "button_text_2": "",
+            "button_link_2": "",
+            "button_style_2": "btn--primary",
+            "button_size_2": ""
+          }
+        },
+        "slide_XwjzRj": {
+          "type": "slide",
+          "settings": {
+            "background": "shopify://shop_images/2000x560_-_Chevy_2500.png",
+            "image_overlay_opacity": 0,
+            "content_position": "center-bottom",
+            "text_alignment": "center",
+            "text_color": "#ffffff",
+            "title": "",
+            "heading_size": "h-xl",
+            "heading_color": "#e1ea7a",
+            "subheading": "",
+            "description": "",
+            "desc_size": "text-desc-base",
+            "button_text_1": "",
+            "button_link_1": "",
+            "button_style_1": "btn--white",
+            "button_size_1": "",
+            "button_text_2": "",
+            "button_link_2": "",
+            "button_style_2": "btn--primary",
+            "button_size_2": ""
+          }
+        },
+        "slide_ApybJV": {
+          "type": "slide",
+          "settings": {
+            "background": "shopify://shop_images/2000x560_-_TOYOTA_TUNDRA.png",
+            "image_overlay_opacity": 0,
+            "content_position": "center-bottom",
+            "text_alignment": "center",
+            "text_color": "#ffffff",
+            "title": "",
+            "heading_size": "h-xl",
+            "heading_color": "#e1ea7a",
+            "subheading": "",
+            "description": "",
+            "desc_size": "text-desc-base",
+            "button_text_1": "",
+            "button_link_1": "",
+            "button_style_1": "btn--white",
+            "button_size_1": "",
+            "button_text_2": "",
+            "button_link_2": "",
+            "button_style_2": "btn--primary",
+            "button_size_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_t8yxCY",
+        "41d2f781-470b-477f-896a-873df5080966",
+        "slide_qdRzhQ",
+        "slide_wWaezX",
+        "slide_XwjzRj",
+        "slide_ApybJV"
+      ],
+      "custom_css": [
+        "@media (min-width: 768px) {.f-slideshow__content {max-width: 42rem; }}"
+      ],
+      "settings": {
+        "container": "container-full",
+        "slideshow_height": "adapt",
+        "show_dots": true,
+        "show_nav": true,
+        "autoplay": false,
+        "autorotate_speed": 5,
+        "pagination_background": "none",
+        "controls_position": "center",
+        "pagination_style": "dots",
+        "show_text_below": false,
+        "text_alignment_mobile": "center",
+        "accessibility_info": "Slideshow about our brand",
+        "custom_id": "",
+        "custom_class": "",
+        "enable_bg_zoom_effect": true
+      }
+    },
+    "promotion_banner_QiTDwF": {
+      "type": "promotion-banner",
+      "blocks": {
+        "text_wkgDeN": {
+          "type": "text",
+          "settings": {
+            "title": "<p>Sale 30% OFF</p>",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h-xl",
+            "heading_color": "#e1ea7a",
+            "subheading": "Special Offer",
+            "text": "<p>*Ends April 120 2025, 12:00 PST. T&C's Apply</p>",
+            "align_text": "center",
+            "content_width": 500,
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        },
+        "text_9Mzcdj": {
+          "type": "text",
+          "settings": {
+            "title": "<p>Seasonal Savings Event</p>",
+            "highlight_style": "none",
+            "enable_highlight_text_color": false,
+            "heading_size": "h2",
+            "heading_color": "",
+            "subheading": "",
+            "text": "<p>Up to 30% Off on Must-Have Styles !</p>",
+            "align_text": "center",
+            "content_width": 500,
+            "button_label": "Shop the sale",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "block_custom_class": "",
+            "animations": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "text_wkgDeN",
+        "text_9Mzcdj"
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "container-full",
+        "color_schema": "inverse",
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "fade-in"
+      }
+    },
+    "featured_collection_VDfURm": {
+      "type": "featured-collection",
+      "disabled": true,
+      "name": "t:sections.featured-collection.name",
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "section_header_content_spacing": "medium",
+        "header_layout": "vertical",
+        "heading": "AMP Steps by Real Truck",
+        "highlight_style": "none",
+        "enable_highlight_text_color": false,
+        "heading_size": "h2",
+        "heading_color": "",
+        "subheading": "",
+        "description": "",
+        "collection": "",
+        "limit": 8,
+        "columns": 4,
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "pcard_image_ratio": "",
+        "show_vendor": false,
+        "enable_slider": false,
+        "show_nav": false,
+        "show_dots": false,
+        "show_all_button_on_top": false,
+        "button_label": "",
+        "button_style": "btn--primary",
+        "enable_swipe_mobile": false,
+        "column_mobile": "1",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "video_mRp448": {
+      "type": "video",
+      "disabled": true,
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "container": "container-full",
+        "section_header_padding_bottom": "medium",
+        "section_header_content_spacing": "medium",
+        "heading": "ORI Fox 150 Packages",
+        "highlight_style": "none",
+        "enable_highlight_text_color": false,
+        "heading_size": "h2",
+        "heading_color": "",
+        "subheading": "",
+        "description": "",
+        "video_type": "external",
+        "video_url": "https://www.youtube.com/watch?v=aGHaFPaDuv4",
+        "cover_image": "shopify://shop_images/OFFROAD_INDUSTRIES_-_FOX_F150_-_12.03.2024_-_Matt_Williams_-_WEB_RES-1037_7fbfcd95-895e-4aca-a8cd-8c7dacf0637b.jpg",
+        "video_ratio": "adapt",
+        "autoplay_video": true,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "fade-in"
+      }
+    },
+    "scrolling_promotion_EChz8a": {
+      "type": "scrolling-promotion",
+      "blocks": {
+        "image_hrVkmw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/420_x_420px_MEGA_MENU_ICON__BDS.jpg",
+            "image_height": 120,
+            "image_link": "",
+            "use_custom_spacing": false,
+            "margin_left": 10,
+            "margin_right": 10,
+            "margin_left_mobile": 10,
+            "margin_right_mobile": 10
+          }
+        },
+        "announcement_yLtkCR": {
+          "type": "announcement",
+          "settings": {
+            "text": "BDS Suspension",
+            "font_family": "heading",
+            "text_size": 30,
+            "text_link": "",
+            "use_custom_spacing": true,
+            "margin_left": 0,
+            "margin_right": 30,
+            "margin_left_mobile": 0,
+            "margin_right_mobile": 15
+          }
+        },
+        "divider_4jUkxe": {
+          "type": "divider",
+          "settings": {
+            "width": 64,
+            "use_custom_spacing": false,
+            "margin_left": 10,
+            "margin_right": 10,
+            "margin_left_mobile": 10,
+            "margin_right_mobile": 10
+          }
+        },
+        "image_y8wYUX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/420_x_420px_MEGA_MENU_ICON__FOX.jpg",
+            "image_height": 120,
+            "image_link": "",
+            "use_custom_spacing": false,
+            "margin_left": 10,
+            "margin_right": 10,
+            "margin_left_mobile": 10,
+            "margin_right_mobile": 10
+          }
+        },
+        "announcement_iGrVLP": {
+          "type": "announcement",
+          "settings": {
+            "text": "Fox Suspension",
+            "font_family": "heading",
+            "text_size": 30,
+            "text_link": "",
+            "use_custom_spacing": true,
+            "margin_left": 0,
+            "margin_right": 30,
+            "margin_left_mobile": 0,
+            "margin_right_mobile": 15
+          }
+        },
+        "divider_bihCTQ": {
+          "type": "divider",
+          "settings": {
+            "width": 64,
+            "use_custom_spacing": false,
+            "margin_left": 10,
+            "margin_right": 10,
+            "margin_left_mobile": 10,
+            "margin_right_mobile": 10
+          }
+        },
+        "image_QkCW9E": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/420_x_420px_MEGA_MENU_ICON__BAJA_DESIGNS.jpg",
+            "image_height": 120,
+            "image_link": "",
+            "use_custom_spacing": false,
+            "margin_left": 10,
+            "margin_right": 10,
+            "margin_left_mobile": 10,
+            "margin_right_mobile": 10
+          }
+        },
+        "announcement_BVYhRP": {
+          "type": "announcement",
+          "settings": {
+            "text": "Baja Designs",
+            "font_family": "heading",
+            "text_size": 30,
+            "text_link": "",
+            "use_custom_spacing": true,
+            "margin_left": 0,
+            "margin_right": 30,
+            "margin_left_mobile": 0,
+            "margin_right_mobile": 15
+          }
+        },
+        "divider_LWMNad": {
+          "type": "divider",
+          "settings": {
+            "width": 64,
+            "use_custom_spacing": false,
+            "margin_left": 10,
+            "margin_right": 10,
+            "margin_left_mobile": 10,
+            "margin_right_mobile": 10
+          }
+        },
+        "image_pjib8g": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ADD-OFFROAD-21-FORD-RAPTOR-Phantom-Rear-Bumper-Installation-Guide-1.png",
+            "image_height": 120,
+            "image_link": "",
+            "use_custom_spacing": false,
+            "margin_left": 10,
+            "margin_right": 10,
+            "margin_left_mobile": 10,
+            "margin_right_mobile": 10
+          }
+        },
+        "announcement_JkAB4D": {
+          "type": "announcement",
+          "settings": {
+            "text": "Addictive Desert Designs",
+            "font_family": "heading",
+            "text_size": 30,
+            "text_link": "",
+            "use_custom_spacing": true,
+            "margin_left": 0,
+            "margin_right": 30,
+            "margin_left_mobile": 0,
+            "margin_right_mobile": 15
+          }
+        },
+        "divider_JQFQHq": {
+          "type": "divider",
+          "settings": {
+            "width": 64,
+            "use_custom_spacing": false,
+            "margin_left": 10,
+            "margin_right": 10,
+            "margin_left_mobile": 10,
+            "margin_right_mobile": 10
+          }
+        },
+        "image_8Q6fzR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/huskyliners-logo-fullcolor-24206_4x_68ee4016-c4a6-4e86-b15e-f8f048d6e1d0.png",
+            "image_height": 120,
+            "image_link": "",
+            "use_custom_spacing": false,
+            "margin_left": 10,
+            "margin_right": 10,
+            "margin_left_mobile": 10,
+            "margin_right_mobile": 10
+          }
+        },
+        "announcement_mfRbjQ": {
+          "type": "announcement",
+          "settings": {
+            "text": "Husky Liners",
+            "font_family": "heading",
+            "text_size": 30,
+            "text_link": "",
+            "use_custom_spacing": true,
+            "margin_left": 0,
+            "margin_right": 30,
+            "margin_left_mobile": 0,
+            "margin_right_mobile": 15
+          }
+        },
+        "divider_RzLaie": {
+          "type": "divider",
+          "settings": {
+            "width": 64,
+            "use_custom_spacing": false,
+            "margin_left": 10,
+            "margin_right": 10,
+            "margin_left_mobile": 10,
+            "margin_right_mobile": 10
+          }
+        }
+      },
+      "block_order": [
+        "image_hrVkmw",
+        "announcement_yLtkCR",
+        "divider_4jUkxe",
+        "image_y8wYUX",
+        "announcement_iGrVLP",
+        "divider_bihCTQ",
+        "image_QkCW9E",
+        "announcement_BVYhRP",
+        "divider_LWMNad",
+        "image_pjib8g",
+        "announcement_JkAB4D",
+        "divider_JQFQHq",
+        "image_8Q6fzR",
+        "announcement_mfRbjQ",
+        "divider_RzLaie"
+      ],
+      "disabled": true,
+      "name": "t:sections.scrolling-promotion.presets.name",
+      "settings": {
+        "container": "container-full",
+        "color_schema": "",
+        "section_header_padding_bottom": "medium",
+        "section_header_content_spacing": "medium",
+        "heading": "",
+        "highlight_style": "none",
+        "enable_highlight_text_color": false,
+        "heading_size": "h2",
+        "heading_color": "",
+        "subheading": "",
+        "description": "",
+        "alignment": "center",
+        "direction": "left",
+        "pause_on_hover": false,
+        "speed": 0.2,
+        "item_gap": 0,
+        "item_gap_mobile": 0,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "use_custom_mobile_padding": false,
+        "padding_top_mobile": 60,
+        "padding_bottom_mobile": 60,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": ""
+      }
+    },
+    "products_bundle_dktj9L": {
+      "type": "products-bundle",
+      "blocks": {
+        "product_xrmAfr": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "hotspot_color": "light",
+            "horizontal": 30,
+            "vertical": 40
+          }
+        },
+        "product_4RCkwU": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "hotspot_color": "light",
+            "horizontal": 70,
+            "vertical": 45
+          }
+        },
+        "product_zcJ9YF": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "hotspot_color": "light",
+            "horizontal": 45,
+            "vertical": 65
+          }
+        }
+      },
+      "block_order": [
+        "product_xrmAfr",
+        "product_4RCkwU",
+        "product_zcJ9YF"
+      ],
+      "disabled": true,
+      "name": "Products bundle",
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "image_position": "left",
+        "desktop_content_position": "start",
+        "subheading": "",
+        "heading": "<p>Ford F150 Accessories 2021+</p>",
+        "highlight_style": "none",
+        "enable_highlight_text_color": false,
+        "heading_size": "h2",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "padding_left": 100,
+        "padding_right": 0,
+        "align_content_container": "none",
+        "mobile_padding_left": 0,
+        "mobile_padding_right": 0,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_top_mobile": 60,
+        "padding_bottom_mobile": 60,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
+    },
+    "contact_form_v3_6YhhLH": {
+      "type": "contact-form-v3",
+      "blocks": {
+        "first_name_447iXj": {
+          "type": "first_name",
+          "settings": {
+            "placeholder": "First Name",
+            "required": false,
+            "width": "half"
+          }
+        },
+        "last_name_HPPh4j": {
+          "type": "last_name",
+          "settings": {
+            "placeholder": "Last Name",
+            "required": false,
+            "width": "half"
+          }
+        },
+        "email_3pXdpF": {
+          "type": "email",
+          "settings": {
+            "placeholder": "Email Address",
+            "required": false,
+            "width": "full"
+          }
+        },
+        "car_nnmFJj": {
+          "type": "car",
+          "settings": {
+            "placeholder": "Car Make, Year & Model",
+            "required": false,
+            "width": "full"
+          }
+        },
+        "message_GGVHbf": {
+          "type": "message",
+          "settings": {
+            "placeholder": "Your Inquiry...",
+            "rows": 8,
+            "required": false,
+            "width": "full"
+          }
+        }
+      },
+      "block_order": [
+        "first_name_447iXj",
+        "last_name_HPPh4j",
+        "email_3pXdpF",
+        "car_nnmFJj",
+        "message_GGVHbf"
+      ],
+      "disabled": true,
+      "name": "Contact Form v3",
+      "settings": {
+        "title": "Get in touch with us!",
+        "subtitle": "<p>Add a short subtitle here.</p>",
+        "phone": "",
+        "email": "",
+        "button_label": "Submit Enquiry",
+        "success_message": "Thanks! We received your enquiry and will get back to you soon.",
+        "columns_desktop": "2",
+        "max_width": 900,
+        "section_bg_color": "#ffffff",
+        "overlay_opacity": 0,
+        "form_bg_color": "#ffffff",
+        "text_color": "#000000",
+        "button_bg": "#000000",
+        "button_text": "#ffffff",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "1653903038c126b831",
+    "promotion_banner_QiTDwF",
+    "featured_collection_VDfURm",
+    "video_mRp448",
+    "scrolling_promotion_EChz8a",
+    "products_bundle_dktj9L",
+    "contact_form_v3_6YhhLH"
+  ]
+}
