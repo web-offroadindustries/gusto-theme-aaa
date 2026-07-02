@@ -73,10 +73,10 @@
         "vehicle_ie7ybh": {
           "type": "vehicle",
           "settings": {
-            "image": "shopify://shop_images/Toyota-Tundra--tile-ad---20260505-4-1.png",
-            "name": "toyota tundra",
+            "image": "shopify://shop_images/Chevy-Silverado-1500--tile-ad---20260505-4_753e16ce-f09c-454c-8683-7edc168f4eae.png",
+            "name": "Chevy Silverado 1500",
             "btn_label": "View Packages & Pricing",
-            "btn_url": "https://www.offroadindustries.com.au/pages/toyota-tundra",
+            "btn_url": "/pages/about-us?view=template-gvm-package-chevy1500",
             "pdf_url": ""
           }
         },
@@ -86,37 +86,37 @@
             "image": "shopify://shop_images/Chevy-2500--tile-ad---20260505-4_7ce36d9a-1565-4823-b14a-b3e36018df11.png",
             "name": "Chevy Silverado 2500HD",
             "btn_label": "View Packages & Pricing",
-            "btn_url": "https://www.offroadindustries.com.au/pages/chevy-silverado-2500hd-gvm-packages",
+            "btn_url": "/pages/about-us?view=template-gvm-package-chevy2500",
             "pdf_url": ""
           }
         },
         "vehicle_iFbyFT": {
           "type": "vehicle",
           "settings": {
-            "image": "shopify://shop_images/Chevy-Silverado-1500--tile-ad---20260505-4_753e16ce-f09c-454c-8683-7edc168f4eae.png",
-            "name": "Silverado 1500 LTZ & ZR2",
+            "image": "shopify://shop_images/FORD-F150---tile-ad---20260505-4-3.png",
+            "name": "Ford 150",
             "btn_label": "View Packages & Pricing",
-            "btn_url": "https://www.offroadindustries.com.au/pages/chevrolet-silverado-1500-gvm-package",
+            "btn_url": "/pages/about-us?view=template-gvm-package-ford150",
             "pdf_url": ""
           }
         },
         "vehicle_rrjckn": {
           "type": "vehicle",
           "settings": {
-            "image": "shopify://shop_images/FORD-F150---tile-ad---20260505-4-3.png",
-            "name": "Ford F150",
+            "image": "shopify://shop_images/Toyota-Tundra--tile-ad---20260505-4-1.png",
+            "name": "Toyota Tundra",
             "btn_label": "View Packages & Pricing",
-            "btn_url": "https://www.offroadindustries.com.au/pages/ford-150-gvm-packages",
+            "btn_url": "/pages/about-us?view=template-gvm-package-toyota-tundra",
             "pdf_url": ""
           }
         },
         "vehicle_ERMxXT": {
           "type": "vehicle",
           "settings": {
-            "image": "shopify://shop_images/FORD-F150---tile-ad---20260505-4-1_9dcaeba0-a747-4777-a6b3-eb3685b3b98f.png",
-            "name": "Ford F150",
+            "image": "shopify://shop_images/image_-_2026-06-26T195250.134.png",
+            "name": "SSM Legal NB1 Chevy 2500HD",
             "btn_label": "View Packages & Pricing",
-            "btn_url": "https://www.offroadindustries.com.au/pages/ford-150-gvm-packages",
+            "btn_url": "/pages/about-us?view=template-gvm-package",
             "pdf_url": ""
           }
         }
@@ -131,7 +131,7 @@
       "name": "Vehicle Cards",
       "settings": {
         "eyebrow": "",
-        "heading": "Federally Approved GVM & GCM Packages",
+        "heading": "Federally Approved GVM Packages",
         "bg_color": "#ffffff",
         "heading_color": "#1f1f1f",
         "heading_size": 36,
