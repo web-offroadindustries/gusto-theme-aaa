@@ -1,1 +1,80 @@
-{"type":"header","name":"t:sections.header.name","sections":{"announcement-bar":{"type":"announcement-bar","blocks":{"93951327-4430-4ac4-8eb4-785e1fda430e":{"type":"announcement","settings":{"text":"<p>New customers save 10% with code <a href=\"\/collections\/all\" title=\"All products\"><strong>WELCOME<\/strong><\/a><\/p>","link":"","homepage_only":false,"hide_on_page":"","show_on_mobile":true,"show_on_tablet":true,"show_on_desktop":true}}},"block_order":["93951327-4430-4ac4-8eb4-785e1fda430e"],"disabled":true,"custom_css":[],"settings":{"color_schema":"scheme-6","show_close_button":false,"enable_carousel":false,"autoplay":true,"autorotate_speed":5}},"header":{"type":"header","settings":{"color_schema":"accent","layout":"design-1","container":"container","sticky_header":true,"sticky_type":"on-scroll-up","transparent_header":false,"logo":"shopify:\/\/shop_images\/Autoworks_Logo_REV.png","logo_width":90,"logo_mobile_width":90,"main_menu":"main-menu-v2","mobile_menu":"main-menu-v2","menu_dropdown_color_schema":"","dropdown_menu_trigger":"hover","enable_mega_menu":true,"customer_account_menu":"customer-account-main-menu","show_search":true,"show_cart":true,"show_account":false,"show_country_selector":false,"show_language_selector":false,"logo_mobile_position":"left","mobile_show_search":true,"mobile_show_cart":true,"mobile_show_account":true,"mobile_show_social":true,"padding_top":13,"padding_bottom":13}}},"order":["announcement-bar","header"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "t:sections.header.name",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "93951327-4430-4ac4-8eb4-785e1fda430e": {
+          "type": "announcement",
+          "settings": {
+            "text": "<p>New customers save 10% with code <a href=\"/collections/all\" title=\"All products\"><strong>WELCOME</strong></a></p>",
+            "link": "",
+            "homepage_only": false,
+            "hide_on_page": "",
+            "show_on_mobile": true,
+            "show_on_tablet": true,
+            "show_on_desktop": true
+          }
+        }
+      },
+      "block_order": [
+        "93951327-4430-4ac4-8eb4-785e1fda430e"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "color_schema": "scheme-6",
+        "show_close_button": false,
+        "enable_carousel": false,
+        "autoplay": true,
+        "autorotate_speed": 5
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "color_schema": "accent",
+        "layout": "design-1",
+        "container": "container",
+        "sticky_header": true,
+        "sticky_type": "on-scroll-up",
+        "transparent_header": false,
+        "logo": "shopify://shop_images/Autoworks_Logo_REV.png",
+        "logo_width": 90,
+        "logo_mobile_width": 90,
+        "main_menu": "main-menu",
+        "mobile_menu": "main-menu",
+        "menu_dropdown_color_schema": "",
+        "dropdown_menu_trigger": "hover",
+        "enable_mega_menu": true,
+        "customer_account_menu": "customer-account-main-menu",
+        "show_search": true,
+        "show_cart": true,
+        "show_account": false,
+        "show_country_selector": false,
+        "show_language_selector": false,
+        "logo_mobile_position": "left",
+        "mobile_show_search": true,
+        "mobile_show_cart": true,
+        "mobile_show_account": true,
+        "mobile_show_social": true,
+        "padding_top": 13,
+        "padding_bottom": 13
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}
