@@ -232,6 +232,7 @@
         "text_wkgDeN",
         "text_9Mzcdj"
       ],
+      "disabled": true,
       "settings": {
         "container": "container-full",
         "color_schema": "inverse",
@@ -246,6 +247,7 @@
     },
     "featured_collection_VDfURm": {
       "type": "featured-collection",
+      "disabled": true,
       "name": "t:sections.featured-collection.name",
       "settings": {
         "container": "container",
