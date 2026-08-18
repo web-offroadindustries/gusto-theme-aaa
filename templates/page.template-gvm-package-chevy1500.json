@@ -126,7 +126,7 @@
             "highlight_style": "none",
             "enable_highlight_text_color": true,
             "heading_size": "h1",
-            "heading_color": "#5683c2"
+            "heading_color": "#56bdc2"
           }
         },
         "text_CfcJd4": {
@@ -164,7 +164,7 @@
             "highlight_style": "underline",
             "enable_highlight_text_color": true,
             "heading_size": "h1",
-            "heading_color": "#5683c2"
+            "heading_color": "#56bdc2"
           }
         }
       },
@@ -253,7 +253,7 @@
         "heading_dHpa9y": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Stage 2:  ZR2 Only Performance Level-Up (3650kg GVM + GCM up to 7850Kg)</strong>",
+            "heading": "<strong>Stage 2:  ZR2 Only Performance Level-Up (3650kg GVM + GCM up to 7850kg)</strong>",
             "highlight_style": "none",
             "enable_highlight_text_color": false,
             "heading_size": "h2"
@@ -318,7 +318,7 @@
         "text_aVwiWh": {
           "type": "text",
           "settings": {
-            "text": "<p><em>Engineered for the ultimate suspension, </em></p><ul><li><strong>GVM Increase:</strong> 3850kg (approx. 1272kg payload). GCM Increase 8050 KG ZR2 or 8350 LTZ</li><li><strong>Key Features:</strong> Premium <strong>Fox 2.5 DSC (Dual Speed Compression)</strong> adjustable shocks.</li><li><strong>Best For:</strong> Heavy-duty touring. If you have a bull bar, and a heavy tow ball weight from a large caravan, this is your sweet spot without having to upgrade your wheel and tyre package.</li><li><strong>Benefit:</strong> The DSC adjustability allows you to \"dial in\" your ride—stiffen it for the highway and soften it for the tracks at the turn of a knob. Fox’s premium shocks setup for the Chevy Silverado 1500.</li><li><strong>Part Number: </strong>CHV-1500-Stage3-GVM<br/><br/></li></ul>"
+            "text": "<p><em>Engineered for the ultimate suspension, </em></p><ul><li><strong>GVM Increase:</strong> 3850kg (approx. 1272kg payload). GCM Increase 8050kg ZR2 or 8350 LTZ</li><li><strong>Key Features:</strong> Premium <strong>Fox 2.5 DSC (Dual Speed Compression)</strong> adjustable shocks.</li><li><strong>Best For:</strong> Heavy-duty touring. If you have a bull bar, and a heavy tow ball weight from a large caravan, this is your sweet spot without having to upgrade your wheel and tyre package.</li><li><strong>Benefit:</strong> The DSC adjustability allows you to \"dial in\" your ride—stiffen it for the highway and soften it for the tracks at the turn of a knob. Fox’s premium shocks setup for the Chevy Silverado 1500.</li><li><strong>Part Number: </strong>CHV-1500-Stage3-GVM<br/><br/></li></ul>"
           }
         }
       },
@@ -365,7 +365,7 @@
         "heading_wfcybN": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Stage 4: The Heavy Hauler (4250kg GVM + GCM 8750Kg)</strong>",
+            "heading": "<strong>Stage 4: The Heavy Hauler (4250kg GVM + GCM 8750kg)</strong>",
             "highlight_style": "none",
             "enable_highlight_text_color": false,
             "heading_size": "h2"
@@ -421,7 +421,7 @@
         "heading_FGMkek": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Stage 5: The \"No Compromise\" Build (4250kg GVM + GCM 8750Kg)</strong>",
+            "heading": "<strong>Stage 5: The \"No Compromise\" Build (4250kg GVM + GCM 8750kg)</strong>",
             "highlight_style": "none",
             "enable_highlight_text_color": false,
             "heading_size": "h2"
@@ -471,11 +471,11 @@
         "heading_YjLxhA": {
           "type": "heading",
           "settings": {
-            "heading": "ORI Chevy Silverado GVM & GCM Specfications",
+            "heading": "ORI Chevy Silverado GVM & GCM Specifications",
             "highlight_style": "underline",
             "enable_highlight_text_color": true,
             "heading_size": "h1",
-            "heading_color": "#5683c2"
+            "heading_color": "#56bdc2"
           }
         }
       },
@@ -504,9 +504,9 @@
           "settings": {
             "label": "Gross Vehicle Mass (GVM)",
             "value_1": "3300 KG",
-            "value_2": "3,650 KG",
-            "value_3": "3,650 KG",
-            "value_4": "3,850 KG",
+            "value_2": "3650 KG",
+            "value_3": "3650 KG",
+            "value_4": "3850 KG",
             "value_5": "4250 KG",
             "value_6": "4250 KG",
             "value_7": "",
@@ -664,11 +664,11 @@
           "settings": {
             "label": "Tyre Load Rating",
             "value_1": "862 KG",
-            "value_2": "963 KG",
-            "value_3": "963 KG",
-            "value_4": "1063 KG",
-            "value_5": "1250 KG",
-            "value_6": "1250 KG",
+            "value_2": "110 Q",
+            "value_3": "110 Q",
+            "value_4": "112 Q",
+            "value_5": "116 Q",
+            "value_6": "116 Q",
             "value_7": "",
             "value_8": "",
             "value_9": "",
@@ -680,9 +680,9 @@
           "settings": {
             "label": "Requires Wheel/ Tyre Upgrade",
             "value_1": "OEM",
-            "value_2": "N/A",
-            "value_3": "N/A",
-            "value_4": "N/A",
+            "value_2": "OEM",
+            "value_3": "OEM",
+            "value_4": "OEM",
             "value_5": "✔",
             "value_6": "✔",
             "value_7": "",
@@ -698,7 +698,7 @@
             "value_1": "275/60 R20",
             "value_2": "275/60 R20",
             "value_3": "LT275/70R18",
-            "value_4": "275/60 R20\nLT275/70R18",
+            "value_4": "LT275/70R18",
             "value_5": "295/70 R18\n35x12.5R18",
             "value_6": "295/70 R18\n35x12.5R18",
             "value_7": "",
@@ -1023,7 +1023,6 @@
         },
         "button_eGC3Df": {
           "type": "button",
-          "disabled": true,
           "settings": {
             "button_label": "Button label",
             "button_link": "",
@@ -1112,7 +1111,6 @@
       "blocks": {
         "row_VFXzYb": {
           "type": "row",
-          "disabled": true,
           "settings": {
             "label": "SKU",
             "use_as_title": false,
@@ -1253,7 +1251,6 @@
       "blocks": {
         "row_TiUpB6": {
           "type": "row",
-          "disabled": true,
           "settings": {
             "label": "SKU",
             "use_as_title": false,
@@ -1435,7 +1432,7 @@
         "padding_bottom": 40,
         "show_section_divider": false,
         "divider_width": "container",
-        "custom_id": "",
+        "custom_id": "gvmexperts",
         "custom_class": "",
         "animations": "inherit"
       }
@@ -1446,11 +1443,11 @@
         "heading_PHJcdq": {
           "type": "heading",
           "settings": {
-            "heading": "Ori's Suspension Collection",
+            "heading": "ORI's Suspension Collection",
             "highlight_style": "underline",
             "enable_highlight_text_color": true,
             "heading_size": "h1",
-            "heading_color": "#5683c2"
+            "heading_color": "#56bdc2"
           }
         }
       },
