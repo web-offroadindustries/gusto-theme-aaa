@@ -227,7 +227,7 @@
       "settings": {
         "container": "container",
         "color_schema": "",
-        "image": "shopify://shop_images/Stage_1_Chevy2500.png",
+        "image": "shopify://shop_images/Stage_1_Chevy2500_bf9c5f54-7a6a-49fd-9678-d749d07c2134.png",
         "image_width": "50%",
         "image_position": "left",
         "vertical_alignment": "center",
@@ -283,7 +283,7 @@
       "settings": {
         "container": "container",
         "color_schema": "",
-        "image": "shopify://shop_images/Stage_2_Chevy2500.png",
+        "image": "shopify://shop_images/Stage_2_Chevy2500_6a7a39d6-2a0e-4d1b-b12a-609dc4de8e8f.png",
         "image_width": "50%",
         "image_position": "right",
         "vertical_alignment": "center",
@@ -339,7 +339,7 @@
       "settings": {
         "container": "container",
         "color_schema": "",
-        "image": "shopify://shop_images/Stage_3_Chevy2500.png",
+        "image": "shopify://shop_images/Stage_3_Chevy2500_ae1ed7a6-8740-408b-bf37-99c5a5174855.png",
         "image_width": "50%",
         "image_position": "left",
         "vertical_alignment": "center",
@@ -395,7 +395,7 @@
       "settings": {
         "container": "container",
         "color_schema": "",
-        "image": "shopify://shop_images/Stage_4_Chevy2500.png",
+        "image": "shopify://shop_images/Stage_4_Chevy2500_33b34bd1-ffc1-48e8-96f3-b678ed5e9d64.png",
         "image_width": "50%",
         "image_position": "right",
         "vertical_alignment": "center",
@@ -451,7 +451,7 @@
       "settings": {
         "container": "container",
         "color_schema": "",
-        "image": "shopify://shop_images/Stage_5_Chevy2500.png",
+        "image": "shopify://shop_images/Stage_5_Chevy2500_7de3f143-5cdd-4e8c-b52f-2640eb1227dc.png",
         "image_width": "50%",
         "image_position": "left",
         "vertical_alignment": "center",
@@ -507,7 +507,7 @@
       "settings": {
         "container": "container",
         "color_schema": "",
-        "image": "shopify://shop_images/Stage_6_Chevy2500.png",
+        "image": "shopify://shop_images/Stage_6_Chevy2500_34ff54df-c180-4d85-9168-deee96ad968a.png",
         "image_width": "50%",
         "image_position": "right",
         "vertical_alignment": "center",
