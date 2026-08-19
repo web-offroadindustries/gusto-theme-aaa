@@ -20,7 +20,7 @@
         "slide_bW6A4P": {
           "type": "slide",
           "settings": {
-            "background": "shopify://shop_images/2000x560_-_CHEVY_1500_1.png",
+            "background": "shopify://shop_images/2000x560_-_CHEVY_1500_8140ce7b-2b67-4b87-a029-f2233d3f7d6a.png",
             "image_overlay_opacity": 0,
             "content_position": "center",
             "text_alignment": "center",
@@ -1385,6 +1385,18 @@
             "required": true
           }
         },
+        "custom_select_stage_x8r3EB": {
+          "type": "custom_select",
+          "settings": {
+            "label": "What Stage GVM Package",
+            "field_name": "What Stage GVM Package",
+            "placeholder": "What Stage GVM Package",
+            "options": "Stage 1, Stage 2, Stage 3, Stage 4, Stage 5, Stage 6",
+            "field_width": "100",
+            "hide_label": true,
+            "required": true
+          }
+        },
         "location_FiKmdb": {
           "type": "location",
           "settings": {
@@ -1404,18 +1416,6 @@
             "rows": 3,
             "field_width": "100",
             "hide_label": true
-          }
-        },
-        "custom_select_stage_x8r3EB": {
-          "type": "custom_select",
-          "settings": {
-            "label": "What Stage GVM Package",
-            "field_name": "What Stage GVM Package",
-            "placeholder": "What Stage GVM Package",
-            "options": "Stage 1, Stage 2, Stage 3, Stage 4, Stage 5, Stage 6",
-            "field_width": "100",
-            "hide_label": true,
-            "required": true
           }
         }
       },
