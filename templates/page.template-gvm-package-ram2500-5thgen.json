@@ -1,34 +1,26 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "main-page",
-      "settings": {},
-      "disabled": true
+      "disabled": true,
+      "settings": {}
     },
     "slideshow_ram5g": {
       "type": "slideshow",
-      "settings": {
-        "container": "container-full",
-        "slideshow_height": "adapt",
-        "show_dots": false,
-        "show_nav": false,
-        "autoplay": false,
-        "autorotate_speed": 3,
-        "pagination_background": "light",
-        "controls_position": "center",
-        "pagination_style": "dots",
-        "show_text_below": false,
-        "text_alignment_mobile": "center",
-        "accessibility_info": "Slideshow about our brand",
-        "custom_id": "",
-        "custom_class": "",
-        "enable_bg_zoom_effect": false
-      },
       "blocks": {
         "slide_ram6g_1": {
           "type": "slide",
           "settings": {
-            "background": "shopify:\/\/shop_images\/2000x560_-_RAM_2500_5th_Gen_2_86a6ccba-daa9-4bd3-8d4e-3b6355bf3601.png",
+            "background": "shopify://shop_images/2000x560_-_RAM_2500_NB1.png",
             "image_overlay_opacity": 0,
             "content_position": "center",
             "text_alignment": "center",
@@ -52,22 +44,27 @@
       },
       "block_order": [
         "slide_ram6g_1"
-      ]
+      ],
+      "settings": {
+        "container": "container-full",
+        "slideshow_height": "adapt",
+        "show_dots": false,
+        "show_nav": false,
+        "autoplay": false,
+        "autorotate_speed": 3,
+        "pagination_background": "light",
+        "controls_position": "center",
+        "pagination_style": "dots",
+        "show_text_below": false,
+        "text_alignment_mobile": "center",
+        "accessibility_info": "Slideshow about our brand",
+        "custom_id": "",
+        "custom_class": "",
+        "enable_bg_zoom_effect": false
+      }
     },
     "jump_links_ram5g": {
       "type": "jump-links",
-      "settings": {
-        "container_mode": "full",
-        "container_width": "1200",
-        "bg_color": "#ffffff",
-        "text_color": "#111111",
-        "hover_color": "#111111",
-        "active_color": "#111111",
-        "border_color": "#0000001f",
-        "pad_y": 10,
-        "offset": 0,
-        "duration": 650
-      },
       "blocks": {
         "link_ram6g_1": {
           "type": "link",
@@ -103,22 +100,22 @@
         "link_ram6g_2",
         "link_ram6g_3",
         "link_ram6g_4"
-      ]
+      ],
+      "settings": {
+        "container_mode": "full",
+        "container_width": "1200",
+        "bg_color": "#ffffff",
+        "text_color": "#111111",
+        "hover_color": "#111111",
+        "active_color": "#111111",
+        "border_color": "#0000001f",
+        "pad_y": 10,
+        "offset": 0,
+        "duration": 650
+      }
     },
     "rich_text_ram5g_intro": {
       "type": "rich-text",
-      "settings": {
-        "container": "container",
-        "color_schema": "",
-        "text_alignment": "left",
-        "padding_top": 40,
-        "padding_bottom": 0,
-        "show_section_divider": false,
-        "divider_width": "container",
-        "custom_id": "",
-        "custom_class": "",
-        "animations": "inherit"
-      },
       "blocks": {
         "heading_ram6g_intro": {
           "type": "heading",
@@ -133,17 +130,14 @@
         "text_ram6g_intro": {
           "type": "text",
           "settings": {
-            "text": "<p>The 5th Gen RAM 2500HD is undeniably one of the most capable heavy-duty trucks ever built. However, once you start loading up with heavy accessories or running a full tray and canopy conversion, Australia's strict payload limits can quickly hold you back.<\/p><p>That changes with an <strong>Offroad Industries (ORI) GVM upgrade<\/strong>.<\/p><p>As a Federally Approved Second Stage Manufacturer (SSM), ORI is leading the industry in GVM upgrades for the RAM 2500HD. We specialize in the critical <strong>NB1 to NB2 category pathway<\/strong>, delivering a massive payload increase alongside complete legal peace of mind.<\/p><h3>Why Choose an ORI GVM Upgrade?<\/h3><ul><li><strong>The NB1 to NB2 Pathway:<\/strong> By officially reclassifying your RAM 2500HD from the NB1 to the NB2 vehicle category, our engineered upgrade safely and legally unlocks a significantly higher payload capacity for all your heavy-duty builds.<\/li><li><strong>Premium FOX & BDS Components:<\/strong> We don't just increase your load limits; we upgrade your entire ride. Our packages feature top-tier suspension components from <strong>FOX<\/strong> and <strong>BDS<\/strong>, ensuring unmatched performance, durability, and ride quality whether you're on the highway or off the grid.<\/li><li><strong>Pre-Rego & Post-Rego Flexibility:<\/strong> Whether you are upgrading a brand-new vehicle prior to its first registration (Federal compliance) or modifying a truck that is already on the road (State-based compliance), our packages are fully backed and recognized.<\/li><\/ul><p><strong>Important Note:<\/strong> This GVM upgrade is exclusively available for official RAM Trucks Australia delivered and converted vehicles.<\/p><p>Upgrade your RAM 2500 5th Gen with a package designed specifically for the platform. Experience a massive payload increase, superior suspension performance, and the confidence that your truck is 100% road-legal across Australia.<\/p>"
+            "text": "<p>The 5th Gen RAM 2500HD is undeniably one of the most capable heavy-duty trucks ever built. However, once you start loading up with heavy accessories or running a full tray and canopy conversion, Australia's strict payload limits can quickly hold you back.</p><p>That changes with an <strong>Offroad Industries (ORI) GVM upgrade</strong>.</p><p>As a Federally Approved Second Stage Manufacturer (SSM), ORI is leading the industry in GVM upgrades for the RAM 2500HD. We specialize in the critical <strong>NB1 to NB2 category pathway</strong>, delivering a massive payload increase alongside complete legal peace of mind.</p><h3>Why Choose an ORI GVM Upgrade?</h3><ul><li><strong>The NB1 to NB2 Pathway:</strong> By officially reclassifying your RAM 2500HD from the NB1 to the NB2 vehicle category, our engineered upgrade safely and legally unlocks a significantly higher payload capacity for all your heavy-duty builds.</li><li><strong>Premium FOX & BDS Components:</strong> We don't just increase your load limits; we upgrade your entire ride. Our packages feature top-tier suspension components from <strong>FOX</strong> and <strong>BDS</strong>, ensuring unmatched performance, durability, and ride quality whether you're on the highway or off the grid.</li><li><strong>Pre-Rego & Post-Rego Flexibility:</strong> Whether you are upgrading a brand-new vehicle prior to its first registration (Federal compliance) or modifying a truck that is already on the road (State-based compliance), our packages are fully backed and recognized.</li></ul><p><strong>Important Note:</strong> This GVM upgrade is exclusively available for official RAM Trucks Australia delivered and converted vehicles.</p><p>Upgrade your RAM 2500 5th Gen with a package designed specifically for the platform. Experience a massive payload increase, superior suspension performance, and the confidence that your truck is 100% road-legal across Australia.</p>"
           }
         }
       },
       "block_order": [
         "heading_ram6g_intro",
         "text_ram6g_intro"
-      ]
-    },
-    "rich_text_ram5g_pkg_heading": {
-      "type": "rich-text",
+      ],
       "settings": {
         "container": "container",
         "color_schema": "",
@@ -152,10 +146,13 @@
         "padding_bottom": 0,
         "show_section_divider": false,
         "divider_width": "container",
-        "custom_id": "gvmpackages",
+        "custom_id": "",
         "custom_class": "",
         "animations": "inherit"
-      },
+      }
+    },
+    "rich_text_ram5g_pkg_heading": {
+      "type": "rich-text",
       "blocks": {
         "heading_ram6g_pkg": {
           "type": "heading",
@@ -170,34 +167,22 @@
       },
       "block_order": [
         "heading_ram6g_pkg"
-      ]
-    },
-    "image_with_text_ram5g_s1": {
-      "type": "image-with-text",
+      ],
       "settings": {
         "container": "container",
         "color_schema": "",
-        "image": "shopify:\/\/shop_images\/STAGE_1_RAM_2500_5th_GEN_all_products.png",
-        "image_width": "50%",
-        "image_position": "left",
-        "vertical_alignment": "center",
-        "column_gap": "medium",
-        "row_gap": "medium",
-        "padding_left": 0,
-        "padding_right": 0,
-        "align_content_container": "none",
-        "mobile_padding_left": 15,
-        "mobile_padding_right": 15,
+        "text_alignment": "left",
         "padding_top": 40,
-        "padding_bottom": 40,
-        "padding_top_mobile": 60,
-        "padding_bottom_mobile": 60,
+        "padding_bottom": 0,
         "show_section_divider": false,
         "divider_width": "container",
-        "custom_id": "",
+        "custom_id": "gvmpackages",
         "custom_class": "",
         "animations": "inherit"
-      },
+      }
+    },
+    "image_with_text_ram5g_s1": {
+      "type": "image-with-text",
       "blocks": {
         "subheading_ram6g_s1": {
           "type": "subheading",
@@ -208,7 +193,7 @@
         "heading_ram6g_s1": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Stage 1: 2\" Lift | Fox 2.5 | 5300 GVM<\/strong>",
+            "heading": "<strong>Stage 1: 2\" Lift | Fox 2.5 | 5300 GVM</strong>",
             "highlight_style": "none",
             "enable_highlight_text_color": false,
             "heading_size": "h2"
@@ -217,7 +202,7 @@
         "text_ram6g_s1": {
           "type": "text",
           "settings": {
-            "text": "<p><em>RAM 2500 HD 5th generation 2019 - 2024. NB2 truck licence.<\/em><\/p><ul><li><strong>GVM:<\/strong> 5300kg | <strong>GCM:<\/strong> 12,695kg | <strong>Braked Towing:<\/strong> 4500kg<\/li><li><strong>Payload:<\/strong> 1680kg, a 90% increase on the factory 886kg.<\/li><li><strong>Lift:<\/strong> 2\" lift.<\/li><li><strong>Included:<\/strong> Fox 2.5 HTO Performance Series shocks, ORI load rated coils, Husky flares colour coded to suit your vehicle.<\/li><li><strong>NOTE:<\/strong> Load rated wheels and tyres are required for this stage.<\/li><li><strong>Compliance:<\/strong> SSM federally approved Australia wide, Pre and Post rego only (VTA-064942).<\/li><\/ul><p><em><strong>Wheels and tyres not included.<\/strong><\/em><\/p>"
+            "text": "<p><em>RAM 2500 HD 5th generation 2019 - 2024. NB2 truck licence.</em></p><ul><li><strong>GVM:</strong> 5300kg | <strong>GCM:</strong> 12,695kg | <strong>Braked Towing:</strong> 4500kg</li><li><strong>Payload:</strong> 1680kg, a 90% increase on the factory 886kg.</li><li><strong>Lift:</strong> 2\" lift.</li><li><strong>Included:</strong> Fox 2.5 HTO Performance Series shocks, ORI load rated coils, Husky flares colour coded to suit your vehicle.</li><li><strong>NOTE:</strong> Load rated wheels and tyres are required for this stage.</li><li><strong>Compliance:</strong> SSM federally approved Australia wide, Pre and Post rego only (VTA-064942).</li></ul><p><em><strong>Wheels and tyres not included.</strong></em></p>"
           }
         }
       },
@@ -225,14 +210,10 @@
         "subheading_ram6g_s1",
         "heading_ram6g_s1",
         "text_ram6g_s1"
-      ]
-    },
-    "image_with_text_ram5g_s2": {
-      "type": "image-with-text",
+      ],
       "settings": {
         "container": "container",
         "color_schema": "",
-        "image": "shopify:\/\/shop_images\/STAGE_2_RAM_2500_5th_GEN_all_products.png",
         "image_width": "50%",
         "image_position": "left",
         "vertical_alignment": "center",
@@ -252,7 +233,10 @@
         "custom_id": "",
         "custom_class": "",
         "animations": "inherit"
-      },
+      }
+    },
+    "image_with_text_ram5g_s2": {
+      "type": "image-with-text",
       "blocks": {
         "subheading_ram6g_s2": {
           "type": "subheading",
@@ -263,7 +247,7 @@
         "heading_ram6g_s2": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Stage 2: 2\" Lift | Fox 2.5 | 5550 GVM<\/strong>",
+            "heading": "<strong>Stage 2: 2\" Lift | Fox 2.5 | 5550 GVM</strong>",
             "highlight_style": "none",
             "enable_highlight_text_color": false,
             "heading_size": "h2"
@@ -272,7 +256,7 @@
         "text_ram6g_s2": {
           "type": "text",
           "settings": {
-            "text": "<p><em>RAM 2500 HD 5th generation 2019 - 2024. NB2 truck licence.<\/em><\/p><ul><li><strong>GVM:<\/strong> 5550kg | <strong>GCM:<\/strong> 12,695kg | <strong>Braked Towing:<\/strong> 4500kg<\/li><li><strong>Payload:<\/strong> 1661kg, an 87.5% increase on the factory 886kg.<\/li><li><strong>Lift & Tyres:<\/strong> 2\" lift, 35\" tyres legal.<\/li><li><strong>Included:<\/strong> Fox 2.5 Performance Elite Series reservoir shocks, ORI load rated coils, Husky flares colour coded to suit your vehicle.<\/li><li><strong>NOTE:<\/strong> Load rated wheels and tyres are required for this stage.<\/li><li><strong>Compliance:<\/strong> SSM federally approved Australia wide, Pre and Post rego only (VTA-064942).<\/li><\/ul><p><em>Wheels and tyres not included.<\/em><\/p>"
+            "text": "<p><em>RAM 2500 HD 5th generation 2019 - 2024. NB2 truck licence.</em></p><ul><li><strong>GVM:</strong> 5550kg | <strong>GCM:</strong> 12,695kg | <strong>Braked Towing:</strong> 4500kg</li><li><strong>Payload:</strong> 1661kg, an 87.5% increase on the factory 886kg.</li><li><strong>Lift & Tyres:</strong> 2\" lift, 35\" tyres legal.</li><li><strong>Included:</strong> Fox 2.5 Performance Elite Series reservoir shocks, ORI load rated coils, Husky flares colour coded to suit your vehicle.</li><li><strong>NOTE:</strong> Load rated wheels and tyres are required for this stage.</li><li><strong>Compliance:</strong> SSM federally approved Australia wide, Pre and Post rego only (VTA-064942).</li></ul><p><em>Wheels and tyres not included.</em></p>"
           }
         }
       },
@@ -280,14 +264,10 @@
         "subheading_ram6g_s2",
         "heading_ram6g_s2",
         "text_ram6g_s2"
-      ]
-    },
-    "image_with_text_ram5g_s3": {
-      "type": "image-with-text",
+      ],
       "settings": {
         "container": "container",
         "color_schema": "",
-        "image": "shopify:\/\/shop_images\/STAGE_3_RAM_2500_5th_GEN_all_products.png",
         "image_width": "50%",
         "image_position": "left",
         "vertical_alignment": "center",
@@ -307,7 +287,10 @@
         "custom_id": "",
         "custom_class": "",
         "animations": "inherit"
-      },
+      }
+    },
+    "image_with_text_ram5g_s3": {
+      "type": "image-with-text",
       "blocks": {
         "subheading_ram6g_s3": {
           "type": "subheading",
@@ -318,7 +301,7 @@
         "heading_ram6g_s3": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Stage 3: 3\" BDS | Fox 2.5 | 5550 GVM<\/strong>",
+            "heading": "<strong>Stage 3: 3\" BDS | Fox 2.5 | 5550 GVM</strong>",
             "highlight_style": "none",
             "enable_highlight_text_color": false,
             "heading_size": "h2"
@@ -327,7 +310,7 @@
         "text_ram6g_s3": {
           "type": "text",
           "settings": {
-            "text": "<p><em>RAM 2500 HD 5th generation 2019 - 2024. NB2 truck licence.<\/em><\/p><ul><li><strong>GVM:<\/strong> 5550kg | <strong>GCM:<\/strong> 12,695kg | <strong>Braked Towing:<\/strong> 4500kg<\/li><li><strong>Payload:<\/strong> 1655kg, an 86.8% increase on the factory 886kg.<\/li><li><strong>Lift &amp; Tyres:<\/strong> 3\" BDS lift, 35\" tyres legal.<\/li><li><strong>Included:<\/strong> Fox 2.5 Performance Elite Series reservoir shocks, BDS 3\" lift kit with radius arms, ORI load rated coils, Husky flares colour coded to suit your vehicle.<\/li><li><strong>NOTE:<\/strong> Load rated wheels and tyres are required for this stage.<\/li><li><strong>Compliance:<\/strong> SSM federally approved Australia wide, Fox and BDS Suspension components, Pre and Post rego only (VTA-064942).<\/li><\/ul><p><em>Wheels and tyres not included.<\/em><\/p>"
+            "text": "<p><em>RAM 2500 HD 5th generation 2019 - 2024. NB2 truck licence.</em></p><ul><li><strong>GVM:</strong> 5550kg | <strong>GCM:</strong> 12,695kg | <strong>Braked Towing:</strong> 4500kg</li><li><strong>Payload:</strong> 1655kg, an 86.8% increase on the factory 886kg.</li><li><strong>Lift &amp; Tyres:</strong> 3\" BDS lift, 35\" tyres legal.</li><li><strong>Included:</strong> Fox 2.5 Performance Elite Series reservoir shocks, BDS 3\" lift kit with radius arms, ORI load rated coils, Husky flares colour coded to suit your vehicle.</li><li><strong>NOTE:</strong> Load rated wheels and tyres are required for this stage.</li><li><strong>Compliance:</strong> SSM federally approved Australia wide, Fox and BDS Suspension components, Pre and Post rego only (VTA-064942).</li></ul><p><em>Wheels and tyres not included.</em></p>"
           }
         }
       },
@@ -335,22 +318,33 @@
         "subheading_ram6g_s3",
         "heading_ram6g_s3",
         "text_ram6g_s3"
-      ]
-    },
-    "rich_text_ram5g_spec_heading": {
-      "type": "rich-text",
+      ],
       "settings": {
         "container": "container",
         "color_schema": "",
-        "text_alignment": "left",
+        "image_width": "50%",
+        "image_position": "left",
+        "vertical_alignment": "center",
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "padding_left": 0,
+        "padding_right": 0,
+        "align_content_container": "none",
+        "mobile_padding_left": 15,
+        "mobile_padding_right": 15,
         "padding_top": 40,
-        "padding_bottom": 0,
+        "padding_bottom": 40,
+        "padding_top_mobile": 60,
+        "padding_bottom_mobile": 60,
         "show_section_divider": false,
         "divider_width": "container",
-        "custom_id": "gvmspecification",
+        "custom_id": "",
         "custom_class": "",
         "animations": "inherit"
-      },
+      }
+    },
+    "rich_text_ram5g_spec_heading": {
+      "type": "rich-text",
       "blocks": {
         "heading_ram6g_spec": {
           "type": "heading",
@@ -365,34 +359,22 @@
       },
       "block_order": [
         "heading_ram6g_spec"
-      ]
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "text_alignment": "left",
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "gvmspecification",
+        "custom_class": "",
+        "animations": "inherit"
+      }
     },
     "gvm_comparison_ram5g_specs": {
       "type": "gvm-comparison",
-      "settings": {
-        "anchor_id": "compare",
-        "heading": "",
-        "details_heading": "",
-        "columns": "4",
-        "col_title_1": "OEM",
-        "col_title_2": "Stage 1",
-        "col_title_3": "Stage 2",
-        "col_title_4": "Stage 3",
-        "col_title_5": "",
-        "col_title_6": "",
-        "col_title_7": "",
-        "col_title_8": "",
-        "col_title_9": "",
-        "col_title_10": "",
-        "container_width": "90%",
-        "heading_color": "#111111",
-        "text_color": "#111111",
-        "line_color": "#111111",
-        "mobile_card_bg": "#f5f3ee",
-        "mobile_card_text": "#111111",
-        "padding_top": 0,
-        "padding_bottom": 0
-      },
       "blocks": {
         "row_spec_01": {
           "type": "row",
@@ -573,7 +555,7 @@
         "row_spec_12": {
           "type": "row",
           "settings": {
-            "label": "Requires Wheel\/ Tyre Upgrade",
+            "label": "Requires Wheel/ Tyre Upgrade",
             "value_1": "",
             "value_2": "Yes",
             "value_3": "Yes",
@@ -617,16 +599,13 @@
         "row_spec_11",
         "row_spec_12",
         "row_spec_13"
-      ]
-    },
-    "gvm_comparison_ram5g_components": {
-      "type": "gvm-comparison",
+      ],
       "settings": {
-        "anchor_id": "compare1",
+        "anchor_id": "compare",
         "heading": "",
-        "details_heading": "Item",
+        "details_heading": "",
         "columns": "4",
-        "col_title_1": "Part Number",
+        "col_title_1": "OEM",
         "col_title_2": "Stage 1",
         "col_title_3": "Stage 2",
         "col_title_4": "Stage 3",
@@ -644,7 +623,10 @@
         "mobile_card_text": "#111111",
         "padding_top": 0,
         "padding_bottom": 0
-      },
+      }
+    },
+    "gvm_comparison_ram5g_components": {
+      "type": "gvm-comparison",
       "blocks": {
         "row_part_01": {
           "type": "row",
@@ -852,7 +834,31 @@
         "row_gvm_part_number_5g",
         "row_part_10",
         "row_part_11"
-      ]
+      ],
+      "settings": {
+        "anchor_id": "compare1",
+        "heading": "",
+        "details_heading": "Item",
+        "columns": "4",
+        "col_title_1": "Part Number",
+        "col_title_2": "Stage 1",
+        "col_title_3": "Stage 2",
+        "col_title_4": "Stage 3",
+        "col_title_5": "",
+        "col_title_6": "",
+        "col_title_7": "",
+        "col_title_8": "",
+        "col_title_9": "",
+        "col_title_10": "",
+        "container_width": "90%",
+        "heading_color": "#111111",
+        "text_color": "#111111",
+        "line_color": "#111111",
+        "mobile_card_bg": "#f5f3ee",
+        "mobile_card_text": "#111111",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     },
     "frequently_bought_with_rJHRpy": {
       "type": "frequently-bought-with",
@@ -889,25 +895,6 @@
     },
     "contact_form_v4_ram5g": {
       "type": "contact-form-v4",
-      "settings": {
-        "container": "container",
-        "color_schema": "",
-        "heading": "GVM Enquiry? Contact Us Now",
-        "subheading": "",
-        "description": "",
-        "form_design": "design-1",
-        "form_width": 500,
-        "form_alignment": "center",
-        "button_label": "Send",
-        "button_style": "btn--primary",
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "show_section_divider": false,
-        "divider_width": "container",
-        "custom_id": "gvmexperts",
-        "custom_class": "",
-        "animations": "inherit"
-      },
       "blocks": {
         "name_ram6g": {
           "type": "name",
@@ -1006,16 +993,99 @@
         "stage_ram6g",
         "location_ram6g",
         "message_ram6g"
-      ]
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "heading": "GVM Enquiry? Contact Us Now",
+        "subheading": "",
+        "description": "",
+        "form_design": "design-1",
+        "form_width": 500,
+        "form_alignment": "center",
+        "button_label": "Send",
+        "button_style": "btn--primary",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "gvmexperts",
+        "custom_class": "",
+        "animations": "inherit"
+      }
     },
     "collapsible_tabs_ram5g": {
       "type": "collapsible-tabs",
+      "blocks": {
+        "content_ram6g_1": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "RAM 2500 5th Gen GVM Upgrades — Carry More, Tow Better, Go Further",
+            "content": "<p>The RAM 2500 5th Gen is one of the most capable heavy-duty trucks ever delivered to Australian shores, but its factory GVM rating can still limit what you can legally carry when you're fully kitted out with accessories, a loaded tray, and a trailer in tow. That's where an ORI GVM upgrade comes in.</p><p>A GVM upgrade isn't just a number change on paper — it's a complete engineering solution that gives your RAM 2500 the legal capacity to carry the gear you actually need, with the suspension components to back it up. Whether you're hauling tools for work, touring Australia with a heavy van, or running a tray and canopy conversion, our stage packages give you a fully certified, legal, and capable platform.</p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "content_ram6g_2": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "RAM 2500 5th Gen GVM Upgrade — Compliant & Certified for Australia",
+            "content": "<p>When you upgrade your RAM 2500 5th Gen's GVM with Offroad Industries, you get complete legal coverage across Australia. ORI is a Federally Approved Second Stage Manufacturer (SSM), which means your upgrade is recorded on the official Federal database — giving you true legal status whether you're registering Pre-Rego or Post-Rego.</p><p>Every package includes engineering certification and all relevant documentation. Our GVM kits use only the best components from world-leading brands including Fox Suspension and BDS, all specifically engineered and tested for the RAM 2500 5th Gen platform — nothing generic, nothing untested.</p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "content_ram6g_3": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "How to Choose the Right GVM Stage for Your RAM 2500 5th Gen",
+            "content": "<p>Choosing the right GVM stage comes down to what you carry, what you tow, and how much lift you want. All three 5th Gen stages hold the full 4500kg braked towing capacity and a 12,474kg GCM, and all three run up to 35x12.5 R18 or 35x12.5 R20 tyres.</p><p>Stage 1 takes GVM to 5300kg for a payload of 1680kg, a 90% increase on the factory 886kg, on a 2 inch lift with Fox 2.5 HTO Performance Series shocks and ORI load rated coils. Stage 2 keeps the same 2 inch stance and steps up to Fox 2.5 Performance Elite Series reservoir shocks, taking GVM to 5550kg for a payload of 1661kg. Stage 3 runs that same 5550kg GVM on a BDS 3 inch lift kit with radius arms to keep the front geometry correct, for a payload of 1655kg.</p><p>All three stages require load rated wheels and tyres, and move the wheel offset from POS 47 to Pos 18, so budget for a wheel and tyre package alongside the upgrade. Not sure which stage suits you? Contact our GVM experts and we’ll help you find the right fit.</p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "content_ram6g_4": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "RAM 2500 5th Gen GVM Upgrade — Compliance, Insurance & Registration",
+            "content": "<p>One of the most important aspects of any GVM upgrade is compliance. All ORI GVM packages for the RAM 2500 5th Gen are engineered to meet Australian Design Rules (ADR) and are registered through our SSM approval — meaning your upgrade is legal to drive in any Australian state or territory.</p><p>Because our upgrades go through proper federal engineering channels, your vehicle remains insured and your warranty position is clearly documented. We handle the paperwork and certification so you can focus on the road ahead. If you have questions about the process, our team is happy to walk you through exactly what's involved.</p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "content_ram6g_5": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "Why Choose ORI for Your RAM 2500 5th Gen GVM Upgrade?",
+            "content": "<p>Offroad Industries has engineered GVM upgrade systems for some of Australia's most demanding drivers across some of the country's harshest terrain. Our RAM 2500 5th Gen packages were developed specifically for this platform — not adapted from another vehicle — with components tested under Australian conditions.</p><p>With Fox Suspension and BDS as our key partners, every stage delivers premium ride quality, long-term durability, and genuine compliance. From installation and engineering through to certification and handover, ORI takes care of everything. Explore the package range above or get in touch with our team to start your upgrade journey.</p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        }
+      },
+      "block_order": [
+        "content_ram6g_1",
+        "content_ram6g_2",
+        "content_ram6g_3",
+        "content_ram6g_4",
+        "content_ram6g_5"
+      ],
       "settings": {
         "container": "container",
         "color_schema": "",
         "section_header_padding_bottom": "medium",
         "section_header_content_spacing": "medium",
-        "heading": "<strong>Frequently Asked Questions (FAQs)<\/strong>",
+        "heading": "<strong>Frequently Asked Questions (FAQs)</strong>",
         "highlight_style": "none",
         "enable_highlight_text_color": false,
         "heading_size": "h2",
@@ -1033,86 +1103,10 @@
         "custom_id": "faqs",
         "custom_class": "",
         "animations": "inherit"
-      },
-      "blocks": {
-        "content_ram6g_1": {
-          "type": "content",
-          "settings": {
-            "icon": "none",
-            "title": "RAM 2500 5th Gen GVM Upgrades — Carry More, Tow Better, Go Further",
-            "content": "<p>The RAM 2500 5th Gen is one of the most capable heavy-duty trucks ever delivered to Australian shores, but its factory GVM rating can still limit what you can legally carry when you're fully kitted out with accessories, a loaded tray, and a trailer in tow. That's where an ORI GVM upgrade comes in.<\/p><p>A GVM upgrade isn't just a number change on paper — it's a complete engineering solution that gives your RAM 2500 the legal capacity to carry the gear you actually need, with the suspension components to back it up. Whether you're hauling tools for work, touring Australia with a heavy van, or running a tray and canopy conversion, our stage packages give you a fully certified, legal, and capable platform.<\/p>",
-            "custom_liquid": "",
-            "content_page": "",
-            "open": false
-          }
-        },
-        "content_ram6g_2": {
-          "type": "content",
-          "settings": {
-            "icon": "none",
-            "title": "RAM 2500 5th Gen GVM Upgrade — Compliant & Certified for Australia",
-            "content": "<p>When you upgrade your RAM 2500 5th Gen's GVM with Offroad Industries, you get complete legal coverage across Australia. ORI is a Federally Approved Second Stage Manufacturer (SSM), which means your upgrade is recorded on the official Federal database — giving you true legal status whether you're registering Pre-Rego or Post-Rego.<\/p><p>Every package includes engineering certification and all relevant documentation. Our GVM kits use only the best components from world-leading brands including Fox Suspension and BDS, all specifically engineered and tested for the RAM 2500 5th Gen platform — nothing generic, nothing untested.<\/p>",
-            "custom_liquid": "",
-            "content_page": "",
-            "open": false
-          }
-        },
-        "content_ram6g_3": {
-          "type": "content",
-          "settings": {
-            "icon": "none",
-            "title": "How to Choose the Right GVM Stage for Your RAM 2500 5th Gen",
-            "content": "<p>Choosing the right GVM stage comes down to what you carry, what you tow, and how much lift you want. All three 5th Gen stages hold the full 4500kg braked towing capacity and a 12,474kg GCM, and all three run up to 35x12.5 R18 or 35x12.5 R20 tyres.<\/p><p>Stage 1 takes GVM to 5300kg for a payload of 1680kg, a 90% increase on the factory 886kg, on a 2 inch lift with Fox 2.5 HTO Performance Series shocks and ORI load rated coils. Stage 2 keeps the same 2 inch stance and steps up to Fox 2.5 Performance Elite Series reservoir shocks, taking GVM to 5550kg for a payload of 1661kg. Stage 3 runs that same 5550kg GVM on a BDS 3 inch lift kit with radius arms to keep the front geometry correct, for a payload of 1655kg.<\/p><p>All three stages require load rated wheels and tyres, and move the wheel offset from POS 47 to Pos 18, so budget for a wheel and tyre package alongside the upgrade. Not sure which stage suits you? Contact our GVM experts and we’ll help you find the right fit.<\/p>",
-            "custom_liquid": "",
-            "content_page": "",
-            "open": false
-          }
-        },
-        "content_ram6g_4": {
-          "type": "content",
-          "settings": {
-            "icon": "none",
-            "title": "RAM 2500 5th Gen GVM Upgrade — Compliance, Insurance & Registration",
-            "content": "<p>One of the most important aspects of any GVM upgrade is compliance. All ORI GVM packages for the RAM 2500 5th Gen are engineered to meet Australian Design Rules (ADR) and are registered through our SSM approval — meaning your upgrade is legal to drive in any Australian state or territory.<\/p><p>Because our upgrades go through proper federal engineering channels, your vehicle remains insured and your warranty position is clearly documented. We handle the paperwork and certification so you can focus on the road ahead. If you have questions about the process, our team is happy to walk you through exactly what's involved.<\/p>",
-            "custom_liquid": "",
-            "content_page": "",
-            "open": false
-          }
-        },
-        "content_ram6g_5": {
-          "type": "content",
-          "settings": {
-            "icon": "none",
-            "title": "Why Choose ORI for Your RAM 2500 5th Gen GVM Upgrade?",
-            "content": "<p>Offroad Industries has engineered GVM upgrade systems for some of Australia's most demanding drivers across some of the country's harshest terrain. Our RAM 2500 5th Gen packages were developed specifically for this platform — not adapted from another vehicle — with components tested under Australian conditions.<\/p><p>With Fox Suspension and BDS as our key partners, every stage delivers premium ride quality, long-term durability, and genuine compliance. From installation and engineering through to certification and handover, ORI takes care of everything. Explore the package range above or get in touch with our team to start your upgrade journey.<\/p>",
-            "custom_liquid": "",
-            "content_page": "",
-            "open": false
-          }
-        }
-      },
-      "block_order": [
-        "content_ram6g_1",
-        "content_ram6g_2",
-        "content_ram6g_3",
-        "content_ram6g_4",
-        "content_ram6g_5"
-      ]
+      }
     },
     "rich_text_ram5g_suspension": {
       "type": "rich-text",
-      "settings": {
-        "container": "container",
-        "color_schema": "",
-        "text_alignment": "left",
-        "padding_top": 40,
-        "padding_bottom": 0,
-        "show_section_divider": false,
-        "divider_width": "container",
-        "custom_id": "suspensioncollection",
-        "custom_class": "",
-        "animations": "inherit"
-      },
       "blocks": {
         "heading_ram6g_suspension": {
           "type": "heading",
@@ -1127,10 +1121,66 @@
       },
       "block_order": [
         "heading_ram6g_suspension"
-      ]
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "text_alignment": "left",
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "suspensioncollection",
+        "custom_class": "",
+        "animations": "inherit"
+      }
     },
     "logo_list_ram5g": {
       "type": "logo-list",
+      "blocks": {
+        "logo_cpKqVD": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/ICONS_FOR_WEBSITE_FOX.png",
+            "image_from_url": "",
+            "image_link": "",
+            "image_width": 80
+          }
+        },
+        "logo_HXcdg3": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/ICONS_FOR_WEBSITE_BDS.png",
+            "image_from_url": "",
+            "image_link": "",
+            "image_width": 80
+          }
+        },
+        "logo_kg3grH": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/ICONS_FOR_WEBSITE_BUSHWACKER.png",
+            "image_from_url": "",
+            "image_link": "",
+            "image_width": 80
+          }
+        },
+        "logo_mVCjy7": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/peak_final-copy-small.jpg",
+            "image_from_url": "",
+            "image_link": "",
+            "image_width": 80
+          }
+        }
+      },
+      "block_order": [
+        "logo_cpKqVD",
+        "logo_HXcdg3",
+        "logo_kg3grH",
+        "logo_mVCjy7"
+      ],
       "settings": {
         "container": "container",
         "color_schema": "",
@@ -1157,51 +1207,7 @@
         "custom_id": "",
         "custom_class": "",
         "animations": "inherit"
-      },
-      "blocks": {
-        "logo_cpKqVD": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ICONS_FOR_WEBSITE_FOX.png",
-            "image_from_url": "",
-            "image_link": "",
-            "image_width": 80
-          }
-        },
-        "logo_HXcdg3": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ICONS_FOR_WEBSITE_BDS.png",
-            "image_from_url": "",
-            "image_link": "",
-            "image_width": 80
-          }
-        },
-        "logo_kg3grH": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ICONS_FOR_WEBSITE_BUSHWACKER.png",
-            "image_from_url": "",
-            "image_link": "",
-            "image_width": 80
-          }
-        },
-        "logo_mVCjy7": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/peak_final-copy-small.jpg",
-            "image_from_url": "",
-            "image_link": "",
-            "image_width": 80
-          }
-        }
-      },
-      "block_order": [
-        "logo_cpKqVD",
-        "logo_HXcdg3",
-        "logo_kg3grH",
-        "logo_mVCjy7"
-      ]
+      }
     }
   },
   "order": [
