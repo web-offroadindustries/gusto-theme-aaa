@@ -542,6 +542,7 @@
       "block_order": [
         "text_g3UJNm"
       ],
+      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "container": "container",
