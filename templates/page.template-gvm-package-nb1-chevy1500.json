@@ -1,34 +1,26 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "main-page",
-      "settings": {},
-      "disabled": true
+      "disabled": true,
+      "settings": {}
     },
     "slideshow_CtnG98": {
       "type": "slideshow",
-      "settings": {
-        "container": "container-full",
-        "slideshow_height": "adapt",
-        "show_dots": false,
-        "show_nav": false,
-        "autoplay": false,
-        "autorotate_speed": 3,
-        "pagination_background": "light",
-        "controls_position": "center",
-        "pagination_style": "dots",
-        "show_text_below": false,
-        "text_alignment_mobile": "center",
-        "accessibility_info": "Slideshow about our brand",
-        "custom_id": "",
-        "custom_class": "",
-        "enable_bg_zoom_effect": false
-      },
       "blocks": {
         "slide_bW6A4P": {
           "type": "slide",
           "settings": {
-            "background": "shopify:\/\/shop_images\/2000x560_-_Chevy_1500_LTZ_ZR2_Stage_1_-4.png",
+            "background": "shopify://shop_images/2000x560_-_Chevy_1500_LTZ_ZR2_Stage_1_-4.png",
             "image_overlay_opacity": 0,
             "content_position": "center",
             "text_alignment": "center",
@@ -52,22 +44,27 @@
       },
       "block_order": [
         "slide_bW6A4P"
-      ]
+      ],
+      "settings": {
+        "container": "container-full",
+        "slideshow_height": "adapt",
+        "show_dots": false,
+        "show_nav": false,
+        "autoplay": false,
+        "autorotate_speed": 3,
+        "pagination_background": "light",
+        "controls_position": "center",
+        "pagination_style": "dots",
+        "show_text_below": false,
+        "text_alignment_mobile": "center",
+        "accessibility_info": "Slideshow about our brand",
+        "custom_id": "",
+        "custom_class": "",
+        "enable_bg_zoom_effect": false
+      }
     },
     "jump_links_UeawGp": {
       "type": "jump-links",
-      "settings": {
-        "container_mode": "full",
-        "container_width": "1200",
-        "bg_color": "#ffffff",
-        "text_color": "#111111",
-        "hover_color": "#111111",
-        "active_color": "#111111",
-        "border_color": "#0000001f",
-        "pad_y": 10,
-        "offset": 0,
-        "duration": 650
-      },
       "blocks": {
         "link_C8imG8": {
           "type": "link",
@@ -111,22 +108,22 @@
         "link_AGYMRH",
         "link_8FKHCp",
         "link_KmD9dx"
-      ]
+      ],
+      "settings": {
+        "container_mode": "full",
+        "container_width": "1200",
+        "bg_color": "#ffffff",
+        "text_color": "#111111",
+        "hover_color": "#111111",
+        "active_color": "#111111",
+        "border_color": "#0000001f",
+        "pad_y": 10,
+        "offset": 0,
+        "duration": 650
+      }
     },
     "rich_text_GbXVUF": {
       "type": "rich-text",
-      "settings": {
-        "container": "container",
-        "color_schema": "",
-        "text_alignment": "left",
-        "padding_top": 40,
-        "padding_bottom": 0,
-        "show_section_divider": false,
-        "divider_width": "container",
-        "custom_id": "",
-        "custom_class": "",
-        "animations": "inherit"
-      },
       "blocks": {
         "heading_XhCLHT": {
           "type": "heading",
@@ -141,17 +138,14 @@
         "text_CfcJd4": {
           "type": "text",
           "settings": {
-            "text": "<p>You didn’t buy a Chevy Silverado 1500 to blend in. But if you want to run massive tyres, lift it to the sky, and actually <em>use<\/em> it for serious towing and payload—all while staying completely legal on Australian roads—factory suspension just won't cut it.<\/p><p>Enter our <strong>Federally Approved Second Stage Manufacture (SSM) Packages<\/strong>.<\/p><p>Engineered exclusively for the Australian market, these comprehensive upgrades combine premium <strong>BDS Suspension<\/strong> lifts with race-proven <strong>Fox Shocks<\/strong>. Whether you are looking for an aggressive daily driver or a towering off-road monster on 37s, we have a pre-registration package to match your vision.  <\/p><p>Say goodbye to the factory 757 kg payload limit. Every stage below includes a fully certified GVM upgrade, bumping your payload.<\/p><p>Choose your stance.<\/p><p>Contact an Authorised ORI GVM Installer.<\/p>"
+            "text": "<p>You didn’t buy a Chevy Silverado 1500 to blend in. But if you want to run massive tyres, lift it to the sky, and actually <em>use</em> it for serious towing and payload—all while staying completely legal on Australian roads—factory suspension just won't cut it.</p><p>Enter our <strong>Federally Approved Second Stage Manufacture (SSM) Packages</strong>.</p><p>Engineered exclusively for the Australian market, these comprehensive upgrades combine premium <strong>BDS Suspension</strong> lifts with race-proven <strong>Fox Shocks</strong>. Whether you are looking for an aggressive daily driver or a towering off-road monster on 37s, we have a pre-registration package to match your vision.  </p><p>Say goodbye to the factory 757 kg payload limit. Every stage below includes a fully certified GVM upgrade, bumping your payload.</p><p>Choose your stance.</p><p>Contact an Authorised ORI GVM Installer.</p>"
           }
         }
       },
       "block_order": [
         "heading_XhCLHT",
         "text_CfcJd4"
-      ]
-    },
-    "rich_text_PtmRiF": {
-      "type": "rich-text",
+      ],
       "settings": {
         "container": "container",
         "color_schema": "",
@@ -160,10 +154,13 @@
         "padding_bottom": 0,
         "show_section_divider": false,
         "divider_width": "container",
-        "custom_id": "gvmpackages",
+        "custom_id": "",
         "custom_class": "",
         "animations": "inherit"
-      },
+      }
+    },
+    "rich_text_PtmRiF": {
+      "type": "rich-text",
       "blocks": {
         "heading_mpxUJy": {
           "type": "heading",
@@ -178,34 +175,22 @@
       },
       "block_order": [
         "heading_mpxUJy"
-      ]
-    },
-    "image_with_text_WcaAiR": {
-      "type": "image-with-text",
+      ],
       "settings": {
         "container": "container",
         "color_schema": "",
-        "image": "shopify:\/\/shop_images\/STAGE_1_CHEVY_1500_LTZ.png",
-        "image_width": "50%",
-        "image_position": "left",
-        "vertical_alignment": "center",
-        "column_gap": "medium",
-        "row_gap": "medium",
-        "padding_left": 0,
-        "padding_right": 0,
-        "align_content_container": "none",
-        "mobile_padding_left": 15,
-        "mobile_padding_right": 15,
+        "text_alignment": "left",
         "padding_top": 40,
-        "padding_bottom": 40,
-        "padding_top_mobile": 60,
-        "padding_bottom_mobile": 60,
+        "padding_bottom": 0,
         "show_section_divider": false,
         "divider_width": "container",
-        "custom_id": "",
+        "custom_id": "gvmpackages",
         "custom_class": "",
         "animations": "inherit"
-      },
+      }
+    },
+    "image_with_text_WcaAiR": {
+      "type": "image-with-text",
       "blocks": {
         "subheading_JVKNjL": {
           "type": "subheading",
@@ -216,7 +201,7 @@
         "heading_f9G7kD": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Stage 1 LTZ: 4\" BDS Lift | 3650 GVM | 35\" Tyres Legal<\/strong>",
+            "heading": "<strong>Stage 1 LTZ: 4\" BDS Lift | 3650 GVM | 35\" Tyres Legal</strong>",
             "highlight_style": "none",
             "enable_highlight_text_color": false,
             "heading_size": "h2"
@@ -225,7 +210,7 @@
         "text_fRRw7g": {
           "type": "text",
           "settings": {
-            "text": "<p><em>Chevrolet Silverado 1500 LTZ.<\/em><\/p><ul><li><strong>GVM:<\/strong> 3650kg | <strong>GCM:<\/strong> 8150kg | <strong>Braked Towing:<\/strong> 4500kg<\/li><li><strong>Lift & Tyres:<\/strong> 4\" BDS lift, 35\" tyres legal, running up to 35x12.5 R18 or 35x12.5 R20.<\/li><li><strong>Included:<\/strong> BDS 4\" suspension kit with Fox 2.5 Performance Elite (BDS1757FPE), BDS control arm upgrade for front-end strength (BDS121260), Husky Extenda Flare, ORI rear mud flap.<\/li><li><strong>Best For:<\/strong> LTZ owners who want the lifted stance and 35s without giving up any towing capacity, and who want the extra payload for touring and work loads, have perfect cv angles.<\/li><li><strong>Wheels:<\/strong> A load rated wheel and tyre upgrade is required, see details below<\/li><li><strong>Compliance:<\/strong> SSM federally approved Australia wide, Fox and BDS suspension components, PRE rego only (VTA-064440).<\/li><li><strong>Part Number:<\/strong> CHV-NB1-Stage1-LTZ<\/li><\/ul><p><em>Wheels and tyres not included.<\/em><\/p>"
+            "text": "<p><em>Chevrolet Silverado 1500 LTZ.</em></p><ul><li><strong>GVM:</strong> 3650kg | <strong>GCM:</strong> 8150kg | <strong>Braked Towing:</strong> 4500kg</li><li><strong>Lift & Tyres:</strong> 4\" BDS lift, 35\" tyres legal, running up to 35x12.5 R18 or 35x12.5 R20.</li><li><strong>Included:</strong> BDS 4\" suspension kit with Fox 2.5 Performance Elite (BDS1757FPE), BDS control arm upgrade for front-end strength (BDS121260), Husky Extenda Flare, ORI rear mud flap.</li><li><strong>Best For:</strong> LTZ owners who want the lifted stance and 35s without giving up any towing capacity, and who want the extra payload for touring and work loads, have perfect cv angles.</li><li><strong>Wheels:</strong> A load rated wheel and tyre upgrade is required, see details below</li><li><strong>Compliance:</strong> SSM federally approved Australia wide, Fox and BDS suspension components, PRE rego only (VTA-064440).</li><li><strong>Part Number:</strong> CHV-NB1-Stage1-LTZ</li></ul><p><em>Wheels and tyres not included.</em></p>"
           }
         }
       },
@@ -233,14 +218,11 @@
         "subheading_JVKNjL",
         "heading_f9G7kD",
         "text_fRRw7g"
-      ]
-    },
-    "image_with_text_pR9RXR": {
-      "type": "image-with-text",
+      ],
       "settings": {
         "container": "container",
         "color_schema": "",
-        "image": "shopify:\/\/shop_images\/STAGE_2_CHEVY_1500_ZR2.png",
+        "image": "shopify://shop_images/STAGE_1_CHEVY_1500_LTZ.webp",
         "image_width": "50%",
         "image_position": "left",
         "vertical_alignment": "center",
@@ -260,7 +242,10 @@
         "custom_id": "",
         "custom_class": "",
         "animations": "inherit"
-      },
+      }
+    },
+    "image_with_text_pR9RXR": {
+      "type": "image-with-text",
       "blocks": {
         "subheading_nNBqbG": {
           "type": "subheading",
@@ -271,7 +256,7 @@
         "heading_dHpa9y": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Stage 2 ZR2: 2\" BDS Lift | 3650 GVM | 35\" Tyres Legal<\/strong>",
+            "heading": "<strong>Stage 2 ZR2: 2\" BDS Lift | 3650 GVM | 35\" Tyres Legal</strong>",
             "highlight_style": "none",
             "enable_highlight_text_color": false,
             "heading_size": "h2"
@@ -280,7 +265,7 @@
         "text_eiTTm6": {
           "type": "text",
           "settings": {
-            "text": "<p><em>Chevrolet Silverado 1500 ZR2.<\/em><\/p><ul><li><strong>GVM:<\/strong> 3650kg | <strong>GCM:<\/strong> 7850kg | <strong>Braked Towing:<\/strong> 4200kg<\/li><li><strong>Lift & Tyres:<\/strong> This kit provides an additional 2\" of lift, 35\" tyres legal, running up to 35x12.5 R18 or 35x12.5 R20.<\/li><li><strong>Included:<\/strong> BDS 2\" suspension kit with Fox 2.5 Performance Elite (BDS1757FPE), BDS control arm upgrade for front-end strength (BDS121260), Rough Country SF1 flares specific for the zr2, ORI rear mud flap.<\/li><li><strong>Best For:<\/strong> ZR2 owners, who already sit higher from the factory and need less lift to clear the same 35\" tyre.<\/li><li><strong>NOTE:<\/strong> The ZR2 tows 4200kg from the factory, which is why this stage is rated to 4.2T rather than 4.5T.<\/li><li><strong>Wheels:<\/strong> A load rated wheel and tyre upgrade is required.<\/li><li><strong>Compliance:<\/strong> SSM federally approved Australia wide, Fox and BDS suspension components, PRE rego only (VTA-064440).<\/li><li><strong>Part Number:<\/strong> CHV-NB1-Stage2-ZR2<\/li><\/ul><p><em>Wheels and tyres not included.<\/em><\/p>"
+            "text": "<p><em>Chevrolet Silverado 1500 ZR2.</em></p><ul><li><strong>GVM:</strong> 3650kg | <strong>GCM:</strong> 7850kg | <strong>Braked Towing:</strong> 4200kg</li><li><strong>Lift & Tyres:</strong> This kit provides an additional 2\" of lift, 35\" tyres legal, running up to 35x12.5 R18 or 35x12.5 R20.</li><li><strong>Included:</strong> BDS 2\" suspension kit with Fox 2.5 Performance Elite (BDS1757FPE), BDS control arm upgrade for front-end strength (BDS121260), Rough Country SF1 flares specific for the zr2, ORI rear mud flap.</li><li><strong>Best For:</strong> ZR2 owners, who already sit higher from the factory and need less lift to clear the same 35\" tyre.</li><li><strong>NOTE:</strong> The ZR2 tows 4200kg from the factory, which is why this stage is rated to 4.2T rather than 4.5T.</li><li><strong>Wheels:</strong> A load rated wheel and tyre upgrade is required.</li><li><strong>Compliance:</strong> SSM federally approved Australia wide, Fox and BDS suspension components, PRE rego only (VTA-064440).</li><li><strong>Part Number:</strong> CHV-NB1-Stage2-ZR2</li></ul><p><em>Wheels and tyres not included.</em></p>"
           }
         }
       },
@@ -288,16 +273,13 @@
         "subheading_nNBqbG",
         "heading_dHpa9y",
         "text_eiTTm6"
-      ]
-    },
-    "image_with_text_M8ykcj": {
-      "type": "image-with-text",
+      ],
       "settings": {
         "container": "container",
         "color_schema": "",
-        "image": "shopify:\/\/shop_images\/STAGE_3_CHEVY_1500_LTZ.png",
+        "image": "shopify://shop_images/STAGE_2_CHEVY_1500_ZR2.webp",
         "image_width": "50%",
-        "image_position": "left",
+        "image_position": "right",
         "vertical_alignment": "center",
         "column_gap": "medium",
         "row_gap": "medium",
@@ -315,7 +297,10 @@
         "custom_id": "",
         "custom_class": "",
         "animations": "inherit"
-      },
+      }
+    },
+    "image_with_text_M8ykcj": {
+      "type": "image-with-text",
       "blocks": {
         "subheading_p3JeNT": {
           "type": "subheading",
@@ -326,7 +311,7 @@
         "heading_KMefdY": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Stage 3 LTZ: 6\" BDS Lift | 3650 GVM | 37\" Tyres Legal<\/strong>",
+            "heading": "<strong>Stage 3 LTZ: 6\" BDS Lift | 3650 GVM | 37\" Tyres Legal</strong>",
             "highlight_style": "none",
             "enable_highlight_text_color": false,
             "heading_size": "h2"
@@ -335,7 +320,7 @@
         "text_aVwiWh": {
           "type": "text",
           "settings": {
-            "text": "<p><em>Chevrolet Silverado 1500 LTZ.<\/em><\/p><ul><li><strong>GVM:<\/strong> 3650kg | <strong>GCM:<\/strong> 7160kg | <strong>Braked Towing:<\/strong> 4500kg<\/li><li><strong>Lift & Tyres:<\/strong> 6\" BDS lift, 37\" tyres legal, running up to 37x12.5 R18 or 37x12.5 R20.<\/li><li><strong>Included:<\/strong> BDS 6\" suspension kit with Fox 2.5 Performance Elite (BDS782FPE), BDS control arm upgrade for front-end strength (BDS121260), Husky Extenda Flare, ORI rear mud flap.<\/li><li><strong>Best For:<\/strong> LTZ owners who want the biggest lift and the biggest tyre in the programme, fully compliant and covered under our SSM approval.<\/li><li><strong>NOTE:<\/strong> Gross Combined Mass stays at the factory 7160kg on this stage.<\/li><li><strong>Wheels:<\/strong> A load rated wheel and tyre upgrade is required, 20x9 (+12 or zero) or 18x9 (-12), rated to 1100kg.<\/li><li><strong>Compliance:<\/strong> SSM federally approved Australia wide, Fox and BDS suspension components, PRE rego only (VTA-064440).<\/li><li><strong>Part Number:<\/strong> CHV-NB1-Stage3-LTZ<\/li><\/ul><p><em>Wheels and tyres not included.<\/em><\/p>"
+            "text": "<p><em>Chevrolet Silverado 1500 LTZ.</em></p><ul><li><strong>GVM:</strong> 3650kg | <strong>GCM:</strong> 7160kg | <strong>Braked Towing:</strong> 4500kg</li><li><strong>Lift & Tyres:</strong> 6\" BDS lift, 37\" tyres legal, running up to 37x12.5 R18 or 37x12.5 R20.</li><li><strong>Included:</strong> BDS 6\" suspension kit with Fox 2.5 Performance Elite (BDS782FPE), BDS control arm upgrade for front-end strength (BDS121260), Husky Extenda Flare, ORI rear mud flap.</li><li><strong>Best For:</strong> LTZ owners who want the biggest lift and the biggest tyre in the programme, fully compliant and covered under our SSM approval.</li><li><strong>NOTE:</strong> Gross Combined Mass stays at the factory 7160kg on this stage.</li><li><strong>Wheels:</strong> A load rated wheel and tyre upgrade is required, 20x9 (+12 or zero) or 18x9 (-12), rated to 1100kg.</li><li><strong>Compliance:</strong> SSM federally approved Australia wide, Fox and BDS suspension components, PRE rego only (VTA-064440).</li><li><strong>Part Number:</strong> CHV-NB1-Stage3-LTZ</li></ul><p><em>Wheels and tyres not included.</em></p>"
           }
         }
       },
@@ -343,14 +328,11 @@
         "subheading_p3JeNT",
         "heading_KMefdY",
         "text_aVwiWh"
-      ]
-    },
-    "image_with_text_VKJ6aN": {
-      "type": "image-with-text",
+      ],
       "settings": {
         "container": "container",
         "color_schema": "",
-        "image": "shopify:\/\/shop_images\/STAGE_4_CHEVY_1500_ZR2.png",
+        "image": "shopify://shop_images/STAGE_3_CHEVY_1500_LTZ.webp",
         "image_width": "50%",
         "image_position": "left",
         "vertical_alignment": "center",
@@ -370,7 +352,10 @@
         "custom_id": "",
         "custom_class": "",
         "animations": "inherit"
-      },
+      }
+    },
+    "image_with_text_VKJ6aN": {
+      "type": "image-with-text",
       "blocks": {
         "subheading_UXFBYE": {
           "type": "subheading",
@@ -381,7 +366,7 @@
         "heading_wfcybN": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Stage 4 ZR2: 4\" BDS Lift | 3650 GVM | 37\" Tyres Legal<\/strong>",
+            "heading": "<strong>Stage 4 ZR2: 4\" BDS Lift | 3650 GVM | 37\" Tyres Legal</strong>",
             "highlight_style": "none",
             "enable_highlight_text_color": false,
             "heading_size": "h2"
@@ -390,7 +375,7 @@
         "text_giGN6b": {
           "type": "text",
           "settings": {
-            "text": "<p><em>Chevrolet Silverado 1500 ZR2.<\/em><\/p><ul><li><strong>GVM:<\/strong> 3650kg | <strong>GCM:<\/strong> 7160kg | <strong>Braked Towing:<\/strong> 4200kg<\/li><li><strong>Lift & Tyres:<\/strong> 4\" BDS lift, 37\" tyres legal, running up to 37x12.5 R18 or 37x12.5 R20.<\/li><li><strong>Included:<\/strong> BDS 4\" suspension kit (6\" Kit overall) with Fox 2.5 Performance Elite (BDS782FPE), BDS control arm upgrade for front-end strength (BDS121260), Rough Country SF1 flares, ORI rear mud flap.<\/li><li><strong>Best For:<\/strong> ZR2 owners chasing the 37\" tyre package on a build that is legal to drive away.<\/li><li><strong>NOTE:<\/strong> The ZR2 tows 4200kg from the factory, which is why this stage is rated to 4.2T rather than 4.5T.<\/li><li><strong>Wheels:<\/strong> A load rated wheel and tyre upgrade is required.<\/li><li><strong>Compliance:<\/strong> SSM federally approved Australia wide, Fox and BDS suspension components, PRE rego only (VTA-064440).<\/li><li><strong>Part Number:<\/strong> CHV-NB1-Stage4-ZR2<\/li><\/ul><p><em>Wheels and tyres not included.<\/em><\/p>"
+            "text": "<p><em>Chevrolet Silverado 1500 ZR2.</em></p><ul><li><strong>GVM:</strong> 3650kg | <strong>GCM:</strong> 7160kg | <strong>Braked Towing:</strong> 4200kg</li><li><strong>Lift & Tyres:</strong> 4\" BDS lift, 37\" tyres legal, running up to 37x12.5 R18 or 37x12.5 R20.</li><li><strong>Included:</strong> BDS 4\" suspension kit (6\" Kit overall) with Fox 2.5 Performance Elite (BDS782FPE), BDS control arm upgrade for front-end strength (BDS121260), Rough Country SF1 flares, ORI rear mud flap.</li><li><strong>Best For:</strong> ZR2 owners chasing the 37\" tyre package on a build that is legal to drive away.</li><li><strong>NOTE:</strong> The ZR2 tows 4200kg from the factory, which is why this stage is rated to 4.2T rather than 4.5T.</li><li><strong>Wheels:</strong> A load rated wheel and tyre upgrade is required.</li><li><strong>Compliance:</strong> SSM federally approved Australia wide, Fox and BDS suspension components, PRE rego only (VTA-064440).</li><li><strong>Part Number:</strong> CHV-NB1-Stage4-ZR2</li></ul><p><em>Wheels and tyres not included.</em></p>"
           }
         }
       },
@@ -398,10 +383,46 @@
         "subheading_UXFBYE",
         "heading_wfcybN",
         "text_giGN6b"
-      ]
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "image": "shopify://shop_images/STAGE_4_CHEVY_1500_ZR2.webp",
+        "image_width": "50%",
+        "image_position": "right",
+        "vertical_alignment": "center",
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "padding_left": 0,
+        "padding_right": 0,
+        "align_content_container": "none",
+        "mobile_padding_left": 15,
+        "mobile_padding_right": 15,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_top_mobile": 60,
+        "padding_bottom_mobile": 60,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "",
+        "custom_class": "",
+        "animations": "inherit"
+      }
     },
     "rich_text_RV8dqr": {
       "type": "rich-text",
+      "blocks": {
+        "text_g3UJNm": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<h2>Chevy Silverado 1500 GVM Upgrade Options for Enhanced Towing Power</h2><p>One of the biggest challenges when you’re heading off the beaten track or out to a jobsite is making sure you can take all your gear, without overloading the manufacturer payload. When you want to be able to tow your trailer, boat, caravan, or simply load up the tub with more tools, you need some serious capabilities that won’t impact the structure or safety of your Chevy. </p><p>Our range of upgrades spans a huge scope of specs, giving you something custom, road-safe, and a substantial payload increase. Haul more and go further while still maintaining all the things you love about your truck when you get an engineered and installed Chevy Silverado 1500 GVM upgrade. </p><h2>Chevy Silverado 1500 GVM Upgrades for Maximum Performance</h2><p>If you own a Chevy Silverado 1500, you already know they’re an impressive beast both on and off the road. When you want to not only maintain their performance, but maximise it, Chevy Silverado 1500 GVM upgrades can help get you there. Between the boosted wheelbase from upgraded <a href=\"https://www.offroadindustries.com.au/collections/suspension\"><span style=\"text-decoration:underline\">suspension</span></a>, to more structural support from the new shocks and control arms, you’ll get better ground clearance, improved traction, and a structurally sound setup. These upgrades mean that you can carry your gear without strain - even on tough terrain. </p><p>When you transform your truck with a GVM package from ORI, you’ll also be able to add other upgrades that enhance the utility, functionality and personality of your vehicle. Get a fresh set of wheels to match the hauling power you’ve got, add on new <a href=\"https://www.offroadindustries.com.au/collections/bushwacker\"><span style=\"text-decoration:underline\">fender flares</span></a> to keep the undercarriage of your truck clear from dirt, or install a <a href=\"https://www.offroadindustries.com.au/collections/titan-fuel-tanks\"><span style=\"text-decoration:underline\">long range fuel tank</span></a> so you can go further. Chevy Silverado 1500 GVM upgrades do more than give you greater hauling power, they open you up to a whole new way to drive and enhance your truck. </p><p></p><h2>Chevy Silverado 1500 GVM Upgrade Packages – Enhance Your Vehicle’s Off-Road Capability</h2><p>When you’re offroading, sometimes you have to make a choice between taking all the gear you want with you or sticking to an easier path. If you’re too overloaded, handling, control, and stability can be impacted - but all of these concerns are alleviated with carefully engineered and installed <a href=\"https://www.offroadindustries.com.au/pages/ori-gvm-upgrades\"><span style=\"text-decoration:underline\">GVM upgrades</span></a>. </p><p>Our range enables you to lift your ground clearance by up to 6 inches, making it easier to tackle rugged tracks, beat your own path through the terrain, and maintain the traction you want. </p><h2>Chevy Silverado 1500 GVM Upgrade – Strengthen Your Vehicle for Heavy Duty Use</h2><p>Aside from the occasions when you need to be hauling higher loads, a GVM upgrade with ORI gives you a more resilient, hard-wearing truck regardless of what you’re carrying. You can tackle tough ground more easily, get through dry or soggy conditions with greater ease, and maintain a smooth ride no matter where you go and how much you’ve got in the tub. </p><p>No matter what motivates you, how you like to drive, or what you demand from your truck, a Chevy Silverado 1500 GVM upgrade from ORI offers you the driving experience you’ve always wanted. Explore the range now, and if you’re unsure which option is right for you, you can contact us for a personal recommendation. </p><p>After you’ve purchased your upgrade, you can get everything installed and engineered and discover the difference it’ll make to your Chevy Silverado 1500 in a real-world environment. No matter whether you’re driving for work or play, you can head off with confidence knowing your Chevy Silverado 1500 can handle everything without compromising the handling, comfort, and control you’re used to. </p><p></p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_g3UJNm"
+      ],
       "settings": {
         "container": "container",
         "color_schema": "",
@@ -413,28 +434,69 @@
         "custom_id": "",
         "custom_class": "",
         "animations": "inherit"
-      },
+      }
+    },
+    "collapsible_tabs_UDrTRf": {
+      "type": "collapsible-tabs",
       "blocks": {
-        "text_g3UJNm": {
-          "type": "text",
-          "disabled": true,
+        "content_aq3BG8": {
+          "type": "content",
           "settings": {
-            "text": "<h2>Chevy Silverado 1500 GVM Upgrade Options for Enhanced Towing Power<\/h2><p>One of the biggest challenges when you’re heading off the beaten track or out to a jobsite is making sure you can take all your gear, without overloading the manufacturer payload. When you want to be able to tow your trailer, boat, caravan, or simply load up the tub with more tools, you need some serious capabilities that won’t impact the structure or safety of your Chevy. <\/p><p>Our range of upgrades spans a huge scope of specs, giving you something custom, road-safe, and a substantial payload increase. Haul more and go further while still maintaining all the things you love about your truck when you get an engineered and installed Chevy Silverado 1500 GVM upgrade. <\/p><h2>Chevy Silverado 1500 GVM Upgrades for Maximum Performance<\/h2><p>If you own a Chevy Silverado 1500, you already know they’re an impressive beast both on and off the road. When you want to not only maintain their performance, but maximise it, Chevy Silverado 1500 GVM upgrades can help get you there. Between the boosted wheelbase from upgraded <a href=\"https:\/\/www.offroadindustries.com.au\/collections\/suspension\"><span style=\"text-decoration:underline\">suspension<\/span><\/a>, to more structural support from the new shocks and control arms, you’ll get better ground clearance, improved traction, and a structurally sound setup. These upgrades mean that you can carry your gear without strain - even on tough terrain. <\/p><p>When you transform your truck with a GVM package from ORI, you’ll also be able to add other upgrades that enhance the utility, functionality and personality of your vehicle. Get a fresh set of wheels to match the hauling power you’ve got, add on new <a href=\"https:\/\/www.offroadindustries.com.au\/collections\/bushwacker\"><span style=\"text-decoration:underline\">fender flares<\/span><\/a> to keep the undercarriage of your truck clear from dirt, or install a <a href=\"https:\/\/www.offroadindustries.com.au\/collections\/titan-fuel-tanks\"><span style=\"text-decoration:underline\">long range fuel tank<\/span><\/a> so you can go further. Chevy Silverado 1500 GVM upgrades do more than give you greater hauling power, they open you up to a whole new way to drive and enhance your truck. <\/p><p><\/p><h2>Chevy Silverado 1500 GVM Upgrade Packages – Enhance Your Vehicle’s Off-Road Capability<\/h2><p>When you’re offroading, sometimes you have to make a choice between taking all the gear you want with you or sticking to an easier path. If you’re too overloaded, handling, control, and stability can be impacted - but all of these concerns are alleviated with carefully engineered and installed <a href=\"https:\/\/www.offroadindustries.com.au\/pages\/ori-gvm-upgrades\"><span style=\"text-decoration:underline\">GVM upgrades<\/span><\/a>. <\/p><p>Our range enables you to lift your ground clearance by up to 6 inches, making it easier to tackle rugged tracks, beat your own path through the terrain, and maintain the traction you want. <\/p><h2>Chevy Silverado 1500 GVM Upgrade – Strengthen Your Vehicle for Heavy Duty Use<\/h2><p>Aside from the occasions when you need to be hauling higher loads, a GVM upgrade with ORI gives you a more resilient, hard-wearing truck regardless of what you’re carrying. You can tackle tough ground more easily, get through dry or soggy conditions with greater ease, and maintain a smooth ride no matter where you go and how much you’ve got in the tub. <\/p><p>No matter what motivates you, how you like to drive, or what you demand from your truck, a Chevy Silverado 1500 GVM upgrade from ORI offers you the driving experience you’ve always wanted. Explore the range now, and if you’re unsure which option is right for you, you can contact us for a personal recommendation. <\/p><p>After you’ve purchased your upgrade, you can get everything installed and engineered and discover the difference it’ll make to your Chevy Silverado 1500 in a real-world environment. No matter whether you’re driving for work or play, you can head off with confidence knowing your Chevy Silverado 1500 can handle everything without compromising the handling, comfort, and control you’re used to. <\/p><p><\/p>"
+            "icon": "none",
+            "title": "What is a GVM upgrade and why do I need one?",
+            "content": "<p>Gross Vehicle Mass (GVM) is the maximum your Chevy Silverado 1500 can legally weigh when fully loaded—including the truck, passengers, fuel, accessories (like bull bars and canopies), and tow ball weight. If you are towing heavy or building a touring rig, the factory payload gets eaten up fast. Our GVM upgrades legally increase this limit so you can carry your gear without voiding your insurance or risking hefty fines.</p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "content_97RYwd": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "What does \"Pre-Rego\" and \"SSM Approval\" mean?",
+            "content": "<p>SSM stands for Second Stage of Manufacture. When we upgrade your truck <em>before</em> it is registered for the very first time (Pre-Rego), the federal government recognizes ORI as the secondary manufacturer. This means your massive lift, larger tyres, and upgraded GVM are baked into the truck's federal compliance plate. It is 100% legal to drive and insure in every state and territory in Australia.<br/><br/></p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "content_k7yrdM": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "Will upgrading my GVM reduce my towing capacity?",
+            "content": "<p>Not with an ORI package. The LTZ stages, Stage 1 and Stage 3, hold the full 4500kg braked towing capacity. The ZR2 stages, Stage 2 and Stage 4, are rated to 4200kg, which is what the ZR2 tows from the factory, so nothing is lost there either.</p><p>Gross Combined Mass lifts from the factory 7160kg to 8150kg on Stage 1 and 7850kg on Stage 2. Stages 3 and 4 keep the factory 7160kg GCM, because those builds spend their allowance on the six-inch lift and 37-inch tyres rather than on combined mass.</p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
+          }
+        },
+        "content_rQQeBN": {
+          "type": "content",
+          "settings": {
+            "icon": "none",
+            "title": "Are 35-inch and 37-inch tyres actually legal on these builds?",
+            "content": "<p>Yes. Stage 1 and Stage 2 are federally engineered for 35x12.5 R18 or 35x12.5 R20 tyres, and Stage 3 and Stage 4 step up to 37x12.5 R18 or 37x12.5 R20. Every size is certified as part of the build when done Pre-Rego under our SSM approval.</p><p>No state-based engineering headaches, just turn the key and drive it legally anywhere in the country.</p>",
+            "custom_liquid": "",
+            "content_page": "",
+            "open": false
           }
         }
       },
       "block_order": [
-        "text_g3UJNm"
-      ]
-    },
-    "collapsible_tabs_UDrTRf": {
-      "type": "collapsible-tabs",
+        "content_aq3BG8",
+        "content_97RYwd",
+        "content_k7yrdM",
+        "content_rQQeBN"
+      ],
+      "disabled": true,
       "settings": {
         "container": "container",
         "color_schema": "",
         "section_header_padding_bottom": "medium",
         "section_header_content_spacing": "medium",
-        "heading": "<strong>Frequently Asked Questions (FAQs)<\/strong>",
+        "heading": "<strong>Frequently Asked Questions (FAQs)</strong>",
         "highlight_style": "none",
         "enable_highlight_text_color": false,
         "heading_size": "h2",
@@ -452,75 +514,10 @@
         "custom_id": "faqs",
         "custom_class": "",
         "animations": "inherit"
-      },
-      "disabled": true,
-      "blocks": {
-        "content_aq3BG8": {
-          "type": "content",
-          "settings": {
-            "icon": "none",
-            "title": "What is a GVM upgrade and why do I need one?",
-            "content": "<p>Gross Vehicle Mass (GVM) is the maximum your Chevy Silverado 1500 can legally weigh when fully loaded—including the truck, passengers, fuel, accessories (like bull bars and canopies), and tow ball weight. If you are towing heavy or building a touring rig, the factory payload gets eaten up fast. Our GVM upgrades legally increase this limit so you can carry your gear without voiding your insurance or risking hefty fines.<\/p>",
-            "custom_liquid": "",
-            "content_page": "",
-            "open": false
-          }
-        },
-        "content_97RYwd": {
-          "type": "content",
-          "settings": {
-            "icon": "none",
-            "title": "What does \"Pre-Rego\" and \"SSM Approval\" mean?",
-            "content": "<p>SSM stands for Second Stage of Manufacture. When we upgrade your truck <em>before<\/em> it is registered for the very first time (Pre-Rego), the federal government recognizes ORI as the secondary manufacturer. This means your massive lift, larger tyres, and upgraded GVM are baked into the truck's federal compliance plate. It is 100% legal to drive and insure in every state and territory in Australia.<br\/><br\/><\/p>",
-            "custom_liquid": "",
-            "content_page": "",
-            "open": false
-          }
-        },
-        "content_k7yrdM": {
-          "type": "content",
-          "settings": {
-            "icon": "none",
-            "title": "Will upgrading my GVM reduce my towing capacity?",
-            "content": "<p>Not with an ORI package. The LTZ stages, Stage 1 and Stage 3, hold the full 4500kg braked towing capacity. The ZR2 stages, Stage 2 and Stage 4, are rated to 4200kg, which is what the ZR2 tows from the factory, so nothing is lost there either.<\/p><p>Gross Combined Mass lifts from the factory 7160kg to 8150kg on Stage 1 and 7850kg on Stage 2. Stages 3 and 4 keep the factory 7160kg GCM, because those builds spend their allowance on the six-inch lift and 37-inch tyres rather than on combined mass.<\/p>",
-            "custom_liquid": "",
-            "content_page": "",
-            "open": false
-          }
-        },
-        "content_rQQeBN": {
-          "type": "content",
-          "settings": {
-            "icon": "none",
-            "title": "Are 35-inch and 37-inch tyres actually legal on these builds?",
-            "content": "<p>Yes. Stage 1 and Stage 2 are federally engineered for 35x12.5 R18 or 35x12.5 R20 tyres, and Stage 3 and Stage 4 step up to 37x12.5 R18 or 37x12.5 R20. Every size is certified as part of the build when done Pre-Rego under our SSM approval.<\/p><p>No state-based engineering headaches, just turn the key and drive it legally anywhere in the country.<\/p>",
-            "custom_liquid": "",
-            "content_page": "",
-            "open": false
-          }
-        }
-      },
-      "block_order": [
-        "content_aq3BG8",
-        "content_97RYwd",
-        "content_k7yrdM",
-        "content_rQQeBN"
-      ]
+      }
     },
     "rich_text_rnLAPH": {
       "type": "rich-text",
-      "settings": {
-        "container": "container",
-        "color_schema": "",
-        "text_alignment": "left",
-        "padding_top": 40,
-        "padding_bottom": 0,
-        "show_section_divider": false,
-        "divider_width": "container",
-        "custom_id": "gvmspecification",
-        "custom_class": "",
-        "animations": "inherit"
-      },
       "blocks": {
         "heading_YjLxhA": {
           "type": "heading",
@@ -535,10 +532,231 @@
       },
       "block_order": [
         "heading_YjLxhA"
-      ]
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "text_alignment": "left",
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "gvmspecification",
+        "custom_class": "",
+        "animations": "inherit"
+      }
     },
     "gvm_comparison_FfmTMw": {
       "type": "gvm-comparison",
+      "blocks": {
+        "row_spec_01": {
+          "type": "row",
+          "settings": {
+            "label": "Gross Vehicle Mass (GVM)",
+            "value_1": "3300 KG",
+            "value_2": "3650 KG",
+            "value_3": "3650 KG",
+            "value_4": "3650 KG",
+            "value_5": "3650 KG",
+            "value_6": "",
+            "value_7": "",
+            "value_8": "",
+            "value_9": "",
+            "value_10": ""
+          }
+        },
+        "row_spec_02": {
+          "type": "row",
+          "settings": {
+            "label": "Braked Towing Capacity (BTC)",
+            "value_1": "4500 KG",
+            "value_2": "4500 KG",
+            "value_3": "4200 KG",
+            "value_4": "4500 KG",
+            "value_5": "4200 KG",
+            "value_6": "",
+            "value_7": "",
+            "value_8": "",
+            "value_9": "",
+            "value_10": ""
+          }
+        },
+        "row_spec_03": {
+          "type": "row",
+          "settings": {
+            "label": "Gross Combined Mass (GCM)",
+            "value_1": "7160 KG",
+            "value_2": "8150 KG",
+            "value_3": "7850 KG",
+            "value_4": "7160 KG",
+            "value_5": "7160 KG",
+            "value_6": "",
+            "value_7": "",
+            "value_8": "",
+            "value_9": "",
+            "value_10": ""
+          }
+        },
+        "row_spec_04": {
+          "type": "row",
+          "settings": {
+            "label": "Kerb Weight",
+            "value_1": "2543 KG",
+            "value_2": "2721 KG",
+            "value_3": "2721 KG",
+            "value_4": "2721 KG",
+            "value_5": "2721 KG",
+            "value_6": "",
+            "value_7": "",
+            "value_8": "",
+            "value_9": "",
+            "value_10": ""
+          }
+        },
+        "row_spec_05": {
+          "type": "row",
+          "settings": {
+            "label": "Payload (bases on kerb weight)",
+            "value_1": "757 KG",
+            "value_2": "929 KG",
+            "value_3": "929 KG",
+            "value_4": "929 KG",
+            "value_5": "929 KG",
+            "value_6": "",
+            "value_7": "",
+            "value_8": "",
+            "value_9": "",
+            "value_10": ""
+          }
+        },
+        "row_spec_07": {
+          "type": "row",
+          "settings": {
+            "label": "Front Axle Capacity",
+            "value_1": "1724 KG",
+            "value_2": "1724 KG",
+            "value_3": "1724 KG",
+            "value_4": "1724 KG",
+            "value_5": "1724 KG",
+            "value_6": "",
+            "value_7": "",
+            "value_8": "",
+            "value_9": "",
+            "value_10": ""
+          }
+        },
+        "row_spec_08": {
+          "type": "row",
+          "settings": {
+            "label": "Rear Axle Capacity",
+            "value_1": "1724 KG",
+            "value_2": "1926 KG",
+            "value_3": "1926 KG",
+            "value_4": "1926 KG",
+            "value_5": "1926 KG",
+            "value_6": "",
+            "value_7": "",
+            "value_8": "",
+            "value_9": "",
+            "value_10": ""
+          }
+        },
+        "row_spec_09": {
+          "type": "row",
+          "settings": {
+            "label": "Wheel Offsets",
+            "value_1": "28",
+            "value_2": "20x9 ( +12 | zero)\n18x9 (-12)",
+            "value_3": "20x9 ( +12 | zero)\n18x9 (-12)",
+            "value_4": "20x9 ( +12 | zero)\n18x9 (-12)",
+            "value_5": "20x9 ( +12 | zero)\n18x9 (-12)",
+            "value_6": "",
+            "value_7": "",
+            "value_8": "",
+            "value_9": "",
+            "value_10": ""
+          }
+        },
+        "row_spec_10": {
+          "type": "row",
+          "settings": {
+            "label": "Wheel Load Rating",
+            "value_1": "862 KG",
+            "value_2": "1100 KG",
+            "value_3": "1100 KG",
+            "value_4": "1100 KG",
+            "value_5": "1100 KG",
+            "value_6": "",
+            "value_7": "",
+            "value_8": "",
+            "value_9": "",
+            "value_10": ""
+          }
+        },
+        "row_spec_11": {
+          "type": "row",
+          "settings": {
+            "label": "Tyre Load Rating",
+            "value_1": "862 KG",
+            "value_2": "121 Q",
+            "value_3": "121 Q",
+            "value_4": "121 Q",
+            "value_5": "121 Q",
+            "value_6": "",
+            "value_7": "",
+            "value_8": "",
+            "value_9": "",
+            "value_10": ""
+          }
+        },
+        "row_spec_12": {
+          "type": "row",
+          "settings": {
+            "label": "Requires Wheel/ Tyre Upgrade",
+            "value_1": "OEM",
+            "value_2": "✔",
+            "value_3": "✔",
+            "value_4": "✔",
+            "value_5": "✔",
+            "value_6": "",
+            "value_7": "",
+            "value_8": "",
+            "value_9": "",
+            "value_10": ""
+          }
+        },
+        "row_spec_13": {
+          "type": "row",
+          "settings": {
+            "label": "Maximum Tyre Size",
+            "value_1": "275/60 R20",
+            "value_2": "35x12.5R18\n35x12.5R20",
+            "value_3": "35x12.5R18\n35x12.5R20",
+            "value_4": "37x12.5R18\n37x12.5R20",
+            "value_5": "37x12.5R18\n37x12.5R20",
+            "value_6": "",
+            "value_7": "",
+            "value_8": "",
+            "value_9": "",
+            "value_10": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_spec_01",
+        "row_spec_02",
+        "row_spec_03",
+        "row_spec_04",
+        "row_spec_05",
+        "row_spec_07",
+        "row_spec_08",
+        "row_spec_09",
+        "row_spec_10",
+        "row_spec_11",
+        "row_spec_12",
+        "row_spec_13"
+      ],
+      "disabled": true,
       "settings": {
         "anchor_id": "compare",
         "heading": "",
@@ -562,8 +780,10 @@
         "mobile_card_text": "#111111",
         "padding_top": 0,
         "padding_bottom": 40
-      },
-      "disabled": true,
+      }
+    },
+    "gvm_comparison_tt8dam": {
+      "type": "gvm-comparison",
       "blocks": {
         "row_spec_01": {
           "type": "row",
@@ -728,7 +948,7 @@
         "row_spec_12": {
           "type": "row",
           "settings": {
-            "label": "Requires Wheel\/ Tyre Upgrade",
+            "label": "Requires Wheel/ Tyre Upgrade",
             "value_1": "OEM",
             "value_2": "✔",
             "value_3": "✔",
@@ -745,7 +965,7 @@
           "type": "row",
           "settings": {
             "label": "Maximum Tyre Size",
-            "value_1": "275\/60 R20",
+            "value_1": "275/60 R20",
             "value_2": "35x12.5R18\n35x12.5R20",
             "value_3": "35x12.5R18\n35x12.5R20",
             "value_4": "37x12.5R18\n37x12.5R20",
@@ -771,10 +991,7 @@
         "row_spec_11",
         "row_spec_12",
         "row_spec_13"
-      ]
-    },
-    "gvm_comparison_tt8dam": {
-      "type": "gvm-comparison",
+      ],
       "settings": {
         "anchor_id": "ssm-package-details",
         "heading": "",
@@ -798,242 +1015,10 @@
         "mobile_card_text": "#111111",
         "padding_top": 0,
         "padding_bottom": 40
-      },
-      "blocks": {
-        "row_spec_01": {
-          "type": "row",
-          "settings": {
-            "label": "Gross Vehicle Mass (GVM)",
-            "value_1": "3300 KG",
-            "value_2": "3650 KG",
-            "value_3": "3650 KG",
-            "value_4": "3650 KG",
-            "value_5": "3650 KG",
-            "value_6": "",
-            "value_7": "",
-            "value_8": "",
-            "value_9": "",
-            "value_10": ""
-          }
-        },
-        "row_spec_02": {
-          "type": "row",
-          "settings": {
-            "label": "Braked Towing Capacity (BTC)",
-            "value_1": "4500 KG",
-            "value_2": "4500 KG",
-            "value_3": "4200 KG",
-            "value_4": "4500 KG",
-            "value_5": "4200 KG",
-            "value_6": "",
-            "value_7": "",
-            "value_8": "",
-            "value_9": "",
-            "value_10": ""
-          }
-        },
-        "row_spec_03": {
-          "type": "row",
-          "settings": {
-            "label": "Gross Combined Mass (GCM)",
-            "value_1": "7160 KG",
-            "value_2": "8150 KG",
-            "value_3": "7850 KG",
-            "value_4": "7160 KG",
-            "value_5": "7160 KG",
-            "value_6": "",
-            "value_7": "",
-            "value_8": "",
-            "value_9": "",
-            "value_10": ""
-          }
-        },
-        "row_spec_04": {
-          "type": "row",
-          "settings": {
-            "label": "Kerb Weight",
-            "value_1": "2543 KG",
-            "value_2": "2721 KG",
-            "value_3": "2721 KG",
-            "value_4": "2721 KG",
-            "value_5": "2721 KG",
-            "value_6": "",
-            "value_7": "",
-            "value_8": "",
-            "value_9": "",
-            "value_10": ""
-          }
-        },
-        "row_spec_05": {
-          "type": "row",
-          "settings": {
-            "label": "Payload (bases on kerb weight)",
-            "value_1": "757 KG",
-            "value_2": "929 KG",
-            "value_3": "929 KG",
-            "value_4": "929 KG",
-            "value_5": "929 KG",
-            "value_6": "",
-            "value_7": "",
-            "value_8": "",
-            "value_9": "",
-            "value_10": ""
-          }
-        },
-        "row_spec_07": {
-          "type": "row",
-          "settings": {
-            "label": "Front Axle Capacity",
-            "value_1": "1724 KG",
-            "value_2": "1724 KG",
-            "value_3": "1724 KG",
-            "value_4": "1724 KG",
-            "value_5": "1724 KG",
-            "value_6": "",
-            "value_7": "",
-            "value_8": "",
-            "value_9": "",
-            "value_10": ""
-          }
-        },
-        "row_spec_08": {
-          "type": "row",
-          "settings": {
-            "label": "Rear Axle Capacity",
-            "value_1": "1724 KG",
-            "value_2": "1926 KG",
-            "value_3": "1926 KG",
-            "value_4": "1926 KG",
-            "value_5": "1926 KG",
-            "value_6": "",
-            "value_7": "",
-            "value_8": "",
-            "value_9": "",
-            "value_10": ""
-          }
-        },
-        "row_spec_09": {
-          "type": "row",
-          "settings": {
-            "label": "Wheel Offsets",
-            "value_1": "28",
-            "value_2": "20x9 ( +12 | zero)\n18x9 (-12)",
-            "value_3": "20x9 ( +12 | zero)\n18x9 (-12)",
-            "value_4": "20x9 ( +12 | zero)\n18x9 (-12)",
-            "value_5": "20x9 ( +12 | zero)\n18x9 (-12)",
-            "value_6": "",
-            "value_7": "",
-            "value_8": "",
-            "value_9": "",
-            "value_10": ""
-          }
-        },
-        "row_spec_10": {
-          "type": "row",
-          "settings": {
-            "label": "Wheel Load Rating",
-            "value_1": "862 KG",
-            "value_2": "1100 KG",
-            "value_3": "1100 KG",
-            "value_4": "1100 KG",
-            "value_5": "1100 KG",
-            "value_6": "",
-            "value_7": "",
-            "value_8": "",
-            "value_9": "",
-            "value_10": ""
-          }
-        },
-        "row_spec_11": {
-          "type": "row",
-          "settings": {
-            "label": "Tyre Load Rating",
-            "value_1": "862 KG",
-            "value_2": "121 Q",
-            "value_3": "121 Q",
-            "value_4": "121 Q",
-            "value_5": "121 Q",
-            "value_6": "",
-            "value_7": "",
-            "value_8": "",
-            "value_9": "",
-            "value_10": ""
-          }
-        },
-        "row_spec_12": {
-          "type": "row",
-          "settings": {
-            "label": "Requires Wheel\/ Tyre Upgrade",
-            "value_1": "OEM",
-            "value_2": "✔",
-            "value_3": "✔",
-            "value_4": "✔",
-            "value_5": "✔",
-            "value_6": "",
-            "value_7": "",
-            "value_8": "",
-            "value_9": "",
-            "value_10": ""
-          }
-        },
-        "row_spec_13": {
-          "type": "row",
-          "settings": {
-            "label": "Maximum Tyre Size",
-            "value_1": "275\/60 R20",
-            "value_2": "35x12.5R18\n35x12.5R20",
-            "value_3": "35x12.5R18\n35x12.5R20",
-            "value_4": "37x12.5R18\n37x12.5R20",
-            "value_5": "37x12.5R18\n37x12.5R20",
-            "value_6": "",
-            "value_7": "",
-            "value_8": "",
-            "value_9": "",
-            "value_10": ""
-          }
-        }
-      },
-      "block_order": [
-        "row_spec_01",
-        "row_spec_02",
-        "row_spec_03",
-        "row_spec_04",
-        "row_spec_05",
-        "row_spec_07",
-        "row_spec_08",
-        "row_spec_09",
-        "row_spec_10",
-        "row_spec_11",
-        "row_spec_12",
-        "row_spec_13"
-      ]
+      }
     },
     "gvm_comparison_RXeVcA": {
       "type": "gvm-comparison",
-      "settings": {
-        "anchor_id": "compare1",
-        "heading": "",
-        "details_heading": "Item",
-        "columns": "5",
-        "col_title_1": "Part Number",
-        "col_title_2": "Stage 1",
-        "col_title_3": "Stage 2",
-        "col_title_4": "Stage 3",
-        "col_title_5": "Stage 4",
-        "col_title_6": "",
-        "col_title_7": "",
-        "col_title_8": "",
-        "col_title_9": "",
-        "col_title_10": "",
-        "container_width": "90%",
-        "heading_color": "#111111",
-        "text_color": "#111111",
-        "line_color": "#111111",
-        "mobile_card_bg": "#f5f3ee",
-        "mobile_card_text": "#111111",
-        "padding_top": 0,
-        "padding_bottom": 40
-      },
       "blocks": {
         "row_part_01": {
           "type": "row",
@@ -1224,23 +1209,34 @@
         "row_speedo_correction",
         "row_bds_recoil_bars",
         "row_part_09"
-      ]
+      ],
+      "settings": {
+        "anchor_id": "compare1",
+        "heading": "",
+        "details_heading": "Item",
+        "columns": "5",
+        "col_title_1": "Part Number",
+        "col_title_2": "Stage 1",
+        "col_title_3": "Stage 2",
+        "col_title_4": "Stage 3",
+        "col_title_5": "Stage 4",
+        "col_title_6": "",
+        "col_title_7": "",
+        "col_title_8": "",
+        "col_title_9": "",
+        "col_title_10": "",
+        "container_width": "90%",
+        "heading_color": "#111111",
+        "text_color": "#111111",
+        "line_color": "#111111",
+        "mobile_card_bg": "#f5f3ee",
+        "mobile_card_text": "#111111",
+        "padding_top": 0,
+        "padding_bottom": 40
+      }
     },
     "rich_text_4AxLyp": {
       "type": "rich-text",
-      "settings": {
-        "container": "container",
-        "color_schema": "",
-        "text_alignment": "left",
-        "padding_top": 40,
-        "padding_bottom": 0,
-        "show_section_divider": false,
-        "divider_width": "container",
-        "custom_id": "approved-wheels",
-        "custom_class": "",
-        "animations": "inherit"
-      },
-      "disabled": true,
       "blocks": {
         "heading_PHJcdq": {
           "type": "heading",
@@ -1255,28 +1251,23 @@
       },
       "block_order": [
         "heading_PHJcdq"
-      ]
+      ],
+      "disabled": true,
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "text_alignment": "left",
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "approved-wheels",
+        "custom_class": "",
+        "animations": "inherit"
+      }
     },
     "wheel_comparison_grid_qGx6nc": {
       "type": "wheel-comparison-grid",
-      "settings": {
-        "anchor_id": "",
-        "heading": "",
-        "columns": "3",
-        "image_1": "shopify:\/\/shop_images\/MR305NV-wheel.webp",
-        "image_2": "shopify:\/\/shop_images\/MR709-black.webp",
-        "image_3": "shopify:\/\/shop_images\/MR709-white.webp",
-        "label_col_width": 260,
-        "container_width": "1200px",
-        "text_color": "#111111",
-        "label_color": "#111111",
-        "line_color": "#d0d0d0",
-        "mobile_card_bg": "#ffffff",
-        "mobile_card_text": "#111111",
-        "padding_top": 40,
-        "padding_bottom": 40
-      },
-      "disabled": true,
       "blocks": {
         "row_3UKHgU": {
           "type": "row",
@@ -1322,29 +1313,28 @@
         "row_3UKHgU",
         "row_wKR3CU",
         "row_rCcK78"
-      ]
+      ],
+      "disabled": true,
+      "settings": {
+        "anchor_id": "",
+        "heading": "",
+        "columns": "3",
+        "image_1": "shopify://shop_images/MR305NV-wheel.webp",
+        "image_2": "shopify://shop_images/MR709-black.webp",
+        "image_3": "shopify://shop_images/MR709-white.webp",
+        "label_col_width": 260,
+        "container_width": "1200px",
+        "text_color": "#111111",
+        "label_color": "#111111",
+        "line_color": "#d0d0d0",
+        "mobile_card_bg": "#ffffff",
+        "mobile_card_text": "#111111",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
     },
     "contact_form_v4_YzWJbE": {
       "type": "contact-form-v4",
-      "settings": {
-        "container": "container",
-        "color_schema": "",
-        "heading": "GVM Enquiry? Contact us Now",
-        "subheading": "",
-        "description": "",
-        "form_design": "design-1",
-        "form_width": 500,
-        "form_alignment": "center",
-        "button_label": "Send",
-        "button_style": "btn--primary",
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "show_section_divider": false,
-        "divider_width": "container",
-        "custom_id": "gvmexperts",
-        "custom_class": "",
-        "animations": "inherit"
-      },
       "blocks": {
         "name_GV7LzQ": {
           "type": "name",
@@ -1443,28 +1433,29 @@
         "custom_select_d7bihk",
         "location_TLebdV",
         "message_QFCAgC"
-      ]
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "heading": "GVM Enquiry? Contact us Now",
+        "subheading": "",
+        "description": "",
+        "form_design": "design-1",
+        "form_width": 500,
+        "form_alignment": "center",
+        "button_label": "Send",
+        "button_style": "btn--primary",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "gvmexperts",
+        "custom_class": "",
+        "animations": "inherit"
+      }
     },
     "contact_form_v2_RPLgEE": {
       "type": "contact-form-v2",
-      "settings": {
-        "heading": "Questions? We’re Hereto Help",
-        "body": "<p>Add your intro text here.<\/p>",
-        "form_title": "Send us a message",
-        "button_label": "Submit",
-        "success_message": "Thanks! We received your message and will get back to you soon.",
-        "desktop_layout": "content_left",
-        "mobile_layout": "content_first",
-        "fields_columns_desktop": "1",
-        "max_width": 1200,
-        "bg_color": "#ffffff",
-        "form_bg": "#e6e6e6",
-        "accent": "#5683c2",
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "form_banner_image": "shopify:\/\/shop_images\/contact-form-banner.webp"
-      },
-      "disabled": true,
       "blocks": {
         "info_item_zNMcTt": {
           "type": "info_item",
@@ -1538,22 +1529,27 @@
         "field_email_CCi9dH",
         "field_phone_HEpAqj",
         "field_message_63UbyE"
-      ]
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Questions? We’re Hereto Help",
+        "body": "<p>Add your intro text here.</p>",
+        "form_title": "Send us a message",
+        "button_label": "Submit",
+        "success_message": "Thanks! We received your message and will get back to you soon.",
+        "desktop_layout": "content_left",
+        "mobile_layout": "content_first",
+        "fields_columns_desktop": "1",
+        "max_width": 1200,
+        "bg_color": "#ffffff",
+        "form_bg": "#e6e6e6",
+        "accent": "#5683c2",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
     },
     "rich_text_ni9bQW": {
       "type": "rich-text",
-      "settings": {
-        "container": "container",
-        "color_schema": "",
-        "text_alignment": "left",
-        "padding_top": 40,
-        "padding_bottom": 0,
-        "show_section_divider": false,
-        "divider_width": "container",
-        "custom_id": "suspensioncollection",
-        "custom_class": "",
-        "animations": "inherit"
-      },
       "blocks": {
         "heading_fRrLKd": {
           "type": "heading",
@@ -1568,10 +1564,66 @@
       },
       "block_order": [
         "heading_fRrLKd"
-      ]
+      ],
+      "settings": {
+        "container": "container",
+        "color_schema": "",
+        "text_alignment": "left",
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "show_section_divider": false,
+        "divider_width": "container",
+        "custom_id": "suspensioncollection",
+        "custom_class": "",
+        "animations": "inherit"
+      }
     },
     "logo_list_8XphYi": {
       "type": "logo-list",
+      "blocks": {
+        "logo_cpKqVD": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/ICONS_FOR_WEBSITE_FOX.png",
+            "image_from_url": "",
+            "image_link": "",
+            "image_width": 80
+          }
+        },
+        "logo_HXcdg3": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/ICONS_FOR_WEBSITE_BDS.png",
+            "image_from_url": "",
+            "image_link": "",
+            "image_width": 80
+          }
+        },
+        "logo_kg3grH": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/ICONS_FOR_WEBSITE_BUSHWACKER.png",
+            "image_from_url": "",
+            "image_link": "",
+            "image_width": 80
+          }
+        },
+        "logo_mVCjy7": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/peak_final-copy-small.jpg",
+            "image_from_url": "",
+            "image_link": "",
+            "image_width": 80
+          }
+        }
+      },
+      "block_order": [
+        "logo_cpKqVD",
+        "logo_HXcdg3",
+        "logo_kg3grH",
+        "logo_mVCjy7"
+      ],
       "settings": {
         "container": "container",
         "color_schema": "",
@@ -1598,51 +1650,7 @@
         "custom_id": "",
         "custom_class": "",
         "animations": "inherit"
-      },
-      "blocks": {
-        "logo_cpKqVD": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ICONS_FOR_WEBSITE_FOX.png",
-            "image_from_url": "",
-            "image_link": "",
-            "image_width": 80
-          }
-        },
-        "logo_HXcdg3": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ICONS_FOR_WEBSITE_BDS.png",
-            "image_from_url": "",
-            "image_link": "",
-            "image_width": 80
-          }
-        },
-        "logo_kg3grH": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ICONS_FOR_WEBSITE_BUSHWACKER.png",
-            "image_from_url": "",
-            "image_link": "",
-            "image_width": 80
-          }
-        },
-        "logo_mVCjy7": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/peak_final-copy-small.jpg",
-            "image_from_url": "",
-            "image_link": "",
-            "image_width": 80
-          }
-        }
-      },
-      "block_order": [
-        "logo_cpKqVD",
-        "logo_HXcdg3",
-        "logo_kg3grH",
-        "logo_mVCjy7"
-      ]
+      }
     }
   },
   "order": [
