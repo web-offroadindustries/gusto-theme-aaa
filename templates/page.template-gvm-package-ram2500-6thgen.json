@@ -133,7 +133,7 @@
         "text_ram6g_intro": {
           "type": "text",
           "settings": {
-            "text": "<p>The RAM 2500 6th Gen is already one of the most capable heavy-duty trucks ever built — but if you're loading up with accessories, towing a serious trailer, or running a tray and canopy conversion, Australia's road rules can hold you back. That changes with an ORI GVM upgrade.<\/p><p>Offroad Industries (ORI) is a Federally Approved Second Stage Manufacturer (SSM), offering Australia's most comprehensive GVM upgrade packages for the RAM 2500 6th Gen. Every kit is fully engineered, LS16 certified, and compliant with Australian Design Rules — whether you're registering Pre-Rego (Federal) or Post-Rego (State-based). Our packages are designed specifically for the RAM 2500 6th Gen platform, giving you a massive payload increase, improved suspension performance, and complete legal peace of mind.<\/p>"
+            "text": "<p>While the RAM 2500 6th Gen is an absolute powerhouse straight from the factory, adding heavy accessories, towing large trailers, or installing a custom tray and canopy can easily push you past Australia's strict road limits. An ORI GVM upgrade is the ultimate solution.<\/p><p>Offroad Industries (ORI) is a Federally Approved Second Stage Manufacturer (SSM) delivering the most comprehensive GVM upgrade packages available for the RAM 2500 6th Gen. Fully engineered and completely compliant with Australian Design Rules, our kits have you covered for both Pre-Rego (Federal) and Post-Rego (State-based) applications. Designed specifically to maximize the 6th Gen platform, our upgrades unlock massive payload capacity, elevate your suspension handling, and keep your rig 100% legal on the road.<\/p><p>Our packages are currently going through federal approval a with view to be approved September 2026. This only applies for Ram Australia delivered vehicles.<\/p>"
           }
         }
       },
@@ -202,7 +202,7 @@
         "subheading_ram6g_s1": {
           "type": "subheading",
           "settings": {
-            "subheading": "Stage 1: Installed & Engineered — Contact for Pricing"
+            "subheading": "Stage 1: Installed & Engineered — $14,499"
           }
         },
         "heading_ram6g_s1": {
@@ -217,7 +217,7 @@
         "text_ram6g_s1": {
           "type": "text",
           "settings": {
-            "text": "<p><em>The entry point to the 6th Gen programme, lifting GVM to 5500kg on a modest two inch lift.<\/em><\/p><ul><li><strong>GVM:<\/strong> 5500kg | <strong>GCM:<\/strong> 12,474kg | <strong>Braked Towing:<\/strong> 4500kg<\/li><li><strong>Lift &amp; Tyres:<\/strong> 2\" lift, running up to 35x12.5 R18 or 35x12.5 R20.<\/li><li><strong>Key Features:<\/strong> Fox 2.5 Performance Elite Series front and rear, BDS 3\" radius arm kit, Husky Extenda flares, ORI mud flap brackets.<\/li><li><strong>Best For:<\/strong> Daily drivers and light tourers who want a legal capacity lift without moving to load rated wheels.<\/li><\/ul>"
+            "text": "<p><em>The entry point to the 6th Gen programme, lifting GVM to 5500kg on a modest two inch lift.<\/em><\/p><ul><li><strong>GVM:<\/strong> 5500kg | <strong>GCM:<\/strong> 12,750kg | <strong>Braked Towing:<\/strong> 4500kg<\/li><li><strong>Lift & Tyres:<\/strong> 2\" lift, running up to 35x12.5 R18 or 35x12.5 R20.<\/li><li><strong>Key Features:<\/strong> Fox 2.5 Performance Series HTO shocks, Husky Colour coded leaf packs.<\/li><li><strong>Best For:<\/strong> Daily drivers and light tourers who want a legal capacity lift without moving to load rated wheels.<\/li><\/ul>"
           }
         }
       },
@@ -257,13 +257,13 @@
         "subheading_ram6g_s2": {
           "type": "subheading",
           "settings": {
-            "subheading": "Stage 2: Installed & Engineered — Contact for Pricing"
+            "subheading": "Stage 2: Installed & Engineered — $19, 499"
           }
         },
         "heading_ram6g_s2": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Stage 2: ORI Coil Upgrade — 2\" Lift on 35s<\/strong>",
+            "heading": "<strong>Stage 2: Apex Series — 2\" Lift on 35s<\/strong>",
             "highlight_style": "none",
             "enable_highlight_text_color": false,
             "heading_size": "h2"
@@ -272,7 +272,7 @@
         "text_ram6g_s2": {
           "type": "text",
           "settings": {
-            "text": "<p><em>The same two inch stance, stepping up to ORI coils front and rear and the full 5890kg GVM.<\/em><\/p><ul><li><strong>GVM:<\/strong> 5890kg | <strong>GCM:<\/strong> 12,474kg | <strong>Braked Towing:<\/strong> 4500kg<\/li><li><strong>Lift &amp; Tyres:<\/strong> 2\" lift, running up to 35x12.5 R18 or 35x12.5 R20.<\/li><li><strong>Key Features:<\/strong> ORI front coils, ORI rear coils, BDS 3\" radius arm kit, Husky Extenda flares, ORI mud flap brackets.<\/li><li><strong>Best For:<\/strong> Owners carrying weight day to day who want maximum legal capacity while keeping factory rated wheels.<\/li><\/ul>"
+            "text": "<p><em>The same two inch stance, stepping up to ORI coils front and rear and the full 5890kg GVM.<\/em><\/p><ul><li><strong>GVM:<\/strong> 5890kg | <strong>GCM:<\/strong> 12,750kg | <strong>Braked Towing:<\/strong> 4500kg<\/li><li><strong>Lift & Tyres:<\/strong> 2\" lift, running up to 35x12.5 R18 or 35x12.5 R20.<\/li><li><strong>Key Features:<\/strong> ORI front coils, ORI rear coils, BDS 3\" radius arm kit, Husky Extenda flares, ORI mud flap brackets.<\/li><li><strong>Best For:<\/strong> Owners carrying weight day to day who want maximum legal capacity while keeping factory rated wheels.<\/li><\/ul>"
           }
         }
       },
@@ -312,7 +312,7 @@
         "subheading_ram6g_s3": {
           "type": "subheading",
           "settings": {
-            "subheading": "Stage 3: Installed & Engineered — Contact for Pricing"
+            "subheading": "Stage 3: Installed & Engineered  $22,999"
           }
         },
         "heading_ram6g_s3": {
@@ -327,7 +327,7 @@
         "text_ram6g_s3": {
           "type": "text",
           "settings": {
-            "text": "<p><em>Three inches of lift with the geometry corrected, and the first stage to run 37 inch tyres.<\/em><\/p><ul><li><strong>GVM:<\/strong> 5890kg | <strong>GCM:<\/strong> 12,474kg | <strong>Braked Towing:<\/strong> 4500kg<\/li><li><strong>Lift &amp; Tyres:<\/strong> 3\" lift, running up to 37x12.5 R18 or 37x12.5 R20.<\/li><li><strong>Key Features:<\/strong> BDS 3\" radius arm kit, Husky Extenda flares, ORI mud flap brackets.<\/li><li><strong>Best For:<\/strong> Tourers who want genuine clearance and a 37 inch tyre while staying on factory rated wheels.<\/li><\/ul>"
+            "text": "<p><em>Three inches of lift with the geometry corrected, and the first stage to run 37 inch tyres.<\/em><\/p><ul><li><strong>GVM:<\/strong> 5890kg | <strong>GCM:<\/strong> 12,750kg | <strong>Braked Towing:<\/strong> 4500kg<\/li><li><strong>Lift & Tyres:<\/strong> 3\" lift, running up to 37x12.5 R18 or 37x12.5 R20.<\/li><li><strong>Key Features:<\/strong> BDS 3\" radius arm kit, Husky Extenda flares, ORI mud flap brackets.<\/li><li><strong>Best For:<\/strong> Tourers who want genuine clearance and a 37 inch tyre while staying on factory rated wheels.<\/li><\/ul>"
           }
         }
       },
@@ -367,7 +367,7 @@
         "subheading_ram6g_s4": {
           "type": "subheading",
           "settings": {
-            "subheading": "Stage 4: Installed & Engineered — Contact for Pricing"
+            "subheading": "Stage 4: Installed & Engineered —$26,999"
           }
         },
         "heading_ram6g_s4": {
@@ -382,7 +382,7 @@
         "text_ram6g_s4": {
           "type": "text",
           "settings": {
-            "text": "<p><em>Four inches of lift with the rear air bags deleted in favour of a coil setup built to carry.<\/em><\/p><ul><li><strong>GVM:<\/strong> 5890kg | <strong>GCM:<\/strong> 12,474kg | <strong>Braked Towing:<\/strong> 4500kg<\/li><li><strong>Lift &amp; Tyres:<\/strong> 4\" lift, running up to 37x12.5 R18 or 37x12.5 R20.<\/li><li><strong>Key Features:<\/strong> BDS 4\" radius arm kit, Logic IQ air bag coil delete, Husky Extenda flares, ORI mud flap brackets.<\/li><li><strong>Best For:<\/strong> Tray and canopy builds, long range tanks, and anyone running permanent weight over the rear axle.<\/li><li><strong>NOTE:<\/strong> Load rated wheels and tyres with a 1650kg tyre load rating are required from this stage up.<\/li><\/ul>"
+            "text": "<p><em>Four inches of lift with the rear air bags deleted in favour of a coil setup built to carry.<\/em><\/p><ul><li><strong>GVM:<\/strong> 5890kg | <strong>GCM:<\/strong> 12,750kg | <strong>Braked Towing:<\/strong> 4500kg<\/li><li><strong>Lift &amp; Tyres:<\/strong> 4\" lift, running up to 37x12.5 R18 or 37x12.5 R20.<\/li><li><strong>Key Features:<\/strong> BDS 4\" radius arm kit, Logic IQ air bag coil delete, Husky Extenda flares, ORI mud flap brackets.<\/li><li><strong>Best For:<\/strong> Tray and canopy builds, long range tanks, and anyone running permanent weight over the rear axle.<\/li><li><strong>NOTE:<\/strong> Load rated wheels and tyres with a 1650kg tyre load rating are required from this stage up.<\/li><\/ul>"
           }
         }
       },
@@ -422,7 +422,7 @@
         "subheading_4Q9WFD": {
           "type": "subheading",
           "settings": {
-            "subheading": "Stage 5: Installed & Engineered — Contact for Pricing"
+            "subheading": "Stage 5: Installed & Engineered — $26,999"
           }
         },
         "heading_ybK7q8": {
@@ -437,7 +437,7 @@
         "text_mfadnR": {
           "type": "text",
           "settings": {
-            "text": "<p><em>The full six inches, engineered and certified as one package rather than stacked together.<\/em><\/p><ul><li><strong>GVM:<\/strong> 5890kg | <strong>GCM:<\/strong> 12,474kg | <strong>Braked Towing:<\/strong> 4500kg<\/li><li><strong>Lift &amp; Tyres:<\/strong> 6\" lift, running up to 37x12.5 R18 or 37x12.5 R20.<\/li><li><strong>Key Features:<\/strong> BDS 6\" radius arm kit, Logic IQ air bag coil delete, Husky Extenda flares, ORI mud flap brackets.<\/li><li><strong>Best For:<\/strong> Owners who want the biggest lift in the range with the payload and towing left intact.<\/li><li><strong>NOTE:<\/strong> Load rated wheels and tyres with a 1650kg tyre load rating are required for this stage.<\/li><\/ul>"
+            "text": "<p><em>The full six inches, engineered and certified as one package rather than stacked together.<\/em><\/p><ul><li><strong>GVM:<\/strong> 5890kg | <strong>GCM:<\/strong> 12,750kg | <strong>Braked Towing:<\/strong> 4500kg<\/li><li><strong>Lift &amp; Tyres:<\/strong> 6\" lift, running up to 37x12.5 R18 or 37x12.5 R20.<\/li><li><strong>Key Features:<\/strong> BDS 6\" radius arm kit, Logic IQ air bag coil delete, Husky Extenda flares, ORI mud flap brackets.<\/li><li><strong>Best For:<\/strong> Owners who want the biggest lift in the range with the payload and towing left intact.<\/li><li><strong>NOTE:<\/strong> Load rated wheels and tyres with a 1650kg tyre load rating are required for this stage.<\/li><\/ul>"
           }
         }
       },
@@ -477,7 +477,7 @@
         "block_ram6g_s6_0": {
           "type": "subheading",
           "settings": {
-            "subheading": "Stage 6: Installed & Engineered — Contact for Pricing"
+            "subheading": "Stage 6: Installed & Engineered — $32,999"
           }
         },
         "block_ram6g_s6_1": {
@@ -492,7 +492,7 @@
         "block_ram6g_s6_2": {
           "type": "text",
           "settings": {
-            "text": "<p><em>The peak of the 6th Gen programme, on the same six inch platform as Stage 5.<\/em><\/p><ul><li><strong>GVM:<\/strong> 5890kg | <strong>GCM:<\/strong> 12,474kg | <strong>Braked Towing:<\/strong> 4500kg<\/li><li><strong>Lift &amp; Tyres:<\/strong> 6\" lift, running up to 37x12.5 R18 or 37x12.5 R20.<\/li><li><strong>Key Features:<\/strong> BDS 6\" radius arm kit, Logic IQ air bag coil delete, Husky Extenda flares, ORI mud flap brackets.<\/li><li><strong>Best For:<\/strong> The most heavily built rigs in the range, fully compliant and federally engineered.<\/li><li><strong>NOTE:<\/strong> Load rated wheels and tyres with a 1650kg tyre load rating are required for this stage.<\/li><\/ul>"
+            "text": "<p><em>The peak of the 6th Gen programme, on the same six inch platform as Stage 5.<\/em><\/p><ul><li><strong>GVM:<\/strong> 5890kg | <strong>GCM:<\/strong> 12,750kg | <strong>Braked Towing:<\/strong> 4500kg<\/li><li><strong>Lift & Tyres:<\/strong> 6\" lift, running up to 40x13.5R17<\/li><li><strong>Key Features:<\/strong> BDS 6\" radius arm kit, Logic IQ air bag coil delete, AEV Flares, ORI mud flap brackets.<\/li><li><strong>Best For:<\/strong> The most heavily built rigs in the range, fully compliant and federally engineered.<\/li><li><strong>NOTE:<\/strong> Load rated wheels and tyres with a 1650kg tyre load rating are required for this stage.<\/li><\/ul>"
           }
         }
       },
