@@ -621,7 +621,8 @@
             "value_8": "6000 KG",
             "value_9": "6000 KG",
             "value_10": ""
-          }
+          },
+          "disabled": true
         },
         "row_TjWEfJ": {
           "type": "row",
@@ -669,7 +670,8 @@
             "value_8": "2138 KG",
             "value_9": "2138 KG",
             "value_10": ""
-          }
+          },
+          "disabled": true
         },
         "row_HVhPzj": {
           "type": "row",
@@ -685,7 +687,8 @@
             "value_8": "192%",
             "value_9": "192%",
             "value_10": ""
-          }
+          },
+          "disabled": true
         },
         "row_ymzJfi": {
           "type": "row",
@@ -749,7 +752,8 @@
             "value_8": "1644 KG",
             "value_9": "1644 KG",
             "value_10": ""
-          }
+          },
+          "disabled": true
         },
         "row_XN4ctk": {
           "type": "row",
@@ -1018,7 +1022,8 @@
             "value_8": "✔",
             "value_9": "✔",
             "value_10": ""
-          }
+          },
+          "disabled": true
         },
         "row_nNQibi": {
           "type": "row",
@@ -1034,7 +1039,8 @@
             "value_8": "",
             "value_9": "",
             "value_10": ""
-          }
+          },
+          "disabled": true
         },
         "row_q477DL": {
           "type": "row",
@@ -1050,7 +1056,8 @@
             "value_8": "",
             "value_9": "✔",
             "value_10": ""
-          }
+          },
+          "disabled": true
         },
         "row_YMC4Cg": {
           "type": "row",
@@ -1098,7 +1105,8 @@
             "value_8": "CHV-2500-Stage6-GVM",
             "value_9": "CHV-2500-Stage6-GVM-K",
             "value_10": ""
-          }
+          },
+          "disabled": true
         }
       },
       "block_order": [

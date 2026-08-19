@@ -1028,7 +1028,8 @@
             "button_link": "",
             "button_style": "btn--primary",
             "button_size": ""
-          }
+          },
+          "disabled": true
         }
       },
       "block_order": [
@@ -1120,7 +1121,8 @@
             "value_4": "",
             "value_5": "",
             "value_6": ""
-          }
+          },
+          "disabled": true
         },
         "row_zHmRGt": {
           "type": "row",
@@ -1260,7 +1262,8 @@
             "value_4": "",
             "value_5": "",
             "value_6": ""
-          }
+          },
+          "disabled": true
         },
         "row_LiwGcK": {
           "type": "row",

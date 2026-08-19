@@ -870,7 +870,8 @@
             "value_8": "",
             "value_9": "",
             "value_10": ""
-          }
+          },
+          "disabled": true
         },
         "row_fQkXVY": {
           "type": "row",
