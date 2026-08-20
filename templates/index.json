@@ -173,7 +173,7 @@
         "slideshow_height": "adapt",
         "show_dots": true,
         "show_nav": true,
-        "autoplay": false,
+        "autoplay": true,
         "autorotate_speed": 5,
         "pagination_background": "none",
         "controls_position": "center",
