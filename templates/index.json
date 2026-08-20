@@ -15,7 +15,7 @@
         "slide_t8yxCY": {
           "type": "slide",
           "settings": {
-            "background": "shopify://shop_images/home-bannr-img.webp",
+            "background": "shopify://shop_images/hero-combo-A-four-panel-2000x560.jpg",
             "image_overlay_opacity": 0,
             "content_position": "center",
             "text_alignment": "center",
@@ -39,7 +39,7 @@
         "41d2f781-470b-477f-896a-873df5080966": {
           "type": "slide",
           "settings": {
-            "background": "shopify://shop_images/2000x560_-_CHEVY_1500.png",
+            "background": "shopify://shop_images/hero-combo-C-angled-2000x560.jpg",
             "image_overlay_opacity": 0,
             "content_position": "center-bottom",
             "text_alignment": "center",
@@ -63,7 +63,7 @@
         "slide_qdRzhQ": {
           "type": "slide",
           "settings": {
-            "background": "shopify://shop_images/2000x560_-_FORD_F150.png",
+            "background": "shopify://shop_images/hero-combo-B-hero-split-2000x560.jpg",
             "image_overlay_opacity": 0,
             "content_position": "center-bottom",
             "text_alignment": "center",
@@ -87,7 +87,7 @@
         "slide_wWaezX": {
           "type": "slide",
           "settings": {
-            "background": "shopify://shop_images/2000x560_-_RAM_2500.png",
+            "background": "shopify://shop_images/hero-1-silverado-front-desktop-2000x560.jpg",
             "image_overlay_opacity": 0,
             "content_position": "center-bottom",
             "text_alignment": "center",
@@ -111,7 +111,7 @@
         "slide_XwjzRj": {
           "type": "slide",
           "settings": {
-            "background": "shopify://shop_images/2000x560_-_Chevy_2500.png",
+            "background": "shopify://shop_images/hero-4-solar-roof-desktop-2000x560.jpg",
             "image_overlay_opacity": 0,
             "content_position": "center-bottom",
             "text_alignment": "center",
@@ -135,7 +135,7 @@
         "slide_ApybJV": {
           "type": "slide",
           "settings": {
-            "background": "shopify://shop_images/2000x560_-_TOYOTA_TUNDRA.png",
+            "background": "shopify://shop_images/hero-2-touring-build-desktop-2000x560.jpg",
             "image_overlay_opacity": 0,
             "content_position": "center-bottom",
             "text_alignment": "center",
