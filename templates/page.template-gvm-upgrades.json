@@ -129,13 +129,77 @@
             "button_link": "",
             "button_style": "btn--underline"
           }
+        },
+        "column_nb1c1500": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "image": "shopify://shop_images/Chevy-Silverado-1500--tile-ad---20260505-4_753e16ce-f09c-454c-8683-7edc168f4eae.png",
+            "image_link": "/pages/about-us?view=template-gvm-package-nb1-chevy1500",
+            "title": "Chevy Silverado 1500 NB1",
+            "heading_size": "h3",
+            "text": "",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_nb1c2500": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "image": "shopify://shop_images/Chevy-2500--tile-ad---20260505-4_7ce36d9a-1565-4823-b14a-b3e36018df11.png",
+            "image_link": "/pages/about-us?view=template-gvm-package-nb1-chevy2500",
+            "title": "Chevy Silverado 2500HD NB1",
+            "heading_size": "h3",
+            "text": "",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_ram5g": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "image": "shopify://shop_images/2000x560_-_RAM_2500_5th_Gen_2_86a6ccba-daa9-4bd3-8d4e-3b6355bf3601.png",
+            "image_link": "/pages/about-us?view=template-gvm-package-ram2500-5thgen",
+            "title": "RAM 2500HD 5th Gen",
+            "heading_size": "h3",
+            "text": "",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        },
+        "column_ram6g": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "image": "shopify://shop_images/STAGE_1-2_RAM_2500_6th_GEN_all_products.png",
+            "image_link": "/pages/about-us?view=template-gvm-package-ram2500-6thgen",
+            "title": "RAM 2500 6th Gen",
+            "heading_size": "h3",
+            "text": "",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
         }
       },
       "block_order": [
         "column_tdVQ9w",
         "column_jEFpUR",
         "column_jAq9XQ",
-        "column_Qtp8LL"
+        "column_Qtp8LL",
+        "column_nb1c1500",
+        "column_nb1c2500",
+        "column_ram5g",
+        "column_ram6g"
       ],
       "name": "t:sections.multicolumn.name",
       "settings": {
@@ -220,6 +284,46 @@
             "btn_url": "/pages/about-us?view=template-gvm-package",
             "pdf_url": ""
           }
+        },
+        "vehicle_nb1c1500": {
+          "type": "vehicle",
+          "settings": {
+            "image": "shopify://shop_images/Chevy-Silverado-1500--tile-ad---20260505-4_753e16ce-f09c-454c-8683-7edc168f4eae.png",
+            "name": "Chevy Silverado 1500 NB1",
+            "btn_label": "View Packages & Pricing",
+            "btn_url": "/pages/about-us?view=template-gvm-package-nb1-chevy1500",
+            "pdf_url": ""
+          }
+        },
+        "vehicle_nb1c2500": {
+          "type": "vehicle",
+          "settings": {
+            "image": "shopify://shop_images/Chevy-2500--tile-ad---20260505-4_7ce36d9a-1565-4823-b14a-b3e36018df11.png",
+            "name": "Chevy Silverado 2500HD NB1",
+            "btn_label": "View Packages & Pricing",
+            "btn_url": "/pages/about-us?view=template-gvm-package-nb1-chevy2500",
+            "pdf_url": ""
+          }
+        },
+        "vehicle_ram5g": {
+          "type": "vehicle",
+          "settings": {
+            "image": "shopify://shop_images/2000x560_-_RAM_2500_5th_Gen_2_86a6ccba-daa9-4bd3-8d4e-3b6355bf3601.png",
+            "name": "RAM 2500HD 5th Gen",
+            "btn_label": "View Packages & Pricing",
+            "btn_url": "/pages/about-us?view=template-gvm-package-ram2500-5thgen",
+            "pdf_url": ""
+          }
+        },
+        "vehicle_ram6g": {
+          "type": "vehicle",
+          "settings": {
+            "image": "shopify://shop_images/STAGE_1-2_RAM_2500_6th_GEN_all_products.png",
+            "name": "RAM 2500 6th Gen",
+            "btn_label": "View Packages & Pricing",
+            "btn_url": "/pages/about-us?view=template-gvm-package-ram2500-6thgen",
+            "pdf_url": ""
+          }
         }
       },
       "block_order": [
@@ -227,7 +331,11 @@
         "vehicle_d6GQJG",
         "vehicle_iFbyFT",
         "vehicle_rrjckn",
-        "vehicle_ERMxXT"
+        "vehicle_ERMxXT",
+        "vehicle_nb1c1500",
+        "vehicle_nb1c2500",
+        "vehicle_ram5g",
+        "vehicle_ram6g"
       ],
       "disabled": true,
       "name": "Vehicle Cards",
