@@ -189,6 +189,21 @@
             "button_link": "",
             "button_style": "btn--underline"
           }
+        },
+        "column_lc300": {
+          "type": "column",
+          "settings": {
+            "show_image": true,
+            "image": "",
+            "image_link": "/pages/about-us?view=template-gvm-package-toyota-lc300",
+            "title": "Toyota LandCruiser LC300",
+            "heading_size": "h3",
+            "text": "",
+            "text_size": "medium",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
         }
       },
       "block_order": [
@@ -199,7 +214,8 @@
         "column_nb1c1500",
         "column_nb1c2500",
         "column_ram5g",
-        "column_ram6g"
+        "column_ram6g",
+        "column_lc300"
       ],
       "name": "t:sections.multicolumn.name",
       "settings": {
@@ -324,6 +340,16 @@
             "btn_url": "/pages/about-us?view=template-gvm-package-ram2500-6thgen",
             "pdf_url": ""
           }
+        },
+        "vehicle_lc300": {
+          "type": "vehicle",
+          "settings": {
+            "image": "",
+            "name": "Toyota LandCruiser LC300",
+            "btn_label": "View Packages & Pricing",
+            "btn_url": "/pages/about-us?view=template-gvm-package-toyota-lc300",
+            "pdf_url": ""
+          }
         }
       },
       "block_order": [
@@ -335,7 +361,8 @@
         "vehicle_nb1c1500",
         "vehicle_nb1c2500",
         "vehicle_ram5g",
-        "vehicle_ram6g"
+        "vehicle_ram6g",
+        "vehicle_lc300"
       ],
       "disabled": true,
       "name": "Vehicle Cards",
